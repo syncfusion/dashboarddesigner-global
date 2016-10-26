@@ -6,11 +6,11 @@ To make Syncfusion Dashboard Designer use a different culture perform the follow
 
 1. Open [Google Translator Kit](https://translate.google.com/toolkit). Click on Upload button.
 
-    ![](images/GTK1.png)
+    ![](Images/GTK1.png)
 
     It will open a new window to upload the existing culture file en-us. Then click on Add `content to translate` link in the screen.
 
-    ![](images/GTK2.png)
+    ![](Images/GTK2.png)
 
     Select Upload file option in the dropdown.
 
@@ -21,25 +21,25 @@ To make Syncfusion Dashboard Designer use a different culture perform the follow
 
     Make sure that the source language is in `English`.
 
-    ![](images/GTK3.png)
+    ![](Images/GTK3.png)
 
 4. Select your desired language in the listed language and click `Next`.
 
 5. In the next screen, `select Start Order`, if you need the paid service on translation; otherwise select `No, thanks`.
 
-    ![](images/GTK4.png)
+    ![](Images/GTK4.png)
 
 6. The uploaded file will be listed in the home page of translator kit. Click on the file to open it and make any corrections in the translation if needed.
 
-    ![](images/GTK5.png)
+    ![](Images/GTK5.png)
 
 7. Click on `Complete` on the right-top corner of the page to complete the translation.
    
-   ![](images/GTK6.png)
+   ![](Images/GTK6.png)
 
 8. `Download` your translated .xml file.
 
-    ![](images/GTK7.png)
+    ![](Images/GTK7.png)
 
 9.  Convert the `.xml` file to the `.resx` format using any converter tool or use the [Resource File Generator](https://msdn.microsoft.com/en-us/library/ccec7sz1(v=vs.110).aspx) to covert to `.resx` if you are using `.txt` file.
 
@@ -49,7 +49,7 @@ To make Syncfusion Dashboard Designer use a different culture perform the follow
 
 12. Open the Syncfusion Dashboard Designer where the newly added language will be listed in languages list under the `Help->Language` menu item.
 
-    ![](images/Designer1.png)
+    ![](Images/Designer1.png)
 
 13. Select the language from that list
 
@@ -57,8 +57,8 @@ To make Syncfusion Dashboard Designer use a different culture perform the follow
 
 14. The culture change requires the closure of the Syncfusion Dashboard Designer to get the selected language take into effect during next startup of the Dashboard Designer.
 
-     ![](images/Designer3.png)
+     ![](Images/Designer3.png)
 
 15. You can see the culture changes are  reflected in the Syncfusion Dashboard Designer. 
 
-    ![](images/Designer4.png)
+    ![](Images/Designer4.png)
