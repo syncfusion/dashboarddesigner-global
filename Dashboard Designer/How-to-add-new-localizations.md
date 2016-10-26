@@ -53,7 +53,7 @@ To make Syncfusion Dashboard Designer use a different culture perform the follow
 
 13. Select the language from that list
 
-    ![](images/Designer2.png)
+    ![](Images/Designer2.png)
 
 14. The culture change requires the closure of the Syncfusion Dashboard Designer to get the selected language take into effect during next startup of the Dashboard Designer.
 
