@@ -15,17 +15,18 @@ To make Syncfusion Dashboard Viewer use a different culture perform the followin
     Select Upload file option in the dropdown.
 
 2. Upload the default Resources.en-US.xml file which contains the texts from the Dashboard Viewer application.
-   The default resource file is available in the following locations    
-     
-   Dashboard Designer Preview: %ProgramData%\Syncfusion\DashboardDesigner\<Dashboard Version>\IISExpress_DashboardService\Localization\Resource.en-US.xml
 
-   Dashboard Platform SDK: %localappdata%\Syncfusion\Dashboard\Samples\Common\Service\Localization\Resource.en-US.xml
+   The default resource file is available in the following locations
 
-   Dashboard Server: C:\Program Files (x86)\Syncfusion\Dashboard Server\DashboardServer.Web\DashboardService\Localization\Resource.en-US.xml   
-   
-    Make sure that the source language is in `English`.
+   **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\<DashboardVersion>\IISExpress_DashboardService\Localization\Resources.en-US.xml
 
-    ![](Images/GTK3.png)
+   **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard\Samples\Common\Service\Localization\Resources.en-US.xml
+
+   **Dashboard Server**: C:\Program Files (x86)\Syncfusion\Dashboard Server\DashboardServer.Web\DashboardService\Localization\Resources.en-US.xml
+
+   Make sure that the source language is in 'English'.
+
+   ![](Images/GTK3.png)
 
 3. Select your desired language in the listed language and click `Next`.
 
