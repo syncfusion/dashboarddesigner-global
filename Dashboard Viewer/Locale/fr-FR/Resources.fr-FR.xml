@@ -5,9 +5,9 @@
     <string name="ExpressionAggregationText" type="service">"Agg de "</string>
     <string name="ExpressionAverage" type="service">"207 \"Moy\" "</string>
     <string name="ExpressionCount" type="service">"Compte de "</string>
-    <string name="ExpressionDCount" type="service">"Count Distinct de "</string>
+    <string name="ExpressionDCount" type="service">"Compte distinctif de "</string>
     <string name="ExpressionMax" type="service">"Max de "</string>
-    <string name="ExpressionMin" type="service">"Min "</string>
+    <string name="ExpressionMin" type="service">"Min de "</string>
     <string name="ExpressionStandardDeviation" type="service">"Std.dev. de "</string>
     <string name="ExpressionSum" type="service">"Somme de "</string>
     <string name="ExpressionVar" type="service">"variation de "</string>
@@ -21,8 +21,8 @@
     <string name="ExportToCSV" type="viewer">"Exporter vers CSV"</string>
     <string name="ExportToPdf" type="viewer">"Exporter au format PDF"</string>
     <string name="ExportToExcel" type="viewer">"Exporter vers Excel"</string>
-    <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003 (* .xls)"</string>
-    <string name="ExportToExcel2013" type="viewer">"Excel (* .xlsx)"</string>
+    <string name="ExportToExcel97To2003" type="viewer">"Classeur Excel 97-2003 (* .xls)"</string>
+    <string name="ExportToExcel2013" type="viewer">"Classeur Excel (* .xlsx)"</string>
     <string name="Maximize" type="viewer">"Maximiser"</string>
     <string name="UpdateDashboard" type="viewer">"Mise à jour du tableau de bord"</string>
     <string name="ExportToImage" type="viewer">"Exporter vers une image"</string>
@@ -62,16 +62,14 @@
     <string name="UserName" type="viewer">"Nom d'utilisateur"</string>
     <string name="Password" type="viewer">"Mot de passe"</string>
     <string name="Open" type="viewer">"Ouvrir"</string>
-    <string name="Ok" type="viewer">"OK
-"</string>
+    <string name="Ok" type="viewer">"OK"</string>
     <string name="Refresh" type="viewer">"Rafraîchir"</string>
     <string name="Error" type="viewer">"Erreur"</string>
     <string name="Clipboard" type="viewer">"Copier sur Presse-papiers"</string>
-    <string name="AuthenticationRequired" type="viewer">"Authentification requise
-"</string>
+    <string name="AuthenticationRequired" type="viewer">"Authentification requise"</string>
     <string name="KnowMore" type="viewer">"En savoir plus"</string>
     <string name="UserNamePasswordEmpty" type="viewer">"Nom d'utilisateur / mot de passe ne peut pas être vide"</string>
-    <string name="EncryptError" type="viewer">"Service Dashboard a retourné une clé non valide. Veuillez réessayer. Si le problème persiste administrateur de contact s'il vous plaît"</string>
+    <string name="EncryptError" type="viewer">"Le service Dashboard a renvoyé une clé non valide. Veuillez réessayer. Si le problème persiste, veuillez contacter l'administrateur</string>
     <string name="ViewData" type="viewer">"Voir les données"</string>
     <string name="Close" type="viewer">"Fermer"</string>
     <string name="DashboardDescription" type="viewer">"Tableau de bord description de"</string>
@@ -84,8 +82,8 @@
     <string name="DeleteConfirmText" type="viewer">"Voulez-vous vraiment supprimer cette annonce ?"</string>
     <string name="ClearFilter" type="viewer">"Effacer le filtre"</string>	 
     <string name="CultureFileDownloadError" type="viewer">"Impossible de charger la culture "</string>
-    <string name="ServiceNotConfigured" type="viewer">"Tableau de bord ne pouvait pas être rendue depuis l'URL du service est pas défini."</string>
-    <string name="DashboardNotConfigured" type="viewer">"Tableau de bord n'a pas pu être rendu depuis le chemin du tableau de bord est pas défini."</string>
+    <string name="ServiceNotConfigured" type="viewer">"Le tableau de bord n'a pas pu être rendu puisque l'URL du service n'est pas définie."</string>
+    <string name="DashboardNotConfigured" type="viewer">"Le tableau de bord n'a pas pu être rendu puisque le chemin du tableau de bord n'est pas défini."</string>
 	<!-- viewer error messages -->
 	<string name="ErrorAccessDenied" type="viewer">"L'accès au service est refusé à l'utilisateur actuel."</string>
     <string name="ErrorControlException" type="viewer">"erreur de récupération de données."</string>
@@ -93,7 +91,7 @@
     <string name="ErrorCrypto" type="viewer">"Les données reçues au service a été altéré. Veuillez réessayer plus tard."</string>
     <string name="ErrorDashboardNotFound" type="viewer">"Le fichier de tableau de bord demandé n'a pas été trouvé. Il peut être soit déplacé ou renommé."</string>
     <string name="ErrorFileNotFound" type="viewer">"Le fichier ou l'assembly demandé n'a pas été trouvé. Il peut être soit déplacé ou renommé."</string>
-    <string name="ErrorGeneral" type="viewer">"Tableau de bord ne peut être considérée en raison d'une erreur."</string>
+    <string name="ErrorGeneral" type="viewer">"Impossible de consulter le tableau de bord en raison d'une erreur."</string>
     <string name="ErrorInvalidFile" type="viewer">"Le fichier chargé est pas un fichier de tableau de bord en cours de validité"</string>
     <string name="ErrorServerError" type="viewer">"Le tableau de bord ne pouvait pas être considérée puisque nous étions incapables de valider l'autorisation de l'utilisateur courant."</string>
     <string name="ErrorSqlHostNotFound" type="viewer">"Le serveur SQL n'a pas pu être contacté. faire S'il vous plaît vérifier que le serveur est accessible."</string>

@@ -62,7 +62,7 @@
     <string name="UserName" type="viewer">"ユーザ名"</string>
     <string name="Password" type="viewer">"パスワード"</string>
     <string name="Open" type="viewer">"開く"</string>
-    <string name="Ok" type="viewer">"[OK"</string>
+    <string name="Ok" type="viewer">"[OK]"</string>
     <string name="Refresh" type="viewer">"リフレッシュ"</string>
     <string name="Error" type="viewer">"エラー"</string>
     <string name="Clipboard" type="viewer">"クリップボードにコピー"</string>

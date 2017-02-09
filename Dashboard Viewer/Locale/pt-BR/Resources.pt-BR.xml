@@ -80,7 +80,7 @@
     <string name="Comment" type="viewer">"Comentários"</string>
     <string name="Pin" type="viewer">"Pinar"</string>
     <string name="DeleteConfirmText" type="viewer">"Tem certeza de que deseja excluir esta opção?"</string>
-    <string name="ClearFilter" type="viewer">"Limpar Filtro"</string>	 
+    <string name="ClearFilter" type="viewer">"Filtro limpo"</string>	 
     <string name="CultureFileDownloadError" type="viewer">"Não é possível carregar a cultura "</string>
     <string name="ServiceNotConfigured" type="viewer">"Painel não poderia ser processado uma vez que a URL do serviço não está definido."</string>
     <string name="DashboardNotConfigured" type="viewer">"Painel não poderia ser processado uma vez que o caminho do painel não está definido."</string>
@@ -97,5 +97,5 @@
     <string name="ErrorSqlHostNotFound" type="viewer">"O servidor SQL não pôde ser contatado. Certifique-se de que o servidor está acessível."</string>
     <string name="ErrorSqlTimeout" type="viewer">"Uma tentativa de recuperar dados do servidor que falhou devido à expiração do tempo."</string>
     <string name="ErrorWcfBinding" type="viewer">"O comportamento CorsSupport só pode ser usado em terminais WebHttpBinding."</string>
-    <string name="ErrorOutOfMemory" type="viewer">"O arquivo de imagem exportado não poderia ser downloded devido ao grande tamanho do ficheiro."</string>
+    <string name="ErrorOutOfMemory" type="viewer">"A imagem exportada Ficheiro não pôde ser downloded devido ao tamanho de ficheiro grande."</string>
   </resources>

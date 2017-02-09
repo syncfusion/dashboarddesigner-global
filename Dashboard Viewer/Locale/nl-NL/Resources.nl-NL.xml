@@ -79,8 +79,8 @@
     <string name="ClearMasterFilter" type="viewer">"Clear Master Filter"</string>
     <string name="Comment" type="viewer">"Commentaar"</string>
     <string name="Pin" type="viewer">"pin"</string>
-    <string name="DeleteConfirmText" type="viewer">"Weet u zeker dat u deze weergave wilt verwijderen?"</string>
-    <string name="ClearFilter" type="viewer">"Wis filter"</string>	 
+    <string name="DeleteConfirmText" type="viewer">"Bent u zeker dat u deze weergave wilt verwijderen?"</string>
+    <string name="ClearFilter" type="viewer">"Clear Filter"</string>	 
     <string name="CultureFileDownloadError" type="viewer">"Niet in staat om de cultuur te laden "</string>
     <string name="ServiceNotConfigured" type="viewer">"Dashboard kan niet worden gemaakt omdat de dienst URL niet is ingesteld."</string>
     <string name="DashboardNotConfigured" type="viewer">"Dashboard kon niet worden gesmolten, aangezien het dashboard pad niet is ingesteld."</string>

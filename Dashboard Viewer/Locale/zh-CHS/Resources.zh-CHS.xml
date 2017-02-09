@@ -4,12 +4,12 @@
     <string name="CardTargetText" type="service">"目标"</string>
     <string name="ExpressionAggregationText" type="service">"AGG的"</string>
     <string name="ExpressionAverage" type="service">"平均%"</string>
-    <string name="ExpressionCount" type="service">"CountOf ................................................. .................................................. ..........."</string>
+    <string name="ExpressionCount" type="service">"计数"</string>
     <string name="ExpressionDCount" type="service">"的重复计数"</string>
     <string name="ExpressionMax" type="service">"马克斯"</string>
     <string name="ExpressionMin" type="service">"闵"</string>
     <string name="ExpressionStandardDeviation" type="service">"Std.dev。的"</string>
-    <string name="ExpressionSum" type="service">"SumOf .................................................. .................................................. .........."</string>
+    <string name="ExpressionSum" type="service">"总和"</string>
     <string name="ExpressionVar" type="service">"变化"</string>
     <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg。"</string>
     <string name="Errorcontrolexception" type="service">"数据检索错误"</string>    
@@ -23,7 +23,7 @@
     <string name="ExportToExcel" type="viewer">"导出到Excel"</string>
     <string name="ExportToExcel97To2003" type="viewer">"Excel中97-2003工作簿（.xls）"</string>
     <string name="ExportToExcel2013" type="viewer">"Excel工作簿（* .xlsx）格式"</string>
-    <string name="Maximize" type="viewer">"65226, \"最大化(&amp;X)\""</string>
+    <string name="Maximize" type="viewer">"最大化"</string>
     <string name="UpdateDashboard" type="viewer">"更新仪表板"</string>
     <string name="ExportToImage" type="viewer">"导出为图片"</string>
     <string name="Format" type="viewer">"格式"</string>
@@ -35,7 +35,7 @@
     <string name="Title" type="viewer">"标题"</string>
     <string name="ExportTitle" type="viewer">"仪表盘/窗口小部件标题"</string>
     <string name="Jpeg" type="viewer">"JPEG（* .JPG）"</string>
-    <string name="Png" type="viewer">"PNG格式（* .png）"</string>
+    <string name="Png" type="viewer">"PNG（* .png）"</string>
     <string name="Bmp" type="viewer">"BMP（* .BMP）"</string>
     <string name="FileNameError" type="viewer">"无效的文件名"</string>   
     <string name="Letter" type="viewer">"字母"</string>
@@ -60,8 +60,7 @@
     <string name="FixIssues" type="viewer">"请修正以下错误..."</string>
     <string name="InvalidCredentials" type="viewer">"无效证件"</string>
     <string name="UserName" type="viewer">"用户名"</string>
-    <string name="Password" type="viewer">"密码
-"</string>
+    <string name="Password" type="viewer">"密码"</string>
     <string name="Open" type="viewer">"打开"</string>
     <string name="Ok" type="viewer">"确定"</string>
     <string name="Refresh" type="viewer">"刷新"</string>
