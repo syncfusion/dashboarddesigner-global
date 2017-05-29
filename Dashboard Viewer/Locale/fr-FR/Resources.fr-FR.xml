@@ -1,101 +1,134 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- service localization text -->
-    <string name="CardActualText" type="service">"valeur"</string>
-    <string name="CardTargetText" type="service">"Objectif"</string>
-    <string name="ExpressionAggregationText" type="service">"Agg de "</string>
-    <string name="ExpressionAverage" type="service">"207 \"Moy\" "</string>
-    <string name="ExpressionCount" type="service">"Compte de "</string>
-    <string name="ExpressionDCount" type="service">"Compte distinctif de "</string>
-    <string name="ExpressionMax" type="service">"Max de "</string>
-    <string name="ExpressionMin" type="service">"Min de "</string>
-    <string name="ExpressionStandardDeviation" type="service">"Std.dev. de "</string>
-    <string name="ExpressionSum" type="service">"Somme de "</string>
-    <string name="ExpressionVar" type="service">"variation de "</string>
-    <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
-    <string name="Errorcontrolexception" type="service">"erreur de récupération de données"</string>    
-    <!-- viewer localization text -->
-    <string name="NoData" type="viewer">"Il n'y a pas de données à afficher."</string>
-    <string name="ErrorOnHigherVersion" type="viewer">"Impossible de charger le tableau de bord depuis qu'il a été créé dans une version supérieure de Dashboard Designer (Version:"</string>
-    <string name="NoWidgetConfigured" type="viewer">"Aucun Widgets à Aperçu"</string>
-    <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
-    <string name="ExportToCSV" type="viewer">"Exporter vers CSV"</string>
-    <string name="ExportToPdf" type="viewer">"Exporter au format PDF"</string>
-    <string name="ExportToExcel" type="viewer">"Exporter vers Excel"</string>
-    <string name="ExportToExcel97To2003" type="viewer">"Classeur Excel 97-2003 (* .xls)"</string>
-    <string name="ExportToExcel2013" type="viewer">"Classeur Excel (* .xlsx)"</string>
-    <string name="Maximize" type="viewer">"Maximiser"</string>
-    <string name="UpdateDashboard" type="viewer">"Mise à jour du tableau de bord"</string>
-    <string name="ExportToImage" type="viewer">"Exporter vers une image"</string>
-    <string name="Format" type="viewer">"Format"</string>
-    <string name="FileType" type="viewer">"Type de Fichier"</string>
-    <string name="Resolution" type="viewer">"147 \"&amp;Résolution (ppp)\""</string>
-    <string name="Export" type="viewer">"Exporter"</string>
-    <string name="Reset" type="viewer">"Rescommencé"</string>
-    <string name="Cancel" type="viewer">"Annuler"</string>
-    <string name="Title" type="viewer">"Titre"</string>
-    <string name="ExportTitle" type="viewer">"Tableau de bord / Widget Titre"</string>
-    <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
-    <string name="Png" type="viewer">"PNG (* .png)"</string>
-    <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
-    <string name="FileNameError" type="viewer">"Nom de fichier invalide"</string>   
-    <string name="Letter" type="viewer">"Lettre"</string>
-    <string name="PageSize" type="viewer">"Format Papier"</string>
-    <string name="Orientation" type="viewer">"Orientation"</string>
-    <string name="Portrait" type="viewer">"Portrait"</string>
-    <string name="Landscape" type="viewer">"Paysage"</string>
-    <string name="ExportToPdfWaitingText" type="viewer">"Exportation au format PDF ..."</string>
-    <string name="ExportToImageWaitingText" type="viewer">"Exportation à l'image ..."</string>
-    <string name="ExportToCSVWaitingText" type="viewer">"Exportation vers CSV ..."</string>
-    <string name="ExportToExcelWaitingText" type="viewer">"Exportation vers Excel ..."</string>
-    <string name="Description" type="viewer">"La description"</string>
-    <string name="DefaultFileName" type="service">"Tableau De Bord"</string>
-    <string name="ResolutionLow" type="viewer">"La résolution doit être supérieure ou égale à 96 DPI."</string>
-    <string name="ResolutionAlert" type="viewer">"La résolution préférée est comprise entre 96 et 300 DPI. Résolution supérieure à celle conduit à sortir d'exception de mémoire si votre système ne dispose pas de suffisamment de mémoire."</string>
-    <string name="WidgetNotConfigured" type="viewer">"Ce widget n'a pas été configuré."</string>
-    <string name="DashboardServerTimedOut" type="viewer">"Le service Dashboard n'a pas pu être contacté. Il peut y avoir un petit problème temporaire ou le serveur peut être en panne."</string>
-    <string name="AuthenticationFailure" type="viewer">"Vous avez besoin d'une autorisation pour voir ce tableau de bord."</string>
-    <string name="SessionExpired" type="viewer">"Votre session a expiré."</string>
-    <string name="DashboardServerFail" type="viewer">"Le service Dashboard n'a pas pu être contacté. Il peut y avoir un petit problème temporaire ou le serveur peut être en panne."</string>
-    <string name="ExcelError" type="viewer">"Le fichier Excel dans le serveur est pas celui qui est utilisé pour la conception de ce tableau de bord, Veuillez contacter l'administrateur, ou republier le tableau de bord."</string>
-    <string name="FixIssues" type="viewer">"S'il vous plaît corriger les erreurs ci-dessous ..."</string>
-    <string name="InvalidCredentials" type="viewer">"Identifiants invalides"</string>
-    <string name="UserName" type="viewer">"Nom d'utilisateur"</string>
-    <string name="Password" type="viewer">"Mot de passe"</string>
-    <string name="Open" type="viewer">"Ouvrir"</string>
-    <string name="Ok" type="viewer">"OK"</string>
-    <string name="Refresh" type="viewer">"Rafraîchir"</string>
-    <string name="Error" type="viewer">"Erreur"</string>
-    <string name="Clipboard" type="viewer">"Copier sur Presse-papiers"</string>
-    <string name="AuthenticationRequired" type="viewer">"Authentification requise"</string>
-    <string name="KnowMore" type="viewer">"En savoir plus"</string>
-    <string name="UserNamePasswordEmpty" type="viewer">"Nom d'utilisateur / mot de passe ne peut pas être vide"</string>
-    <string name="EncryptError" type="viewer">"Le service Dashboard a renvoyé une clé non valide. Veuillez réessayer. Si le problème persiste, veuillez contacter l'administrateur</string>
-    <string name="ViewData" type="viewer">"Voir les données"</string>
-    <string name="Close" type="viewer">"Fermer"</string>
-    <string name="DashboardDescription" type="viewer">"Tableau de bord description de"</string>
-    <string name="Yes" type="viewer">"Oui"</string>
-    <string name="No" type="viewer">"Non"</string>
-    <string name="Confirm" type="viewer">"Confirmation"</string>
-    <string name="ClearMasterFilter" type="viewer">"Clear Filter Master"</string>
-    <string name="Comment" type="viewer">"Commenter"</string>
-    <string name="Pin" type="viewer">"Épingle"</string>
-    <string name="DeleteConfirmText" type="viewer">"Voulez-vous vraiment supprimer cette annonce ?"</string>
-    <string name="ClearFilter" type="viewer">"Effacer le filtre"</string>	 
-    <string name="CultureFileDownloadError" type="viewer">"Impossible de charger la culture "</string>
-    <string name="ServiceNotConfigured" type="viewer">"Le tableau de bord n'a pas pu être rendu puisque l'URL du service n'est pas définie."</string>
-    <string name="DashboardNotConfigured" type="viewer">"Le tableau de bord n'a pas pu être rendu puisque le chemin du tableau de bord n'est pas défini."</string>
-	<!-- viewer error messages -->
-	<string name="ErrorAccessDenied" type="viewer">"L'accès au service est refusé à l'utilisateur actuel."</string>
-    <string name="ErrorControlException" type="viewer">"erreur de récupération de données."</string>
-    <string name="ErrorControlNotConfigured" type="viewer">"Les données reçues au service a été altéré. Veuillez réessayer plus tard."</string>
-    <string name="ErrorCrypto" type="viewer">"Les données reçues au service a été altéré. Veuillez réessayer plus tard."</string>
-    <string name="ErrorDashboardNotFound" type="viewer">"Le fichier de tableau de bord demandé n'a pas été trouvé. Il peut être soit déplacé ou renommé."</string>
-    <string name="ErrorFileNotFound" type="viewer">"Le fichier ou l'assembly demandé n'a pas été trouvé. Il peut être soit déplacé ou renommé."</string>
-    <string name="ErrorGeneral" type="viewer">"Impossible de consulter le tableau de bord en raison d'une erreur."</string>
-    <string name="ErrorInvalidFile" type="viewer">"Le fichier chargé est pas un fichier de tableau de bord en cours de validité"</string>
-    <string name="ErrorServerError" type="viewer">"Le tableau de bord ne pouvait pas être considérée puisque nous étions incapables de valider l'autorisation de l'utilisateur courant."</string>
-    <string name="ErrorSqlHostNotFound" type="viewer">"Le serveur SQL n'a pas pu être contacté. faire S'il vous plaît vérifier que le serveur est accessible."</string>
-    <string name="ErrorSqlTimeout" type="viewer">"Une tentative pour récupérer des données à partir du serveur a échoué en raison de l'expiration du temps."</string>
-    <string name="ErrorWcfBinding" type="viewer">"Le comportement CorsSupport ne peut être utilisé dans les points de terminaison WebHttpBinding."</string>
-    <string name="ErrorOutOfMemory" type="viewer">"L'image fichier exporté ne pouvait pas être downloded en raison de la grande taille de fichier."</string>
-  </resources>
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"valeur"</string>
+  <string name="CardTargetText" type="service">"Objectif"</string>
+  <string name="ExpressionAggregationText" type="service">"Agg de "</string>
+  <string name="ExpressionAverage" type="service">"moy "</string>
+  <string name="ExpressionCount" type="service">"Compte de "</string>
+  <string name="ExpressionDCount" type="service">"Distinct Count of "</string>
+  <string name="ExpressionMax" type="service">"Max de "</string>
+  <string name="ExpressionMin" type="service">"Min of "</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev. de "</string>
+  <string name="ExpressionSum" type="service">"Somme de "</string>
+  <string name="ExpressionVar" type="service">"Variation de "</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+  <string name="ServerError" type="service">"La source de données partagée mise à jour diffère de la source de données configurée réelle"</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"Il n'y a pas de données à afficher."</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001: Impossible de charger le tableau de bord car il a été créé dans une version supérieure de Dashboard Designer (Version:"</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001: Impossible de charger le Widget depuis sa création dans une version supérieure de Dashboard Designer (Version:"</string>
+  <string name="NoWidgetConfigured" type="viewer">"Pas de widgets à prévisualiser"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ..."</string>
+  <string name="ExportToExcel" type="viewer">"Exceller..."</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003 Workbook (* .xls)"</string>
+  <string name="ExportToExcel2013" type="viewer">"Livre Excel (* .xlsx)"</string>
+  <string name="Maximize" type="viewer">"Maximiser"</string>
+  <string name="UpdateDashboard" type="viewer">"Mettre à jour le tableau de bord"</string>
+  <string name="ExportToImage" type="viewer">"Image..."</string>
+  <string name="MaximizeControl" type="viewer">"Maximiser..."</string>
+  <string name="TextMore" type="viewer">"Plus"</string>
+  <string name="TextLess" type="viewer">"Moins ⤴︎"</string>
+  <string name="SavedFilters" type="viewer">"VOIR FILTRES SAUVEUX"</string> 
+  <string name="UnSavedView" type="viewer">"Vue non enregistrée"</string>
+  <string name="Reload" type="viewer">"Recharger"</string>
+  <string name="Save" type="viewer">"Sauvegarder"</string>
+  <string name="SaveAs" type="viewer">"Sauvegarder Comme"</string>
+  <string name="Information" type="viewer">"Informations"</string>
+  <string name="Format" type="viewer">"Format"</string>
+  <string name="FileType" type="viewer">"Type de Fichier"</string>
+  <string name="Resolution" type="viewer">"147 \"&amp;Résolution (ppp)\""</string>
+  <string name="Export" type="viewer">"Exporter"</string>
+  <string name="Reset" type="viewer">"Recommencer"</string>
+  <string name="Cancel" type="viewer">"Annuler"</string>
+  <string name="Title" type="viewer">"Titre "</string>
+  <string name="ExportTitle" type="viewer">"Dashboard / Widget Title"</string>
+  <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+  <string name="Png" type="viewer">"PNG (* .png)"</string>
+  <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+  <string name="FileNameError" type="viewer">"Nom de fichier invalide"</string>
+  <string name="Letter" type="viewer">"Lettre"</string>
+  <string name="PageSize" type="viewer">"Format Papier"</string>
+  <string name="Orientation" type="viewer">"Orientation"</string>
+  <string name="Portrait" type="viewer">"Portrait"</string>
+  <string name="Landscape" type="viewer">"Paysage"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"Exportation vers PDF ..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"Exportation vers l'image ..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"Exportation vers CSV ..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Exportation vers Excel ..."</string>
+  <string name="Description" type="viewer">"La description"</string>
+  <string name="DefaultFileName" type="service">"Tableau de bord"</string>
+  <string name="ResolutionLow" type="viewer">"La résolution doit être supérieure ou égale à 96 DPI."</string>
+  <string name="ResolutionAlert" type="viewer">"La résolution préférée se situe entre 96 et 300 DPI. Une résolution supérieure à celle qui conduit à une exception de mémoire exceptionnelle si votre système n'a pas suffisamment de mémoire."</string>
+  <string name="WidgetNotConfigured" type="viewer">"Ce widget n'a pas été configuré."</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002: le service Dashboard n'a pas pu être contacté. Il peut y avoir un problème temporaire ou le serveur peut être en panne."</string>
+  <string name="AuthenticationFailure" type="viewer">"Vous avez besoin d'autorisation pour afficher ce tableau de bord."</string>
+  <string name="SessionExpired" type="viewer">"Votre session a expiré."</string>
+  <string name="DashboardServerFail" type="viewer">"DV002: le service Dashboard n'a pas pu être contacté. Il peut y avoir un problème temporaire ou le serveur peut être en panne."</string>
+  <string name="ExcelError" type="viewer">"Le fichier Excel dans le serveur n'est pas celui utilisé pour la conception de ce tableau de bord, veuillez contacter l'administrateur ou republier le tableau de bord."</string>
+  <string name="FixIssues" type="viewer">"Veuillez corriger les erreurs ci-dessous ..."</string>
+  <string name="InvalidCredentials" type="viewer">"Identifiants invalides"</string>
+  <string name="UserName" type="viewer">"Nom d'utilisateur"</string>
+  <string name="Password" type="viewer">"Mot de passe"</string>
+  <string name="Open" type="viewer">"Ouvrir"</string>
+  <string name="Ok" type="viewer">"D'accord"</string>
+  <string name="Refresh" type="viewer">"Rafraîchir"</string>
+  <string name="Error" type="viewer">"Erreur"</string>
+  <string name="Clipboard" type="viewer">"Copier dans le Presse-papiers"</string>
+  <string name="AuthenticationRequired" type="viewer">"Authentification requise
+"</string>
+  <string name="KnowMore" type="viewer">"En savoir plus"</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"Le nom d'utilisateur / mot de passe ne peut pas être vide"</string>
+  <string name="EncryptError" type="viewer">"Le service du tableau de bord a renvoyé une clé non valide. Veuillez réessayer. Si le problème persiste, contactez l'administrateur"</string>
+  <string name="ViewData" type="viewer">"Afficher les données"</string>
+  <string name="Close" type="viewer">"Fermer"</string>
+  <string name="DashboardDescription" type="viewer">"Description du tableau de bord"</string>
+  <string name="Yes" type="viewer">"Oui"</string>
+  <string name="No" type="viewer">"Non,"</string>
+  <string name="Confirm" type="viewer">"Confirmation"</string>
+  <string name="ClearMasterFilter" type="viewer">"Effacer filtre maître"</string>
+  <string name="Comment" type="viewer">"Commentaire"</string>
+  <string name="Pin" type="viewer">"Épingle"</string>
+  <string name="DeleteConfirmText" type="viewer">"Êtes-vous sûr de vouloir supprimer ce thème?"</string>
+  <string name="ClearFilter" type="viewer">"Effacer le filtre"</string>
+  <string name="CultureFileDownloadError" type="viewer">"Impossible de charger la culture "</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003: Le tableau de bord n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003: le Widget n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004: Le tableau de bord n'a pas pu être rendu car le chemin de tableau de bord n'est pas défini."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004: le Widget n'a pas pu être rendu car le chemin de tableau de bord n'est pas défini."</string>
+  <string name="ExportDashboards" type="viewer">"Exporter le (s) tableau (s) de bord"</string>
+  <string name="ExportImage" type="viewer">"Exporter image"</string>
+  <string name="ExportPdf" type="viewer">"Exportation PDF"</string>
+  <string name="ExportExcel" type="viewer">"Excel Export"</string>
+  <string name="ExportExcel" type="viewer">"Exporter CSV"</string>
+  <string name="ExportAs" type="viewer">"Exporter comme"</string>
+  <string name="Dashboards" type="viewer">"Tableaux de bord"</string>
+  <string name="ChooseDashboards" type="viewer">"Choisissez les tableaux de bord"</string>
+  <string name="ChooseWidgets" type="viewer">"Choisir widgets"</string>
+  <string name="Widget" type="viewer">"Widgets"</string>
+  <string name="Image" type="viewer">"image"</string>
+  <string name="Pdf" type="viewer">"PDF"</string>
+  <string name="Excel" type="viewer">"Exceller"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"Exporter"</string>  
+  <string name="All" type="viewer">"Tout"</string>    
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005: l'accès au service est refusé à l'utilisateur actuel."</string>
+  <string name="ErrorControlException" type="viewer">"Erreur de récupération de données."</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"Les données reçues au service ont été falsifiées. Veuillez réessayer plus tard."</string>
+  <string name="ErrorCrypto" type="viewer">"Les données reçues au service ont été falsifiées. Veuillez réessayer plus tard."</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006: le fichier du tableau de bord demandé n'a pas été trouvé. Il peut être déplacé ou renommé."</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006: le fichier widget demandé n'a pas été trouvé. Il peut être déplacé ou renommé."</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007: le fichier ou l'assemblage demandé n'a pas été trouvé. Il peut être déplacé ou renommé."</string>
+  <string name="ErrorGeneral" type="viewer">"DV008: Le tableau de bord n'a pas pu être visualisé en raison d'une erreur."</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008: le Widget n'a pas pu être visualisé en raison d'une erreur."</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009: le fichier chargé n'est pas un fichier de tableau de bord valide"</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009: Le fichier chargé n'est pas un fichier widget valide"</string>
+  <string name="ErrorServerError" type="viewer">"DV010: Le tableau de bord n'a pas pu être visualisé car nous n'avons pas pu valider l'autorisation utilisateur actuelle."</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010: le widget n'a pas pu être visualisé car nous n'avons pas pu valider l'autorisation actuelle de l'utilisateur."</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"Le serveur SQL n'a pas pu être contacté. Assurez-vous que le serveur est accessible."</string>
+  <string name="ErrorSqlTimeout" type="viewer">"Une tentative de récupération des données du serveur a échoué en raison de l'expiration du délai."</string>
+  <string name="ErrorWcfBinding" type="viewer">"Le comportement CorsSupport ne peut être utilisé que dans les points d'extrémité WebHttpBinding."</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011: le fichier d'image exporté n'a pas pu être téléchargé en raison de la grande taille du fichier."</string>
+</resources>

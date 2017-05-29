@@ -1,101 +1,134 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- service localization text -->
-    <string name="CardActualText" type="service">"값"</string>
-    <string name="CardTargetText" type="service">"골"</string>
-    <string name="ExpressionAggregationText" type="service">"의 AGG "</string>
-    <string name="ExpressionAverage" type="service">"부근에 있습니다. "</string>
-    <string name="ExpressionCount" type="service">"백작 "</string>
-    <string name="ExpressionDCount" type="service">"의 고유 한 카운트 "</string>
-    <string name="ExpressionMax" type="service">"의 최대 "</string>
-    <string name="ExpressionMin" type="service">"의 최소 "</string>
-    <string name="ExpressionStandardDeviation" type="service">"Std.dev. 의 "</string>
-    <string name="ExpressionSum" type="service">"의 합 "</string>
-    <string name="ExpressionVar" type="service">"의 변화 "</string>
-    <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
-    <string name="Errorcontrolexception" type="service">"데이터 복구 에러"</string>    
-    <!-- viewer localization text -->
-    <string name="NoData" type="viewer">"표시 할 데이터가 없습니다."</string>
-    <string name="ErrorOnHigherVersion" type="viewer">"이 대시 보드 디자이너의 상위 버전 (버전에서 생성 된 이후 대시 보드를로드 할 수 없습니다 :"</string>
-    <string name="NoWidgetConfigured" type="viewer">"미리보기를 아니 위젯 없습니다"</string>
-    <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
-    <string name="ExportToCSV" type="viewer">"CSV로 내보내기"</string>
-    <string name="ExportToPdf" type="viewer">"PDF로 내보내기"</string>
-    <string name="ExportToExcel" type="viewer">"Excel로 내보내기"</string>
-    <string name="ExportToExcel97To2003" type="viewer">"엑셀 97-2003 통합 문서 (* .XLS)"</string>
-    <string name="ExportToExcel2013" type="viewer">"Excel 통합 문서 (* .XLSX)"</string>
-    <string name="Maximize" type="viewer">"극대화"</string>
-    <string name="UpdateDashboard" type="viewer">"업데이트 대시 보드"</string>
-    <string name="ExportToImage" type="viewer">"이미지로 내보내기"</string>
-    <string name="Format" type="viewer">"포맷"</string>
-    <string name="FileType" type="viewer">"파일형식"</string>
-    <string name="Resolution" type="viewer">"해상도 (dpi)로"</string>
-    <string name="Export" type="viewer">"수출 --&gt; 추출"</string>
-    <string name="Reset" type="viewer">"리셋"</string>
-    <string name="Cancel" type="viewer">"취소하다"</string>
-    <string name="Title" type="viewer">"표제"</string>
-    <string name="ExportTitle" type="viewer">"대시 보드 / 위젯 제목"</string>
-    <string name="Jpeg" type="viewer">"JPEG (* .JPG)"</string>
-    <string name="Png" type="viewer">"PNG (* .PNG)"</string>
-    <string name="Bmp" type="viewer">"BMP (* .BMP)"</string>
-    <string name="FileNameError" type="viewer">"파일이 잘못되었습니다."</string>   
-    <string name="Letter" type="viewer">"글자"</string>
-    <string name="PageSize" type="viewer">"페이지 크기"</string>
-    <string name="Orientation" type="viewer">"방향"</string>
-    <string name="Portrait" type="viewer">"세로"</string>
-    <string name="Landscape" type="viewer">"가로"</string>
-    <string name="ExportToPdfWaitingText" type="viewer">"PDF로 내보내기 ..."</string>
-    <string name="ExportToImageWaitingText" type="viewer">"이미지로 내보내기 ..."</string>
-    <string name="ExportToCSVWaitingText" type="viewer">"CSV로 내보내기 ..."</string>
-    <string name="ExportToExcelWaitingText" type="viewer">"Excel로 내보내기 ..."</string>
-    <string name="Description" type="viewer">"기술"</string>
-    <string name="DefaultFileName" type="service">"알림판 "</string>
-    <string name="ResolutionLow" type="viewer">"해상도는 DPI (96)보다 크거나 동일해야한다."</string>
-    <string name="ResolutionAlert" type="viewer">"바람직한 해상도는 96 내지 300 DPI입니다. 시스템에 메모리가 충분하지 않은 경우보다 큰 해상도 메모리 예외 밖으로 리드."</string>
-    <string name="WidgetNotConfigured" type="viewer">"이 위젯은 구성되지 않았습니다."</string>
-    <string name="DashboardServerTimedOut" type="viewer">"대시 보드 서비스에 연결할 수 없습니다. 이 임시 결함이있을 수 있습니다 또는 서버가 다운 될 수 있습니다."</string>
-    <string name="AuthenticationFailure" type="viewer">"이 대시 보드를 볼 권한이 필요합니다."</string>
-    <string name="SessionExpired" type="viewer">"당신의 세션이 만료되었습니다"</string>
-    <string name="DashboardServerFail" type="viewer">"대시 보드 서비스에 연결할 수 없습니다. 이 임시 결함이있을 수 있습니다 또는 서버가 다운 될 수 있습니다."</string>
-    <string name="ExcelError" type="viewer">"서버에서 엑셀 파일 친절 관리자에게 문의하거나 대시 보드를 게시,이 대시 보드 디자인에 사용되는 일이 아니다."</string>
-    <string name="FixIssues" type="viewer">"아래의 오류를 수정하시기 바랍니다 ..."</string>
-    <string name="InvalidCredentials" type="viewer">"잘못된 자격 증명"</string>
-    <string name="UserName" type="viewer">"사용자 이름"</string>
-    <string name="Password" type="viewer">"비밀번호  "</string>
-    <string name="Open" type="viewer">"켜기"</string>
-    <string name="Ok" type="viewer">"확인 "</string>
-    <string name="Refresh" type="viewer">"새로고침"</string>
-    <string name="Error" type="viewer">"오류"</string>
-    <string name="Clipboard" type="viewer">"클립 보드에 복사"</string>
-    <string name="AuthenticationRequired" type="viewer">"인증 필요"</string>
-    <string name="KnowMore" type="viewer">"자세한 내용을 알고 ..."</string>
-    <string name="UserNamePasswordEmpty" type="viewer">"아이디 / 비밀번호는 비워 둘 수 없습니다"</string>
-    <string name="EncryptError" type="viewer">"대시 보드 서비스는 잘못된 키를 반환했습니다. 다시 시도하십시오. 문제는 제발 연락처 관리자 계속되면"</string>
-    <string name="ViewData" type="viewer">"데이터보기"</string>
-    <string name="Close" type="viewer">"닫기"</string>
-    <string name="DashboardDescription" type="viewer">"대시 보드 설명"</string>
-    <string name="Yes" type="viewer">"예  "</string>
-    <string name="No" type="viewer">"아니요  "</string>
-    <string name="Confirm" type="viewer">"승인"</string>
-    <string name="ClearMasterFilter" type="viewer">"클리어 마스터 필터"</string>
-    <string name="Comment" type="viewer">"댓글"</string>
-    <string name="Pin" type="viewer">"핀"</string>
-    <string name="DeleteConfirmText" type="viewer">"당신은이보기를 삭제 하시겠습니까?"</string>
-    <string name="ClearFilter" type="viewer">"필터 지우기"</string>	 
-    <string name="CultureFileDownloadError" type="viewer">"문화를로드 할 수 없습니다 "</string>
-    <string name="ServiceNotConfigured" type="viewer">"서비스 URL이 설정되어 있지 않기 때문에 대시 보드는 렌더링 할 수 없습니다."</string>
-    <string name="DashboardNotConfigured" type="viewer">"대시 보드 경로가 설정되어 있지 않기 때문에 대시 보드는 렌더링 할 수 없습니다."</string>
-	<!-- viewer error messages -->
-	<string name="ErrorAccessDenied" type="viewer">"서비스에 대한 액세스는 현재 사용자가 거부됩니다."</string>
-    <string name="ErrorControlException" type="viewer">"데이터 검색 오류입니다."</string>
-    <string name="ErrorControlNotConfigured" type="viewer">"서비스가 훼손되었다에서 데이터를 수신. 나중에 다시 시도 해주십시오."</string>
-    <string name="ErrorCrypto" type="viewer">"서비스가 훼손되었다에서 데이터를 수신. 나중에 다시 시도 해주십시오."</string>
-    <string name="ErrorDashboardNotFound" type="viewer">"요청 된 대시 보드 파일을 찾을 수 없습니다. 그것은 이동하거나 이름을 바꿀 수 있습니다 중 하나."</string>
-    <string name="ErrorFileNotFound" type="viewer">"요청 된 파일 또는 어셈블리를 찾을 수 없습니다. 그것은 이동하거나 이름을 바꿀 수 있습니다 중 하나."</string>
-    <string name="ErrorGeneral" type="viewer">"대시 보드는 오류로 인해 볼 수 없습니다."</string>
-    <string name="ErrorInvalidFile" type="viewer">"로드 된 파일이 올바른 대시 보드 파일이 아닙니다"</string>
-    <string name="ErrorServerError" type="viewer">"우리는 현재의 사용자 인증의 유효성을 검사 할 수 없습니다 때문에 대시 보드를 볼 수 없습니다."</string>
-    <string name="ErrorSqlHostNotFound" type="viewer">"SQL 서버에 연결할 수 없습니다. 서버에 액세스 할 수 있는지 확인하십시오."</string>
-    <string name="ErrorSqlTimeout" type="viewer">"서버에서 데이터를 검색하는 시도가 시간 만료로 인해 실패했습니다."</string>
-    <string name="ErrorWcfBinding" type="viewer">"CorsSupport 동작은 WebHttpBinding이라는 엔드 포인트에 사용될 수있다."</string>
-    <string name="ErrorOutOfMemory" type="viewer">"내 보낸 이미지 파일로 인해 큰 파일 크기 downloded 할 수 없습니다."</string>
-  </resources>
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"값"</string>
+  <string name="CardTargetText" type="service">"목표"</string>
+  <string name="ExpressionAggregationText" type="service">"아그 "</string>
+  <string name="ExpressionAverage" type="service">"평균 "</string>
+  <string name="ExpressionCount" type="service">"백작 "</string>
+  <string name="ExpressionDCount" type="service">"뚜렷한 "</string>
+  <string name="ExpressionMax" type="service">"의 최대 "</string>
+  <string name="ExpressionMin" type="service">"분 "</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev. 의 "</string>
+  <string name="ExpressionSum" type="service">"의 합 "</string>
+  <string name="ExpressionVar" type="service">"유사 콘텐츠 "</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+  <string name="ServerError" type="service">"업데이트 된 공유 데이터 소스는 실제 구성된 데이터 소스와 다릅니다."</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"표시 할 데이터가 없습니다."</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001 : 대시 보드 디자이너의 상위 버전에서 생성 된 이후 대시 보드를로드 할 수 없습니다 (버전 :"</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001 : 대시 보드 디자이너의 상위 버전에서 생성 된 이후 위젯을로드 할 수 없습니다 (버전 :"</string>
+  <string name="NoWidgetConfigured" type="viewer">"미리보기 할 위젯 없음"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ..."</string>
+  <string name="ExportToExcel" type="viewer">"뛰어나다..."</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003 통합 문서 (* .xls)"</string>
+  <string name="ExportToExcel2013" type="viewer">"Excel 통합 문서 (* .xlsx)"</string>
+  <string name="Maximize" type="viewer">"극대화하다"</string>
+  <string name="UpdateDashboard" type="viewer">"대시 보드 업데이트"</string>
+  <string name="ExportToImage" type="viewer">"이미지"</string>
+  <string name="MaximizeControl" type="viewer">"최대화 ..."</string>
+  <string name="TextMore" type="viewer">"더 보기"</string>
+  <string name="TextLess" type="viewer">"보다적은"</string>
+  <string name="SavedFilters" type="viewer">"저장된 필터보기"</string> 
+  <string name="UnSavedView" type="viewer">"저장되지 않은보기"</string>
+  <string name="Reload" type="viewer">"다시로드"</string>
+  <string name="Save" type="viewer">"저장"</string>
+  <string name="SaveAs" type="viewer">"다른 이름으로 저장"</string>
+  <string name="Information" type="viewer">"정보 "</string>
+  <string name="Format" type="viewer">"포맷 "</string>
+  <string name="FileType" type="viewer">"파일형식"</string>
+  <string name="Resolution" type="viewer">"해상도 (dpi)"</string>
+  <string name="Export" type="viewer">"내보내기 "</string>
+  <string name="Reset" type="viewer">"초기화"</string>
+  <string name="Cancel" type="viewer">"취소  "</string>
+  <string name="Title" type="viewer">"표제"</string>
+  <string name="ExportTitle" type="viewer">"대시 보드 / 위젯 제목"</string>
+  <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+  <string name="Png" type="viewer">"PNG (* .png)"</string>
+  <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+  <string name="FileNameError" type="viewer">"파일이 잘못되었습니다."</string>
+  <string name="Letter" type="viewer">"글자"</string>
+  <string name="PageSize" type="viewer">"페이지 크기"</string>
+  <string name="Orientation" type="viewer">"회전 "</string>
+  <string name="Portrait" type="viewer">"인물"</string>
+  <string name="Landscape" type="viewer">"가로"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"PDF로 내보내기 ..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"이미지로 내보내기 ..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"CSV로 내보내기 ..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Excel로 내보내기 ..."</string>
+  <string name="Description" type="viewer">"상세설명"</string>
+  <string name="DefaultFileName" type="service">"알림판"</string>
+  <string name="ResolutionLow" type="viewer">"해상도는 96 DPI 이상이어야합니다."</string>
+  <string name="ResolutionAlert" type="viewer">"바람직한 해상도는 96 ~ 300 DPI입니다. 시스템의 메모리가 충분하지 않으면 그 이상의 해상도로 인해 메모리 부족 예외가 발생합니다."</string>
+  <string name="WidgetNotConfigured" type="viewer">"이 위젯은 구성되지 않았습니다."</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002 : 대시 보드 서비스에 접속할 수 없습니다. 일시적인 결함이 있거나 서버가 다운되었을 수 있습니다."</string>
+  <string name="AuthenticationFailure" type="viewer">"이 대시 보드를 보려면 승인이 필요합니다."</string>
+  <string name="SessionExpired" type="viewer">"기간이 만료되었습니다"</string>
+  <string name="DashboardServerFail" type="viewer">"DV002 : 대시 보드 서비스에 접속할 수 없습니다. 일시적인 결함이 있거나 서버가 다운되었을 수 있습니다."</string>
+  <string name="ExcelError" type="viewer">"서버의 Excel 파일이이 대시 보드 디자인에 사용되는 파일이 아니므로 관리자에게 문의하거나 대시 보드를 다시 게시하십시오."</string>
+  <string name="FixIssues" type="viewer">"아래 오류를 수정하십시오 ..."</string>
+  <string name="InvalidCredentials" type="viewer">"잘못된 자격 증명"</string>
+  <string name="UserName" type="viewer">"사용자 이름"</string>
+  <string name="Password" type="viewer">"암호 "</string>
+  <string name="Open" type="viewer">"Open
+오픈"</string>
+  <string name="Ok" type="viewer">"확인   "</string>
+  <string name="Refresh" type="viewer">"새로 고침"</string>
+  <string name="Error" type="viewer">"오류"</string>
+  <string name="Clipboard" type="viewer">"클립 보드에 복사"</string>
+  <string name="AuthenticationRequired" type="viewer">"인증 필요"</string>
+  <string name="KnowMore" type="viewer">"더 많이 알기 ..."</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"사용자 이름 / 비밀번호는 비워 둘 수 없습니다."</string>
+  <string name="EncryptError" type="viewer">"대시 보드 서비스가 잘못된 키를 반환했습니다. 다시 시도하십시오. 문제가 지속되면 관리자에게 문의하십시오."</string>
+  <string name="ViewData" type="viewer">"데이터보기"</string>
+  <string name="Close" type="viewer">"닫기 "</string>
+  <string name="DashboardDescription" type="viewer">"대시 보드 설명"</string>
+  <string name="Yes" type="viewer">"예"</string>
+  <string name="No" type="viewer">"아니요  "</string>
+  <string name="Confirm" type="viewer">"확인"</string>
+  <string name="ClearMasterFilter" type="viewer">"마스터 필터 지우기"</string>
+  <string name="Comment" type="viewer">"코멘트"</string>
+  <string name="Pin" type="viewer">"핀"</string>
+  <string name="DeleteConfirmText" type="viewer">"당신은이보기를 삭제 하시겠습니까?"</string>
+  <string name="ClearFilter" type="viewer">"필터 지우기"</string>
+  <string name="CultureFileDownloadError" type="viewer">"문화를로드 할 수 없습니다. "</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003 : 서비스 URL이 설정되지 않아 대시 보드를 렌더링 할 수 없습니다."</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003 : 서비스 URL이 설정되지 않았기 때문에 위젯을 렌더링 할 수 없습니다."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004 : 대시 보드 경로가 설정되지 않아 대시 보드를 렌더링 할 수 없습니다."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004 : 대시 보드 경로가 설정되지 않았기 때문에 위젯을 렌더링 할 수 없습니다."</string>
+  <string name="ExportDashboards" type="viewer">"대시 보드 내보내기"</string>
+  <string name="ExportImage" type="viewer">"이미지 내보내기"</string>
+  <string name="ExportPdf" type="viewer">"PDF 내보내기"</string>
+  <string name="ExportExcel" type="viewer">"Excel 내보내기"</string>
+  <string name="ExportExcel" type="viewer">"CSV 내보내기"</string>
+  <string name="ExportAs" type="viewer">"다른 이름으로 내보내기"</string>
+  <string name="Dashboards" type="viewer">"대시 보드"</string>
+  <string name="ChooseDashboards" type="viewer">"대시 보드 선택"</string>
+  <string name="ChooseWidgets" type="viewer">"위젯 선택"</string>
+  <string name="Widget" type="viewer">"위젯"</string>
+  <string name="Image" type="viewer">"이미지"</string>
+  <string name="Pdf" type="viewer">"PDF:"</string>
+  <string name="Excel" type="viewer">"엑셀"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"내보내기 "</string>  
+  <string name="All" type="viewer">"모두 "</string>    
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005 : 서비스에 대한 액세스가 현재 사용자에게 거부되었습니다."</string>
+  <string name="ErrorControlException" type="viewer">"데이터 검색 오류."</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"서비스에서 수신 된 데이터가 변조되었습니다. 나중에 다시 시도 해주십시오."</string>
+  <string name="ErrorCrypto" type="viewer">"서비스에서 수신 된 데이터가 변조되었습니다. 나중에 다시 시도 해주십시오."</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006 : 요청한 대시 보드 파일을 찾을 수 없습니다. 이동되거나 이름이 바뀔 수 있습니다."</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006 : 요청 된 위젯 파일을 찾을 수 없습니다. 이동되거나 이름이 바뀔 수 있습니다."</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007 : 요청한 파일 또는 어셈블리를 찾을 수 없습니다. 이동되거나 이름이 바뀔 수 있습니다."</string>
+  <string name="ErrorGeneral" type="viewer">"DV008 : 오류로 인해 대시 보드를 볼 수 없었습니다."</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008 : 오류로 인해 위젯을 볼 수 없었습니다."</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009 :로드 된 파일이 유효한 대시 보드 파일이 아닙니다."</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009 :로드 된 파일이 유효한 위젯 파일이 아닙니다."</string>
+  <string name="ErrorServerError" type="viewer">"DV010 : 현재 사용자 권한을 확인할 수 없어 대시 보드를 볼 수 없었습니다."</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010 : 현재 사용자 권한을 확인할 수 없어서 위젯을 볼 수 없었습니다."</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"SQL 서버에 연결할 수 없습니다. 서버에 액세스 할 수 있는지 확인하십시오."</string>
+  <string name="ErrorSqlTimeout" type="viewer">"시간 만료로 인해 서버에서 데이터 검색을 시도하지 못했습니다."</string>
+  <string name="ErrorWcfBinding" type="viewer">"CorsSupport 비헤이비어는 WebHttpBinding 끝점에서만 사용할 수 있습니다."</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011 : 큰 파일 크기 때문에 내 보낸 이미지 파일을 다운로드 할 수 없습니다."</string>
+</resources>

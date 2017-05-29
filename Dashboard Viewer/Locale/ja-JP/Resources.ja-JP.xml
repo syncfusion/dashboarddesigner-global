@@ -1,101 +1,134 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- service localization text -->
-    <string name="CardActualText" type="service">"評価する"</string>
-    <string name="CardTargetText" type="service">"目的"</string>
-    <string name="ExpressionAggregationText" type="service">"のAGG"</string>
-    <string name="ExpressionAverage" type="service">"平均"</string>
-    <string name="ExpressionCount" type="service">"のカウント"</string>
-    <string name="ExpressionDCount" type="service">"の個別のカウント"</string>
-    <string name="ExpressionMax" type="service">"マックス"</string>
-    <string name="ExpressionMin" type="service">"の分"</string>
-    <string name="ExpressionStandardDeviation" type="service">"Std.dev。の"</string>
-    <string name="ExpressionSum" type="service">"の合計"</string>
-    <string name="ExpressionVar" type="service">"のバリエーション"</string>
-    <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg。"</string>
-    <string name="Errorcontrolexception" type="service">"データ検索エラー"</string>    
-    <!-- viewer localization text -->
-    <string name="NoData" type="viewer">"表示するデータがありません。"</string>
-    <string name="ErrorOnHigherVersion" type="viewer">"それはダッシュボードデザイナーの上位バージョン（バージョンで作成されたので、ダッシュボードを読み込むことができません。"</string>
-    <string name="NoWidgetConfigured" type="viewer">"プレビューにウィジェットなし"</string>
-    <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
-    <string name="ExportToCSV" type="viewer">"CSV ファイルにエクスポート"</string>
-    <string name="ExportToPdf" type="viewer">"PDFへのエクスポート"</string>
-    <string name="ExportToExcel" type="viewer">"Excelへのエクスポート"</string>
-    <string name="ExportToExcel97To2003" type="viewer">"エクセル97-2003ブック（* .XLS）"</string>
-    <string name="ExportToExcel2013" type="viewer">"Excelブック（* .xlsx形式）"</string>
-    <string name="Maximize" type="viewer">"最大化します"</string>
-    <string name="UpdateDashboard" type="viewer">"更新ダッシュボード"</string>
-    <string name="ExportToImage" type="viewer">"画像へのエクスポート"</string>
-    <string name="Format" type="viewer">"日付形式"</string>
-    <string name="FileType" type="viewer">"ファイルタイプ"</string>
-    <string name="Resolution" type="viewer">"解像度（dpi）の"</string>
-    <string name="Export" type="viewer">"エクスポート"</string>
-    <string name="Reset" type="viewer">"リセット"</string>
-    <string name="Cancel" type="viewer">"キャンセル"</string>
-    <string name="Title" type="viewer">"タイトル"</string>
-    <string name="ExportTitle" type="viewer">"ダッシュボード/ウィジェットタイトル"</string>
-    <string name="Jpeg" type="viewer">"JPEG（* .JPG）"</string>
-    <string name="Png" type="viewer">"PNG（* .PNG）"</string>
-    <string name="Bmp" type="viewer">"BMP（* .BMP）"</string>
-    <string name="FileNameError" type="viewer">"無効なファイル名"</string>   
-    <string name="Letter" type="viewer">"レター"</string>
-    <string name="PageSize" type="viewer">"PageSizeプロパティ"</string>
-    <string name="Orientation" type="viewer">"向き"</string>
-    <string name="Portrait" type="viewer">"肖像画"</string>
-    <string name="Landscape" type="viewer">"横"</string>
-    <string name="ExportToPdfWaitingText" type="viewer">"PDFへのエクスポート..."</string>
-    <string name="ExportToImageWaitingText" type="viewer">"画像へのエクスポート..."</string>
-    <string name="ExportToCSVWaitingText" type="viewer">"CSVへのエクスポート..."</string>
-    <string name="ExportToExcelWaitingText" type="viewer">"Excelへのエクスポート..."</string>
-    <string name="Description" type="viewer">"説明"</string>
-    <string name="DefaultFileName" type="service">"ダッシュボード"</string>
-    <string name="ResolutionLow" type="viewer">"解像度は96 DPI以上でなければなりません。"</string>
-    <string name="ResolutionAlert" type="viewer">"好適な解像度は96〜300 DPIです。お使いのシステムに十分なメモリがない場合よりも高い解像度は、メモリ不足の例外のうちにつながります。"</string>
-    <string name="WidgetNotConfigured" type="viewer">"このウィジェットは設定されていません。"</string>
-    <string name="DashboardServerTimedOut" type="viewer">"ダッシュボードサービスに接続できませんでした。そこに一時的なグリッチであってもよいし、サーバーがダウンしている可能性があります。"</string>
-    <string name="AuthenticationFailure" type="viewer">"あなたはこのダッシュボードを表示する権限が必要です。"</string>
-    <string name="SessionExpired" type="viewer">"セッションが時間切れとなりました。"</string>
-    <string name="DashboardServerFail" type="viewer">"ダッシュボードサービスに接続できませんでした。そこに一時的なグリッチであってもよいし、サーバーがダウンしている可能性があります。"</string>
-    <string name="ExcelError" type="viewer">"サーバ内のExcelファイルは、親切に管理者に連絡し、またはダッシュボードを再発行し、このダッシュボードを設計するために使用されるものではありません。"</string>
-    <string name="FixIssues" type="viewer">"以下のエラーを修正してください..."</string>
-    <string name="InvalidCredentials" type="viewer">"無効な資格情報"</string>
-    <string name="UserName" type="viewer">"ユーザ名"</string>
-    <string name="Password" type="viewer">"パスワード"</string>
-    <string name="Open" type="viewer">"開く"</string>
-    <string name="Ok" type="viewer">"[OK]"</string>
-    <string name="Refresh" type="viewer">"リフレッシュ"</string>
-    <string name="Error" type="viewer">"エラー"</string>
-    <string name="Clipboard" type="viewer">"クリップボードにコピー"</string>
-    <string name="AuthenticationRequired" type="viewer">"認証が必要"</string>
-    <string name="KnowMore" type="viewer">"詳細を見る..."</string>
-    <string name="UserNamePasswordEmpty" type="viewer">"ユーザー名/パスワードを空にすることはできません"</string>
-    <string name="EncryptError" type="viewer">"ダッシュボードサービスは、無効なキーが返されました。もう一度やり直してください。問題が解決しない場合は管理者にお問い合わせください"</string>
-    <string name="ViewData" type="viewer">"データを表示"</string>
-    <string name="Close" type="viewer">"閉じる"</string>
-    <string name="DashboardDescription" type="viewer">"ダッシュボードの説明"</string>
-    <string name="Yes" type="viewer">"はい"</string>
-    <string name="No" type="viewer">"いいえ"</string>
-    <string name="Confirm" type="viewer">"確認"</string>
-    <string name="ClearMasterFilter" type="viewer">"クリアマスターフィルタ"</string>
-    <string name="Comment" type="viewer">"コメント"</string>
-    <string name="Pin" type="viewer">"固定"</string>
-    <string name="DeleteConfirmText" type="viewer">"このローテーションを削除してもよろしいですか？"</string>
-    <string name="ClearFilter" type="viewer">"フィルタのクリア"</string>	 
-    <string name="CultureFileDownloadError" type="viewer">"文化を読み込むことができません"</string>
-    <string name="ServiceNotConfigured" type="viewer">"サービスURLが設定されていないので、ダッシュボードをレンダリングすることができませんでした。"</string>
-    <string name="DashboardNotConfigured" type="viewer">"ダッシュボードのパスが設定されていないので、ダッシュボードをレンダリングすることができませんでした。"</string>
-	<!-- viewer error messages -->
-	<string name="ErrorAccessDenied" type="viewer">"サービスへのアクセスは、現在のユーザーに拒否されます。"</string>
-    <string name="ErrorControlException" type="viewer">"データ検索エラー。"</string>
-    <string name="ErrorControlNotConfigured" type="viewer">"データが改ざんされたサービスで受信しました。後ほどおかけ直しください。"</string>
-    <string name="ErrorCrypto" type="viewer">"データが改ざんされたサービスで受信しました。後ほどおかけ直しください。"</string>
-    <string name="ErrorDashboardNotFound" type="viewer">"要求されたダッシュボードファイルが見つかりませんでした。これは、移動または名前を変更することができます。"</string>
-    <string name="ErrorFileNotFound" type="viewer">"要求されたファイルまたはアセンブリが見つかりませんでした。これは、移動または名前を変更することができます。"</string>
-    <string name="ErrorGeneral" type="viewer">"ダッシュボードには、エラーのために見ることができませんでした。"</string>
-    <string name="ErrorInvalidFile" type="viewer">"ロードされたファイルは、有効なダッシュボードファイルではありません"</string>
-    <string name="ErrorServerError" type="viewer">"我々は現在のユーザの許可を検証することができませんでしたので、ダッシュボードが表示されませんでした。"</string>
-    <string name="ErrorSqlHostNotFound" type="viewer">"SQLサーバーに接続できませんでした。サーバーがアクセス可能であることを確認してください。"</string>
-    <string name="ErrorSqlTimeout" type="viewer">"サーバーからデータを取得しようとすると、時間の有効期限のために失敗しました。"</string>
-    <string name="ErrorWcfBinding" type="viewer">"CorsSupport挙動は、WebHttpBindingエンドポイントで使用することができます。"</string>
-    <string name="ErrorOutOfMemory" type="viewer">"エクスポートされた画像ファイルが原因で大きなファイルサイズにdownlodedすることができませんでした。"</string>
-  </resources>
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"評価する"</string>
+  <string name="CardTargetText" type="service">"ゴール"</string>
+  <string name="ExpressionAggregationText" type="service">"の"</string>
+  <string name="ExpressionAverage" type="service">"平均"</string>
+  <string name="ExpressionCount" type="service">"カウント"</string>
+  <string name="ExpressionDCount" type="service">"独特の数"</string>
+  <string name="ExpressionMax" type="service">"マックス"</string>
+  <string name="ExpressionMin" type="service">"分の"</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev。の"</string>
+  <string name="ExpressionSum" type="service">"の和"</string>
+  <string name="ExpressionVar" type="service">"バリエーション"</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg。"</string>
+  <string name="ServerError" type="service">"更新された共有データソースは、実際に構成されたデータソースとは異なります"</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"表示されるデータはありません。"</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001：ダッシュボードがダッシュボードデザイナーの上位バージョン（バージョン："</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001：ウィジェットがダッシュボードデザイナーの上位バージョンで作成されて以来、そのウィジェットを読み込めません（バージョン："</string>
+  <string name="NoWidgetConfigured" type="viewer">"プレビューするウィジェットはありません"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ...</string>
+  <string name="ExportToExcel" type="viewer">"エクセル"</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003ワークブック（* .xls）"</string>
+  <string name="ExportToExcel2013" type="viewer">"Excelワークブック（* .xlsx）"</string>
+  <string name="Maximize" type="viewer">"最大化"</string>
+  <string name="UpdateDashboard" type="viewer">"更新ダッシュボード"</string>
+  <string name="ExportToImage" type="viewer">"画像..."</string>
+  <string name="MaximizeControl" type="viewer">"最大化"</string>
+  <string name="TextMore" type="viewer">"更に"</string>
+  <string name="TextLess" type="viewer">"より少なく"</string>
+  <string name="SavedFilters" type="viewer">"保存されたフィルタを表示"</string> 
+  <string name="UnSavedView" type="viewer">"保存されていないビュー"</string>
+  <string name="Reload" type="viewer">"リロード"</string>
+  <string name="Save" type="viewer">"保存"</string>
+  <string name="SaveAs" type="viewer">"別名で保存する"</string>
+  <string name="Information" type="viewer">"情報"</string>
+  <string name="Format" type="viewer">"日付形式"</string>
+  <string name="FileType" type="viewer">"ファイルの種類"</string>
+  <string name="Resolution" type="viewer">"解像度（dpi）"</string>
+  <string name="Export" type="viewer">"エクスポート"</string>
+  <string name="Reset" type="viewer">"リセット"</string>
+  <string name="Cancel" type="viewer">"キャンセル"</string>
+  <string name="Title" type="viewer">"タイトル"</string>
+  <string name="ExportTitle" type="viewer">"ダッシュボード/ウィジェットのタイトル"</string>
+  <string name="Jpeg" type="viewer">"JPEG（* .jpg）"</string>
+  <string name="Png" type="viewer">"PNG（* .png）"</string>
+  <string name="Bmp" type="viewer">"BMP（* .bmp）"</string>
+  <string name="FileNameError" type="viewer">"無効なファイル名"</string>
+  <string name="Letter" type="viewer">"レター"</string>
+  <string name="PageSize" type="viewer">"ページサイズ"</string>
+  <string name="Orientation" type="viewer">"向き"</string>
+  <string name="Portrait" type="viewer">"肖像画"</string>
+  <string name="Landscape" type="viewer">"風景"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"PDFへのエクスポート..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"イメージへのエクスポート..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"CSVへのエクスポート..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Excelへのエクスポート..."</string>
+  <string name="Description" type="viewer">"説明"</string>
+  <string name="DefaultFileName" type="service">"ダッシュボード"</string>
+  <string name="ResolutionLow" type="viewer">"解像度は96 DPI以上でなければなりません。"</string>
+  <string name="ResolutionAlert" type="viewer">"好ましい解像度は96〜300DPIである。システムのメモリが不足している場合、それ以上の解像度ではメモリ不足例外が発生します。"</string>
+  <string name="WidgetNotConfigured" type="viewer">"このウィジェットは設定されていません。"</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002：Dashboardサービスに接続できませんでした。一時的な障害があるか、サーバーが停止している可能性があります。"</string>
+  <string name="AuthenticationFailure" type="viewer">"このダッシュボードを表示するには、承認が必要です。"</string>
+  <string name="SessionExpired" type="viewer">"セッションが時間切れとなりました。"</string>
+  <string name="DashboardServerFail" type="viewer">"DV002：Dashboardサービスに接続できませんでした。一時的な障害があるか、サーバーが停止している可能性があります。"</string>
+  <string name="ExcelError" type="viewer">"サーバーのExcelファイルがこのダッシュボードの設計に使用されているファイルではありません。管理者に連絡するか、ダッシュボードを再発行してください。"</string>
+  <string name="FixIssues" type="viewer">"以下のエラーを修正してください..."</string>
+  <string name="InvalidCredentials" type="viewer">"無効な資格情報"</string>
+  <string name="UserName" type="viewer">"ユーザ名"</string>
+  <string name="Password" type="viewer">"パスワード"</string>
+  <string name="Open" type="viewer">"開く"</string>
+  <string name="Ok" type="viewer">"[OK]"</string>
+  <string name="Refresh" type="viewer">"更新"</string>
+  <string name="Error" type="viewer">"エラー"</string>
+  <string name="Clipboard" type="viewer">"クリップボードにコピー"</string>
+  <string name="AuthenticationRequired" type="viewer">"認証が必要"</string>
+  <string name="KnowMore" type="viewer">"詳細を見る..."</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"ユーザー名/パスワードは空白にすることはできません"</string>
+  <string name="EncryptError" type="viewer">"ダッシュボードサービスが無効なキーを返しました。もう一度お試しください。問題が解決しない場合は、管理者に連絡してください"</string>
+  <string name="ViewData" type="viewer">"データを表示"</string>
+  <string name="Close" type="viewer">"閉じる
+"</string>
+  <string name="DashboardDescription" type="viewer">"ダッシュボードの説明"</string>
+  <string name="Yes" type="viewer">"yes"</string>
+  <string name="No" type="viewer">"いいえ"</string>
+  <string name="Confirm" type="viewer">"確認"</string>
+  <string name="ClearMasterFilter" type="viewer">"マスターフィルターをクリア"</string>
+  <string name="Comment" type="viewer">"コメント"</string>
+  <string name="Pin" type="viewer">"固定する"</string>
+  <string name="DeleteConfirmText" type="viewer">"このローテーションを削除してもよろしいですか？"</string>
+  <string name="ClearFilter" type="viewer">"フィルターをクリアする"</string>
+  <string name="CultureFileDownloadError" type="viewer">"文化を読み込めません"</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003：サービスURLが設定されていないため、ダッシュボードを表示できませんでした。"</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003：サービスURLが設定されていないため、ウィジェットを表示できませんでした。"</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004：ダッシュボードパスが設定されていないため、ダッシュボードをレンダリングできませんでした。"</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004：ダッシュボードのパスが設定されていないため、ウィジェットをレンダリングできませんでした。"</string>
+  <string name="ExportDashboards" type="viewer">"ダッシュボードのエクスポート"</string>
+  <string name="ExportImage" type="viewer">"イメージのエクスポート"</string>
+  <string name="ExportPdf" type="viewer">"PDFエクスポート"</string>
+  <string name="ExportExcel" type="viewer">"Excelエクスポート"</string>
+  <string name="ExportExcel" type="viewer">"CSVエクスポート"</string>
+  <string name="ExportAs" type="viewer">"別名でエクスポート"</string>
+  <string name="Dashboards" type="viewer">"ダッシュボード"</string>
+  <string name="ChooseDashboards" type="viewer">"ダッシュボードの選択"</string>
+  <string name="ChooseWidgets" type="viewer">"ウィジェットを選択"</string>
+  <string name="Widget" type="viewer">"ウィジェット"</string>
+  <string name="Image" type="viewer">"イメージ"</string>
+  <string name="Pdf" type="viewer">"PDF"</string>
+  <string name="Excel" type="viewer">"エクセル"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"エクスポート"</string>  
+  <string name="All" type="viewer">"全て"</string>    
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005：サービスへのアクセスが現在のユーザーに対して拒否されました。"</string>
+  <string name="ErrorControlException" type="viewer">"データ検索エラー。"</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"サービスで受け取ったデータは改ざんされました。後でもう一度お試しください。"</string>
+  <string name="ErrorCrypto" type="viewer">"サービスで受け取ったデータは改ざんされました。後でもう一度お試しください。"</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006：要求されたダッシュボードファイルが見つかりませんでした。移動したり名前を変更することができます。"</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006：要求されたウィジェットファイルが見つかりませんでした。移動したり名前を変更することができます。"</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007：要求されたファイルまたはアセンブリが見つかりませんでした。移動したり名前を変更することができます。"</string>
+  <string name="ErrorGeneral" type="viewer">"DV008：エラーのためダッシュボードを表示できませんでした。"</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008：エラーのためにウィジェットを表示できませんでした。"</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009：ロードされたファイルは有効なダッシュボードファイルではありません"</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009：ロードされたファイルが有効なウィジェットファイルではありません"</string>
+  <string name="ErrorServerError" type="viewer">"DV010：現在のユーザー権限を検証できなかったため、ダッシュボードを表示できませんでした。"</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010：現在のユーザー認証を検証できなかったため、ウィジェットを表示できませんでした。"</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"SQLサーバーに接続できませんでした。サーバーがアクセス可能であることを確認してください。"</string>
+  <string name="ErrorSqlTimeout" type="viewer">"時間切れのためにサーバーからデータを取得しようとしましたが失敗しました。"</string>
+  <string name="ErrorWcfBinding" type="viewer">"CorsSupportの動作は、WebHttpBindingエンドポイントでのみ使用できます。"</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011：ファイルサイズが大きいため、エクスポートされたイメージファイルをダウンロードできませんでした。"</string>
+</resources>
