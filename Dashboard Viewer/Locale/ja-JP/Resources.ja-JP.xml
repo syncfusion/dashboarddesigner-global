@@ -94,14 +94,14 @@
   <string name="ClearFilter" type="viewer">"フィルターをクリアする"</string>
   <string name="CultureFileDownloadError" type="viewer">"文化を読み込めません"</string>
   <string name="ServiceNotConfigured" type="viewer">"DV003：サービスURLが設定されていないため、ダッシュボードを表示できませんでした。"</string>
-  <string name="ServiceNotConfigured" type="viewer">"DV003：サービスURLが設定されていないため、ウィジェットを表示できませんでした。"</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003：サービスURLが設定されていないため、ウィジェットを表示できませんでした。"</string>
   <string name="DashboardNotConfigured" type="viewer">"DV004：ダッシュボードパスが設定されていないため、ダッシュボードをレンダリングできませんでした。"</string>
-  <string name="DashboardNotConfigured" type="viewer">"DV004：ダッシュボードのパスが設定されていないため、ウィジェットをレンダリングできませんでした。"</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004：ダッシュボードのパスが設定されていないため、ウィジェットをレンダリングできませんでした。"</string>
   <string name="ExportDashboards" type="viewer">"ダッシュボードのエクスポート"</string>
   <string name="ExportImage" type="viewer">"イメージのエクスポート"</string>
   <string name="ExportPdf" type="viewer">"PDFエクスポート"</string>
   <string name="ExportExcel" type="viewer">"Excelエクスポート"</string>
-  <string name="ExportExcel" type="viewer">"CSVエクスポート"</string>
+  <string name="ExportCsv" type="viewer">"CSVエクスポート"</string>
   <string name="ExportAs" type="viewer">"別名でエクスポート"</string>
   <string name="Dashboards" type="viewer">"ダッシュボード"</string>
   <string name="ChooseDashboards" type="viewer">"ダッシュボードの選択"</string>

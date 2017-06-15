@@ -93,14 +93,14 @@
   <string name="ClearFilter" type="viewer">"清除过滤器"</string>
   <string name="CultureFileDownloadError" type="viewer">"无法加载文化"</string>
   <string name="ServiceNotConfigured" type="viewer">"DV003：由于服务网址未设置，仪表板无法呈现。"</string>
-  <string name="ServiceNotConfigured" type="viewer">"DV003：无法渲染窗口小部件，因为服务URL未设置。"</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003：无法渲染窗口小部件，因为服务URL未设置。"</string>
   <string name="DashboardNotConfigured" type="viewer">"DV004：仪表板路径未设置，无法呈现仪表板。"</string>
-  <string name="DashboardNotConfigured" type="viewer">"DV004：由于仪表板路径未设置，无法渲染窗口小部件。"</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004：由于仪表板路径未设置，无法渲染窗口小部件。"</string>
   <string name="ExportDashboards" type="viewer">"导出仪表板"</string>
   <string name="ExportImage" type="viewer">"图像导出"</string>
   <string name="ExportPdf" type="viewer">"PDF导出"</string>
   <string name="ExportExcel" type="viewer">"Excel导出"</string>
-  <string name="ExportExcel" type="viewer">"CSV导出"</string>
+  <string name="ExportCsv" type="viewer">"CSV导出"</string>
   <string name="ExportAs" type="viewer">"导出为"</string>
   <string name="Dashboards" type="viewer">"仪表板"</string>
   <string name="ChooseDashboards" type="viewer">"选择仪表板"</string>

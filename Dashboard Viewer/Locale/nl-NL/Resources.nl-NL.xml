@@ -93,14 +93,14 @@
   <string name="ClearFilter" type="viewer">"Wis filter"</string>
   <string name="CultureFileDownloadError" type="viewer">"Kan de cultuur niet laden "</string>
   <string name="ServiceNotConfigured" type="viewer">"DV003: Dashboard kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
-  <string name="ServiceNotConfigured" type="viewer">"DV003: Widget kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003: Widget kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
   <string name="DashboardNotConfigured" type="viewer">"DV004: Dashboard kan niet worden weergegeven omdat het dashboardpad niet is ingesteld."</string>
-  <string name="DashboardNotConfigured" type="viewer">"DV004: Widget kan niet worden weergegeven omdat het dashboardpad niet is ingesteld."</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004: Widget kan niet worden weergegeven omdat het dashboardpad niet is ingesteld."</string>
   <string name="ExportDashboards" type="viewer">"Export Dashboard (en)"</string>
   <string name="ExportImage" type="viewer">"Beelduitvoer"</string>
   <string name="ExportPdf" type="viewer">"PDF exporteren"</string>
   <string name="ExportExcel" type="viewer">"Excel Export"</string>
-  <string name="ExportExcel" type="viewer">"CSV Export"</string>
+  <string name="ExportCsv" type="viewer">"CSV Export"</string>
   <string name="ExportAs" type="viewer">"Exporteren als"</string>
   <string name="Dashboards" type="viewer">"Dashboard (s)"</string>
   <string name="ChooseDashboards" type="viewer">"Kies Dashboards"</string>

@@ -94,14 +94,14 @@
   <string name="ClearFilter" type="viewer">"Effacer le filtre"</string>
   <string name="CultureFileDownloadError" type="viewer">"Impossible de charger la culture "</string>
   <string name="ServiceNotConfigured" type="viewer">"DV003: Le tableau de bord n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
-  <string name="ServiceNotConfigured" type="viewer">"DV003: le Widget n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003: le Widget n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
   <string name="DashboardNotConfigured" type="viewer">"DV004: Le tableau de bord n'a pas pu être rendu car le chemin de tableau de bord n'est pas défini."</string>
-  <string name="DashboardNotConfigured" type="viewer">"DV004: le Widget n'a pas pu être rendu car le chemin de tableau de bord n'est pas défini."</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004: le Widget n'a pas pu être rendu car le chemin de tableau de bord n'est pas défini."</string>
   <string name="ExportDashboards" type="viewer">"Exporter le (s) tableau (s) de bord"</string>
   <string name="ExportImage" type="viewer">"Exporter image"</string>
   <string name="ExportPdf" type="viewer">"Exportation PDF"</string>
   <string name="ExportExcel" type="viewer">"Excel Export"</string>
-  <string name="ExportExcel" type="viewer">"Exporter CSV"</string>
+  <string name="ExportCsv" type="viewer">"Exporter CSV"</string>
   <string name="ExportAs" type="viewer">"Exporter comme"</string>
   <string name="Dashboards" type="viewer">"Tableaux de bord"</string>
   <string name="ChooseDashboards" type="viewer">"Choisissez les tableaux de bord"</string>

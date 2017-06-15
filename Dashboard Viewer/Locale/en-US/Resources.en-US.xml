@@ -94,14 +94,14 @@
   <string name="ClearFilter" type="viewer">Clear Filter</string>
   <string name="CultureFileDownloadError" type="viewer">Unable to load the culture </string>
   <string name="ServiceNotConfigured" type="viewer">DV003:Dashboard could not be rendered since the service URL is not set.</string>
-  <string name="ServiceNotConfigured" type="viewer">DV003:Widget could not be rendered since the service URL is not set.</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">DV003:Widget could not be rendered since the service URL is not set.</string>
   <string name="DashboardNotConfigured" type="viewer">DV004:Dashboard could not be rendered since the dashboard path is not set.</string>
-  <string name="DashboardNotConfigured" type="viewer">DV004:Widget could not be rendered since the dashboard path is not set.</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">DV004:Widget could not be rendered since the dashboard path is not set.</string>
   <string name="ExportDashboards" type="viewer">Export Dashboard(s)</string>
   <string name="ExportImage" type="viewer">Image Export</string>
   <string name="ExportPdf" type="viewer">PDF Export</string>
   <string name="ExportExcel" type="viewer">Excel Export</string>
-  <string name="ExportExcel" type="viewer">CSV Export</string>
+  <string name="ExportCsv" type="viewer">CSV Export</string>
   <string name="ExportAs" type="viewer">Export As</string>
   <string name="Dashboards" type="viewer">Dashboard(s)</string>
   <string name="ChooseDashboards" type="viewer">Choose Dashboards</string>

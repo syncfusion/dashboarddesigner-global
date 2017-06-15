@@ -97,14 +97,14 @@
   <string name="ClearFilter" type="viewer">"Filter löschen"</string>
   <string name="CultureFileDownloadError" type="viewer">"Die Kultur kann nicht geladen werden "</string>
   <string name="ServiceNotConfigured" type="viewer">"DV003: Dashboard konnte nicht gerendert werden, da die Service-URL nicht gesetzt ist."</string>
-  <string name="ServiceNotConfigured" type="viewer">"DV003: Widget konnte nicht gerendert werden, da die Service-URL nicht gesetzt ist."</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003: Widget konnte nicht gerendert werden, da die Service-URL nicht gesetzt ist."</string>
   <string name="DashboardNotConfigured" type="viewer">"DV004: Dashboard konnte nicht gerendert werden, da der Dashboard-Pfad nicht gesetzt ist."</string>
-  <string name="DashboardNotConfigured" type="viewer">"DV004: Widget konnte nicht gerendert werden, da der Dashboard-Pfad nicht gesetzt ist."</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004: Widget konnte nicht gerendert werden, da der Dashboard-Pfad nicht gesetzt ist."</string>
   <string name="ExportDashboards" type="viewer">"Export Armaturenbrett (e)"</string>
   <string name="ExportImage" type="viewer">"Bild exportieren"</string>
   <string name="ExportPdf" type="viewer">"PDF-Export"</string>
   <string name="ExportExcel" type="viewer">"Excel-Export"</string>
-  <string name="ExportExcel" type="viewer">"CSV-Export"</string>
+  <string name="ExportCsv" type="viewer">"CSV-Export"</string>
   <string name="ExportAs" type="viewer">"Exportieren als"</string>
   <string name="Dashboards" type="viewer">"Übersichten"</string>
   <string name="ChooseDashboards" type="viewer">"Wähle Dashboards"</string>
