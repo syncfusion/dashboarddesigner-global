@@ -14,6 +14,109 @@
   <string name="ExpressionVar" type="service">Variation of </string>
   <string name="ExpressionWeightedAverage" type="service">Wgt.Avg. </string>
   <string name="ServerError" type="service">Updated shared data source differs from actual configured data source</string>
+  <string name="RelativeDateItem_Today" type="service">Today</string>
+  <string name="RelativeDateItem_Current" type="service">Current</string>
+  <string name="RelativeDateItem_Yesterday" type="service">Yesterday</string>
+  <string name="RelativeDateItem_Previous" type="service">Previous</string>
+  <string name="RelativeDateItem_Tomorrow" type="service">Tomorrow</string>
+  <string name="RelativeDateItem_Succeeding" type="service">Succeeding</string>
+  <string name="RelativeDateItem_Next" type="service">Next</string>
+  <string name="RelativeDateItem_Last" type="service">Last</string>
+  <string name="RelativeDateItem_Past" type="service">Past</string>
+  <string name="RelativeDateItem_Upcoming" type="service">Upcoming</string>
+  <string name="RelativeDateItem_Custom" type="service">Custom</string>
+  <string name="RelativeDateItem_Year_to_date" type="service">Year to date</string>
+  <string name="RelativeDateItem_Quartertodate" type="service">Quarter to date</string> 
+  <string name="RelativeDateItem_Monthtodate" type="service">Month to date</string>
+  <string name="RelativeDateItem_Weektodate" type="service">Week to date</string>
+  <string name="RelativeDateItem_Days" type="service">Day(s)</string>  
+  <string name="RelativeDateItem_Years" type="service">Year(s)</string>
+  <string name="RelativeDateItem_Quarters" type="service">Quarter(s)</string>
+  <string name="RelativeDateItem_Months" type="service">Month(s)</string>
+  <string name="RelativeDateItem_Week" type="service">Week</string>
+  <string name="RelativeDateItem_Hour" type="service">Hour</string> 
+  <string name="DatePickerCustomText" type="viewer">Custom</string>
+  <string name="ExpressionInvalidFloatData" type="service">Invalid float data may lead to floating point exception.</string>
+  <string name="ExpressionFieldInvalidFloatDataAlertMessage" type="service">Invalid float value leads to error. Value should be between -1 and +1.</string>
+  <string name="HiveThriftBaseErrors" type="service">Unexpected error while fetching table information.</string>
+  <string name="ExpressionEditorFunctionDescriptionAbsolute" type="service">Returns the absolute value of the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionAcos" type="service">Returns the inverse cosine(also known as arccosine) of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionAnd" type="service">Returns true if both the expressions evaluates to true.</string>
+  <string name="ExpressionEditorFunctionDescriptionAscii" type="service">Returns the ASCII code value of the first character in a string</string>
+  <string name="ExpressionEditorFunctionDescriptionAsin" type="service">Returns the inverse sine (also known as arcsine) of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionAtan" type="service">Returns the inverse tangent (also known as arctangent) of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionAverage" type="service">Returns the average of the values in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionChar" type="service">Converts the given integer ASCII code into a character</string>
+  <string name="ExpressionEditorFunctionDescriptionConcat" type="service">Returns a string value resulting from the concatenation of two or more string values.</string>
+  <string name="ExpressionEditorFunctionDescriptionContains" type="service">Returns true if the given string expression contains the specified substring expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionCos" type="service">Returns the cosine of the angle specified in radians, in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionCount" type="service">Returns the number of items in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionCurrentUser" type="service">Returns the current user name.This function uses Dashboard Server user name when the user is signed in, else it returns null </string>
+  <string name="ExpressionEditorFunctionDescriptionDateAdd" type="service">Adds the number of days to the specified date.</string>
+  <string name="ExpressionEditorFunctionDescriptionDateDiff" type="service">Returns a numeric value representing the difference between two specified dates.</string>
+  <string name="ExpressionEditorFunctionDescriptionDateName" type="service">Returns a string representing the specified datepart of the given date expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionDatePart" type="service">Returns an integer value representing the specified datepart of the given date expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionDateSub" type="service">Returns the date subtracted from the specified date.</string>
+  <string name="ExpressionEditorFunctionDescriptionDay" type="service">Returns a numeric value representing the day part of the specified date.</string>
+  <string name="ExpressionEditorFunctionDescriptionDegrees" type="service">Returns the angle in degrees for the one specified in radians, in the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionDescending" type="service">Returns a sort expression based on descending order of the column.</string>
+  <string name="ExpressionEditorFunctionDescriptionDistinctCount" type="service">Returns the distinct number of items in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionDivision" type="service">Returns the quotient part of division operation applied over the two expressions.</string>
+  <string name="ExpressionEditorFunctionDescriptionEndsWith" type="service">Returns true if the given string expression ends with the specified substring expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionExponential" type="service">Returns the exponential value of the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionFirst" type="service">Returns the first value in a group.</string>
+  <string name="ExpressionEditorFunctionDescriptionFullName" type="service">Returns the current user's Full Name .This function uses Dashboard Server user's full name when the user is signed in, else it returns null </string>
+  <string name="ExpressionEditorFunctionDescriptionHour" type="service">Returns the hour of the given date as an integer.</string>
+  <string name="ExpressionEditorFunctionDescriptionIF" type="service">Returns either TruePart or FalsePart, depending on the evaluation of the Expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionIsDate" type="service">Returns true if a given string is a valid date</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNotNull" type="service">If the numeric/string/date_expression is NULL, returns a string representing false, otherwise represents true</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNull" type="service">If the numeric/string/date_expression is NULL, returns a string representing true, otherwise represents false.</string>
+  <string name="ExpressionEditorFunctionDescriptionLag" type="service">Returns the value of an attribute of the next row.</string>
+  <string name="ExpressionEditorFunctionDescriptionLast" type="service">Returns the last value of the column in a group.</string>
+  <string name="ExpressionEditorFunctionDescriptionLead" type="service">Returns the value of an attribute of the previous row.</string>
+  <string name="ExpressionEditorFunctionDescriptionLeft" type="service">Returns the specified number of characters from start of the given string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionLength" type="service">Returns the natural logarithm of the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionLog" type="service">Returns the logarithm of the given expression to the specified base.</string>
+  <string name="ExpressionEditorFunctionDescriptionLower" type="service">Returns a lower case converted string value from a given string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionLTrim" type="service">Returns the string value with any leading blanks removed from string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionMax" type="service">Returns the maximum value in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionMin" type="service">Returns the minimum value in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionMinutes" type="service">Returns a numeric value representing the minute part of the date resulted from specified date expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionMonth" type="service">Returns a numeric value representing the month part of the date resulted from specified date expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionNot" type="service">Returns the reversed logical value of the expression being evaluated.</string>
+  <string name="ExpressionEditorFunctionDescriptionNow" type="service">Returns the current date and time.</string>
+  <string name="ExpressionEditorFunctionDescriptionNowDate" type="service">Returns the current date including the time.</string>
+  <string name="ExpressionEditorFunctionDescriptionNull" type="service">If the expression is numeric/string/date, returns the first expression. If the first expression is NULL, returns the second expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionNullIf" type="service">Returns first expression if the two expressions are not equal.If the expressions are similar then it returns NULL.</string>
+  <string name="ExpressionEditorFunctionDescriptionOr" type="service">Returns true if any of the expressions evaluates to true.</string>
+  <string name="ExpressionEditorFunctionDescriptionPI" type="service">Returns the constant value of PI.</string>
+  <string name="ExpressionEditorFunctionDescriptionPow" type="service">Returns the first argument raised to the power of the second argument.</string>
+  <string name="ExpressionEditorFunctionDescriptionPower" type="service">Returns the value of the given expression (expression1) to the specified power (expression2).</string>
+  <string name="ExpressionEditorFunctionDescriptionRadians" type="service">Returns the angle in radians for the one specified in degrees, in the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionRight" type="service">Returns the specified number of characters from end of the given string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionRound" type="service">Returns a rounded value.</string>
+  <string name="ExpressionEditorFunctionDescriptionRowNumber" type="service">Returns a sequential number starting at 1 within a window partition.</string>
+  <string name="ExpressionEditorFunctionDescriptionRTrim" type="service">Returns the string value with any trailing blanks removed from string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSign" type="service">Returns a value representing the positive (+1), zero (0), or negative (-1) sign of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSin" type="service">Returns the sine of the angle specified in radians, in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSquare" type="service">Returns the square of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSquareRoot" type="service">Returns the square root of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionStandardDeviation" type="service">Returns the standard deviation of values in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionStartsWith" type="service">Returns true if the given string expression starts with the specified substring expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSubstring" type="service">Returns a specific length of string starting from specific index from the given string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSum" type="service">Returns the sum of values in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionSystemDateTime" type="service">Returns the current  sytem date and time.</string>
+  <string name="ExpressionEditorFunctionDescriptionTan" type="service">Returns the tangent of the given numeric expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionToday" type="service">Returns the current date.</string>
+  <string name="ExpressionEditorFunctionDescriptionTodayDate" type="service">Returns the today's date as a timestamp value.</string>
+  <string name="ExpressionEditorFunctionDescriptionTomorrow" type="service">Returns the tomorrow date as a timestamp value.</string>
+  <string name="ExpressionEditorFunctionDescriptionUpper" type="service">Returns a upper case converted string value from a given string expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionVar" type="service">Returns the variance of values in the given expression.</string>
+  <string name="ExpressionEditorFunctionDescriptionWeek" type="service">Returns the number of week of the given date as an integer.</string>
+  <string name="ExpressionEditorFunctionDescriptionYear" type="service">Returns a numeric value representing the year part of the date resulting from the specified date expression.</string>
+  <string name="ExpressionFunctionEmailDescription" type="service">Returns the current user's Email. This function uses Dashboard Server user's Email id when the user is signed in, else it returns null.</string>
+  <string name="CalculatedFieldParameterMissingError" type="service">Parameter type or count mismatched for the function</string>
+  <string name="QuarterText" type="service">Quarter</string>
   <!-- viewer localization text -->
   <string name="NoData" type="viewer">There is no data to be displayed.</string>
   <string name="ErrorOnHigherVersion" type="viewer">DV001:Unable to load the Dashboard since it was created in a higher version of Dashboard Designer(Version:</string>
@@ -77,7 +180,7 @@
   <string name="Refresh" type="viewer">Refresh</string>
   <string name="Error" type="viewer">Error</string>
   <string name="Clipboard" type="viewer">Copy to Clipboard</string>
-  <string name="AuthenticationRequired" type="viewer">Authentication Required</string>
+  <string name="AuthenticationRequired" type="viewer">SQL Authentication Required</string>
   <string name="KnowMore" type="viewer">Know More...</string>
   <string name="UserNamePasswordEmpty" type="viewer">Username / Password cannot be empty</string>
   <string name="EncryptError" type="viewer">Dashboard service returned an invalid key. Please try again. If the issue persists please contact administrator</string>
@@ -89,6 +192,8 @@
   <string name="Confirm" type="viewer">Confirmation</string>
   <string name="ClearMasterFilter" type="viewer">Clear Master Filter</string>
   <string name="Comment" type="viewer">Comment</string>
+  <string name="LinkingEnabled" type="viewer">This widget navigates to a URL or to another dashboard.t</string>
+  <string name="DrillThrough" type="viewer">This widget is configured to drill into more than one level</string>
   <string name="Pin" type="viewer">Pin</string>
   <string name="DeleteConfirmText" type="viewer">Are you sure you want to delete this view?</string>
   <string name="ClearFilter" type="viewer">Clear Filter</string>
@@ -113,6 +218,21 @@
   <string name="CSV" type="viewer">CSV</string>
   <string name="ExportBtn" type="viewer">EXPORT</string>  
   <string name="All" type="viewer">All</string>    
+  <string name="Success" type="viewer">Success</string>
+  <string name="Failure" type="viewer">Failure</string>
+  <string name="Minutes" type="viewer">* Minute(s)</string>  
+  <string name="Hours" type="viewer">* Hour(s)</string>  
+  <string name="Days" type="viewer">* Day(s)</string>
+  <string name="Weeks" type="viewer">* Week(s)</string>  
+  <string name="Months" type="viewer">* Month(s)</string>  
+  <string name="Years" type="viewer">* Year(s)</string>
+  <string name="MoreOptions" type="viewer">More Options</string>
+  <string name="GetLink" type="viewer">Get Link</string>
+  <string name="GetLinkContent" type="viewer">This link holds the current view data along with the filters.</string>
+  <string name="Apply" type="viewer">Apply</string>
+  <string name="DashboardParameters" type="viewer">Parameters</string>
+  <string name="ResetParameters" type="viewer">Reset Parameters</string>
+  <string name="ResetAll" type="viewer">RESET ALL</string>
   <!-- viewer error messages -->
   <string name="ErrorAccessDenied" type="viewer">DV005:Access to the service is denied to the current user.</string>
   <string name="ErrorControlException" type="viewer">Data Retrieval Error.</string>
@@ -131,4 +251,6 @@
   <string name="ErrorSqlTimeout" type="viewer">An attempt to retrieve data from server failed due to time expiration.</string>
   <string name="ErrorWcfBinding" type="viewer">The CorsSupport behavior can only be used in WebHttpBinding endpoints.</string>
   <string name="ErrorOutOfMemory" type="viewer">DV011:The exported image File could not be downloaded due to large file size.</string>
+  <string name="ErrorInMultiDbrdExport" type="viewer">The given dashboard name was not found.</string>
+  <string name="ErrorInMultipleWidgetExport" type="viewer">The given widget name was not found in the active dashboard.</string>
 </resources>
