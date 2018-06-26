@@ -1,103 +1,269 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- service localization text -->
-    <string name="CardActualText" type="service">"valeur"</string>
-    <string name="CardTargetText" type="service">"Objectif"</string>
-    <string name="ExpressionAggregationText" type="service">"Agg de "</string>
-    <string name="ExpressionAverage" type="service">"207 \"Moy\" "</string>
-    <string name="ExpressionCount" type="service">"Compte de "</string>
-    <string name="ExpressionDCount" type="service">"Count Distinct de "</string>
-    <string name="ExpressionMax" type="service">"Max de "</string>
-    <string name="ExpressionMin" type="service">"Min "</string>
-    <string name="ExpressionStandardDeviation" type="service">"Std.dev. de "</string>
-    <string name="ExpressionSum" type="service">"Somme de "</string>
-    <string name="ExpressionVar" type="service">"variation de "</string>
-    <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
-    <string name="Errorcontrolexception" type="service">"erreur de récupération de données"</string>    
-    <!-- viewer localization text -->
-    <string name="NoData" type="viewer">"Il n'y a pas de données à afficher."</string>
-    <string name="ErrorOnHigherVersion" type="viewer">"Impossible de charger le tableau de bord depuis qu'il a été créé dans une version supérieure de Dashboard Designer (Version:"</string>
-    <string name="NoWidgetConfigured" type="viewer">"Aucun Widgets à Aperçu"</string>
-    <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
-    <string name="ExportToCSV" type="viewer">"Exporter vers CSV"</string>
-    <string name="ExportToPdf" type="viewer">"Exporter au format PDF"</string>
-    <string name="ExportToExcel" type="viewer">"Exporter vers Excel"</string>
-    <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003 (* .xls)"</string>
-    <string name="ExportToExcel2013" type="viewer">"Excel (* .xlsx)"</string>
-    <string name="Maximize" type="viewer">"Maximiser"</string>
-    <string name="UpdateDashboard" type="viewer">"Mise à jour du tableau de bord"</string>
-    <string name="ExportToImage" type="viewer">"Exporter vers une image"</string>
-    <string name="Format" type="viewer">"Format"</string>
-    <string name="FileType" type="viewer">"Type de Fichier"</string>
-    <string name="Resolution" type="viewer">"147 \"&amp;Résolution (ppp)\""</string>
-    <string name="Export" type="viewer">"Exporter"</string>
-    <string name="Reset" type="viewer">"Rescommencé"</string>
-    <string name="Cancel" type="viewer">"Annuler"</string>
-    <string name="Title" type="viewer">"Titre"</string>
-    <string name="ExportTitle" type="viewer">"Tableau de bord / Widget Titre"</string>
-    <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
-    <string name="Png" type="viewer">"PNG (* .png)"</string>
-    <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
-    <string name="FileNameError" type="viewer">"Nom de fichier invalide"</string>   
-    <string name="Letter" type="viewer">"Lettre"</string>
-    <string name="PageSize" type="viewer">"Format Papier"</string>
-    <string name="Orientation" type="viewer">"Orientation"</string>
-    <string name="Portrait" type="viewer">"Portrait"</string>
-    <string name="Landscape" type="viewer">"Paysage"</string>
-    <string name="ExportToPdfWaitingText" type="viewer">"Exportation au format PDF ..."</string>
-    <string name="ExportToImageWaitingText" type="viewer">"Exportation à l'image ..."</string>
-    <string name="ExportToCSVWaitingText" type="viewer">"Exportation vers CSV ..."</string>
-    <string name="ExportToExcelWaitingText" type="viewer">"Exportation vers Excel ..."</string>
-    <string name="Description" type="viewer">"La description"</string>
-    <string name="DefaultFileName" type="service">"Tableau De Bord"</string>
-    <string name="ResolutionLow" type="viewer">"La résolution doit être supérieure ou égale à 96 DPI."</string>
-    <string name="ResolutionAlert" type="viewer">"La résolution préférée est comprise entre 96 et 300 DPI. Résolution supérieure à celle conduit à sortir d'exception de mémoire si votre système ne dispose pas de suffisamment de mémoire."</string>
-    <string name="WidgetNotConfigured" type="viewer">"Ce widget n'a pas été configuré."</string>
-    <string name="DashboardServerTimedOut" type="viewer">"Le service Dashboard n'a pas pu être contacté. Il peut y avoir un petit problème temporaire ou le serveur peut être en panne."</string>
-    <string name="AuthenticationFailure" type="viewer">"Vous avez besoin d'une autorisation pour voir ce tableau de bord."</string>
-    <string name="SessionExpired" type="viewer">"Votre session a expiré."</string>
-    <string name="DashboardServerFail" type="viewer">"Le service Dashboard n'a pas pu être contacté. Il peut y avoir un petit problème temporaire ou le serveur peut être en panne."</string>
-    <string name="ExcelError" type="viewer">"Le fichier Excel dans le serveur est pas celui qui est utilisé pour la conception de ce tableau de bord, Veuillez contacter l'administrateur, ou republier le tableau de bord."</string>
-    <string name="FixIssues" type="viewer">"S'il vous plaît corriger les erreurs ci-dessous ..."</string>
-    <string name="InvalidCredentials" type="viewer">"Identifiants invalides"</string>
-    <string name="UserName" type="viewer">"Nom d'utilisateur"</string>
-    <string name="Password" type="viewer">"Mot de passe"</string>
-    <string name="Open" type="viewer">"Ouvrir"</string>
-    <string name="Ok" type="viewer">"OK
-"</string>
-    <string name="Refresh" type="viewer">"Rafraîchir"</string>
-    <string name="Error" type="viewer">"Erreur"</string>
-    <string name="Clipboard" type="viewer">"Copier sur Presse-papiers"</string>
-    <string name="AuthenticationRequired" type="viewer">"Authentification requise
-"</string>
-    <string name="KnowMore" type="viewer">"En savoir plus"</string>
-    <string name="UserNamePasswordEmpty" type="viewer">"Nom d'utilisateur / mot de passe ne peut pas être vide"</string>
-    <string name="EncryptError" type="viewer">"Service Dashboard a retourné une clé non valide. Veuillez réessayer. Si le problème persiste administrateur de contact s'il vous plaît"</string>
-    <string name="ViewData" type="viewer">"Voir les données"</string>
-    <string name="Close" type="viewer">"Fermer"</string>
-    <string name="DashboardDescription" type="viewer">"Tableau de bord description de"</string>
-    <string name="Yes" type="viewer">"Oui"</string>
-    <string name="No" type="viewer">"Non"</string>
-    <string name="Confirm" type="viewer">"Confirmation"</string>
-    <string name="ClearMasterFilter" type="viewer">"Clear Filter Master"</string>
-    <string name="Comment" type="viewer">"Commenter"</string>
-    <string name="Pin" type="viewer">"Épingle"</string>
-    <string name="DeleteConfirmText" type="viewer">"Voulez-vous vraiment supprimer cette annonce ?"</string>
-    <string name="ClearFilter" type="viewer">"Effacer le filtre"</string>	 
-    <string name="CultureFileDownloadError" type="viewer">"Impossible de charger la culture "</string>
-    <string name="ServiceNotConfigured" type="viewer">"Tableau de bord ne pouvait pas être rendue depuis l'URL du service est pas défini."</string>
-    <string name="DashboardNotConfigured" type="viewer">"Tableau de bord n'a pas pu être rendu depuis le chemin du tableau de bord est pas défini."</string>
-	<!-- viewer error messages -->
-	<string name="ErrorAccessDenied" type="viewer">"L'accès au service est refusé à l'utilisateur actuel."</string>
-    <string name="ErrorControlException" type="viewer">"erreur de récupération de données."</string>
-    <string name="ErrorControlNotConfigured" type="viewer">"Les données reçues au service a été altéré. Veuillez réessayer plus tard."</string>
-    <string name="ErrorCrypto" type="viewer">"Les données reçues au service a été altéré. Veuillez réessayer plus tard."</string>
-    <string name="ErrorDashboardNotFound" type="viewer">"Le fichier de tableau de bord demandé n'a pas été trouvé. Il peut être soit déplacé ou renommé."</string>
-    <string name="ErrorFileNotFound" type="viewer">"Le fichier ou l'assembly demandé n'a pas été trouvé. Il peut être soit déplacé ou renommé."</string>
-    <string name="ErrorGeneral" type="viewer">"Tableau de bord ne peut être considérée en raison d'une erreur."</string>
-    <string name="ErrorInvalidFile" type="viewer">"Le fichier chargé est pas un fichier de tableau de bord en cours de validité"</string>
-    <string name="ErrorServerError" type="viewer">"Le tableau de bord ne pouvait pas être considérée puisque nous étions incapables de valider l'autorisation de l'utilisateur courant."</string>
-    <string name="ErrorSqlHostNotFound" type="viewer">"Le serveur SQL n'a pas pu être contacté. faire S'il vous plaît vérifier que le serveur est accessible."</string>
-    <string name="ErrorSqlTimeout" type="viewer">"Une tentative pour récupérer des données à partir du serveur a échoué en raison de l'expiration du temps."</string>
-    <string name="ErrorWcfBinding" type="viewer">"Le comportement CorsSupport ne peut être utilisé dans les points de terminaison WebHttpBinding."</string>
-    <string name="ErrorOutOfMemory" type="viewer">"L'image fichier exporté ne pouvait pas être downloded en raison de la grande taille de fichier."</string>
-  </resources>
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"valeur"</string>
+  <string name="CardTargetText" type="service">"Objectif"</string>
+  <string name="ExpressionAggregationText" type="service">"Agg de "</string>
+  <string name="ExpressionAverage" type="service">"Avg. "</string>
+  <string name="ExpressionCount" type="service">"Compte de "</string>
+  <string name="ExpressionDCount" type="service">"Comte distinct de "</string>
+  <string name="ExpressionMax" type="service">"Max de "</string>
+  <string name="ExpressionMin" type="service">"Min de "</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev. de "</string>
+  <string name="ExpressionSum" type="service">"Somme de "</string>
+  <string name="ExpressionVar" type="service">"Variation de "</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+  <string name="ServerError" type="service">"La source de données partagée mise à jour diffère de la source de données configurée réelle"</string>
+  <string name="RelativeDateItem_Today" type="service">"Aujourd'hui"</string>
+  <string name="RelativeDateItem_Current" type="service">"Actuel"</string>
+  <string name="RelativeDateItem_Yesterday" type="service">"Hier"</string>
+  <string name="RelativeDateItem_Previous" type="service">"précédent"</string>
+  <string name="RelativeDateItem_Tomorrow" type="service">"Demain"</string>
+  <string name="RelativeDateItem_Succeeding" type="service">"Réussir"</string>
+  <string name="RelativeDateItem_Next" type="service">"Prochain"</string>
+  <string name="RelativeDateItem_Last" type="service">"Dernier"</string>
+  <string name="RelativeDateItem_Past" type="service">"Passé"</string>
+  <string name="RelativeDateItem_Upcoming" type="service">"Prochain"</string>
+  <string name="RelativeDateItem_Custom" type="service">"Douane"</string>
+  <string name="RelativeDateItem_Year_to_date" type="service">"Année à ce jour"</string>
+  <string name="RelativeDateItem_Quartertodate" type="service">"Trimestre à ce jour"</string> 
+  <string name="RelativeDateItem_Monthtodate" type="service">"Le mois courant"</string>
+  <string name="RelativeDateItem_Weektodate" type="service">"Semaine à jour"</string>
+  <string name="RelativeDateItem_Days" type="service">"Journées)"</string>  
+  <string name="RelativeDateItem_Years" type="service">"Années)"</string>
+  <string name="RelativeDateItem_Quarters" type="service">"Trimestre (s)"</string>
+  <string name="RelativeDateItem_Months" type="service">"Mois)"</string>
+  <string name="RelativeDateItem_Week" type="service">"La semaine"</string>
+  <string name="RelativeDateItem_Hour" type="service">"Heure"</string> 
+  <string name="DatePickerCustomText" type="viewer">"Douane"</string>
+  <string name="ExpressionInvalidFloatData" type="service">"Les données flottantes non valides peuvent entraîner une exception à virgule flottante."</string>
+  <string name="ExpressionFieldInvalidFloatDataAlertMessage" type="service">"La valeur flottante incorrecte entraîne une erreur. La valeur doit être comprise entre -1 et +1."</string>
+  <string name="HiveThriftBaseErrors" type="service">"Erreur inattendue lors de la récupération des informations de la table."</string>
+  <string name="ExpressionEditorFunctionDescriptionAbsolute" type="service">"Renvoie la valeur absolue de l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionAcos" type="service">"Renvoie le cosinus inverse (également appelé arccosine) de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionAnd" type="service">"Renvoie true si les deux expressions sont vraies."</string>
+  <string name="ExpressionEditorFunctionDescriptionAscii" type="service">"Renvoie la valeur de code ASCII du premier caractère d'une chaîne"</string>
+  <string name="ExpressionEditorFunctionDescriptionAsin" type="service">"Renvoie le sinus inverse (également appelé arcsine) de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionAtan" type="service">"Renvoie la tangente inverse (également appelée arctangente) de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionAverage" type="service">"Renvoie la moyenne des valeurs dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionChar" type="service">"Convertit le code ASCII entier donné en caractère"</string>
+  <string name="ExpressionEditorFunctionDescriptionConcat" type="service">"Renvoie une valeur de chaîne résultant de la concaténation de plusieurs valeurs de chaîne."</string>
+  <string name="ExpressionEditorFunctionDescriptionContains" type="service">"Renvoie true si l'expression de chaîne donnée contient l'expression de sous-chaîne spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionCos" type="service">"Renvoie le cosinus de l'angle spécifié en radians dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionCount" type="service">"Renvoie le nombre d'éléments dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionCurrentUser" type="service">"Renvoie le nom d'utilisateur actuel. Cette fonction utilise le nom d'utilisateur Dashboard Server lorsque l'utilisateur est connecté, sinon elle renvoie null "</string>
+  <string name="ExpressionEditorFunctionDescriptionDateAdd" type="service">"Ajoute le nombre de jours à la date spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateDiff" type="service">"Renvoie une valeur numérique représentant la différence entre deux dates spécifiées."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateName" type="service">"Renvoie une chaîne représentant la datepart spécifiée de l'expression de date donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDatePart" type="service">"Renvoie une valeur entière représentant la datepart spécifiée de l'expression de date donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateSub" type="service">"Renvoie la date soustraite de la date spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDay" type="service">"Renvoie une valeur numérique représentant la partie jour de la date spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDegrees" type="service">"Renvoie l'angle en degrés de celui spécifié en radians dans l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDescending" type="service">"Renvoie une expression de tri en fonction de l'ordre décroissant de la colonne."</string>
+  <string name="ExpressionEditorFunctionDescriptionDistinctCount" type="service">"Renvoie le nombre distinct d'éléments dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionDivision" type="service">"Renvoie la partie quotient de l'opération de division appliquée sur les deux expressions."</string>
+  <string name="ExpressionEditorFunctionDescriptionEndsWith" type="service">"Renvoie true si l'expression de chaîne donnée se termine par l'expression de sous-chaîne spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionExponential" type="service">"Renvoie la valeur exponentielle de l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionFirst" type="service">"Renvoie la première valeur d'un groupe."</string>
+  <string name="ExpressionEditorFunctionDescriptionFullName" type="service">"Renvoie le nom complet de l'utilisateur actuel. Cette fonction utilise le nom complet de l'utilisateur de Dashboard Server lorsque l'utilisateur est connecté, sinon il renvoie null "</string>
+  <string name="ExpressionEditorFunctionDescriptionHour" type="service">"Renvoie l'heure de la date donnée sous forme d'entier."</string>
+  <string name="ExpressionEditorFunctionDescriptionIF" type="service">"Renvoie TruePart ou FalsePart, selon l'évaluation de l'expression."</string>
+  <string name="ExpressionEditorFunctionDescriptionIsDate" type="service">"Renvoie true si une chaîne donnée est une date valide"</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNotNull" type="service">"Si la valeur numeric / string / date_expression est NULL, renvoie une chaîne représentant false, sinon représente true"</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNull" type="service">"Si la valeur numeric / string / date_expression est NULL, renvoie une chaîne représentant true, sinon représente false."</string>
+  <string name="ExpressionEditorFunctionDescriptionLag" type="service">"Renvoie la valeur d'un attribut de la ligne suivante."</string>
+  <string name="ExpressionEditorFunctionDescriptionLast" type="service">"Renvoie la dernière valeur de la colonne dans un groupe."</string>
+  <string name="ExpressionEditorFunctionDescriptionLead" type="service">"Renvoie la valeur d'un attribut de la ligne précédente."</string>
+  <string name="ExpressionEditorFunctionDescriptionLeft" type="service">"Renvoie le nombre de caractères spécifié à partir du début de l'expression de chaîne donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionLength" type="service">"Renvoie le logarithme naturel de l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionLog" type="service">"Renvoie le logarithme de l'expression donnée à la base spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionLower" type="service">"Renvoie une valeur de chaîne convertie en minuscule à partir d'une expression de chaîne donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionLTrim" type="service">"Renvoie la valeur de la chaîne avec les blancs principaux supprimés de l'expression de chaîne."</string>
+  <string name="ExpressionEditorFunctionDescriptionMax" type="service">"Renvoie la valeur maximale dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionMin" type="service">"Renvoie la valeur minimale dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionMinutes" type="service">"Renvoie une valeur numérique représentant la partie minute de la date résultant de l'expression de date spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionMonth" type="service">"Renvoie une valeur numérique représentant la partie mois de la date résultant de l'expression de date spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionNot" type="service">"Renvoie la valeur logique inversée de l'expression en cours d'évaluation."</string>
+  <string name="ExpressionEditorFunctionDescriptionNow" type="service">"Renvoie la date et l'heure actuelles."</string>
+  <string name="ExpressionEditorFunctionDescriptionNowDate" type="service">"Renvoie la date actuelle, y compris l'heure."</string>
+  <string name="ExpressionEditorFunctionDescriptionNull" type="service">"Si l'expression est numérique / chaîne / date, renvoie la première expression. Si la première expression est NULL, renvoie la deuxième expression."</string>
+  <string name="ExpressionEditorFunctionDescriptionNullIf" type="service">"Renvoie la première expression si les deux expressions ne sont pas égales. Si les expressions sont similaires, elle renvoie NULL."</string>
+  <string name="ExpressionEditorFunctionDescriptionOr" type="service">"Renvoie true si l'une des expressions est évaluée à true."</string>
+  <string name="ExpressionEditorFunctionDescriptionPI" type="service">"Renvoie la valeur constante de PI."</string>
+  <string name="ExpressionEditorFunctionDescriptionPow" type="service">"Renvoie le premier argument élevé à la puissance du second argument."</string>
+  <string name="ExpressionEditorFunctionDescriptionPower" type="service">"Renvoie la valeur de l'expression donnée (expression1) à la puissance spécifiée (expression2)."</string>
+  <string name="ExpressionEditorFunctionDescriptionRadians" type="service">"Renvoie l'angle en radians pour celui spécifié en degrés, dans l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionRight" type="service">"Renvoie le nombre de caractères spécifié à partir de la fin de l'expression de chaîne donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionRound" type="service">"Renvoie une valeur arrondie."</string>
+  <string name="ExpressionEditorFunctionDescriptionRowNumber" type="service">"Renvoie un numéro séquentiel commençant à 1 dans une partition de fenêtre."</string>
+  <string name="ExpressionEditorFunctionDescriptionRTrim" type="service">"Renvoie la valeur de chaîne avec les espaces de fin supprimés de l'expression de chaîne."</string>
+  <string name="ExpressionEditorFunctionDescriptionSign" type="service">"Renvoie une valeur représentant le signe positif (+1), zéro (0) ou négatif (-1) de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionSin" type="service">"Renvoie le sinus de l'angle spécifié en radians dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionSquare" type="service">"Renvoie le carré de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionSquareRoot" type="service">"Renvoie la racine carrée de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionStandardDeviation" type="service">"Renvoie l'écart-type des valeurs dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionStartsWith" type="service">"Renvoie true si l'expression de chaîne donnée commence par l'expression de sous-chaîne spécifiée."</string>
+  <string name="ExpressionEditorFunctionDescriptionSubstring" type="service">"Renvoie une longueur de chaîne spécifique à partir de l'index spécifique de l'expression de chaîne donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionSum" type="service">"Renvoie la somme des valeurs dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionSystemDateTime" type="service">"Renvoie la date et l'heure du système actuel."</string>
+  <string name="ExpressionEditorFunctionDescriptionTan" type="service">"Renvoie la tangente de l'expression numérique donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionToday" type="service">"Renvoie la date actuelle"</string>
+  <string name="ExpressionEditorFunctionDescriptionTodayDate" type="service">"Renvoie la date du jour en tant que valeur d'horodatage."</string>
+  <string name="ExpressionEditorFunctionDescriptionTomorrow" type="service">"Renvoie la date de demain en tant que valeur d'horodatage."</string>
+  <string name="ExpressionEditorFunctionDescriptionUpper" type="service">"Renvoie une valeur de chaîne convertie majuscule à partir d'une expression de chaîne donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionVar" type="service">"Renvoie la variance des valeurs dans l'expression donnée."</string>
+  <string name="ExpressionEditorFunctionDescriptionWeek" type="service">"Renvoie le nombre de semaines de la date donnée sous forme d'entier."</string>
+  <string name="ExpressionEditorFunctionDescriptionYear" type="service">"Renvoie une valeur numérique représentant la partie année de la date résultant de l'expression de date spécifiée."</string>
+  <string name="ExpressionFunctionEmailDescription" type="service">"Renvoie l'adresse e-mail de l'utilisateur actuel Cette fonction utilise l'ID Email de l'utilisateur de Dashboard Server lorsque l'utilisateur est connecté, sinon elle renvoie null."</string>
+  <string name="CalculatedFieldParameterMissingError" type="service">"Type de paramètre ou nombre non concordant pour la fonction"</string>
+  <string name="QuarterText" type="service">"Trimestre"</string>
+  <string name="Widget_Related_Exceptions" type="service">"Un problème est survenu lors du formatage ou de la personnalisation des données de ce widget. Ce problème peut s'être produit si ce type de données n'est pas géré au niveau du widget."</string>
+  <string name="DataSource_Related_Exceptions" type="service">"Un problème est survenu lors de l'extraction des données pour ce widget. Ce problème peut s'être produit en raison d'un problème avec la formation de la requête ou l'accessibilité de la source de données (par exemple, les informations d'identification ou l'autorisation d'accès) ou parce qu'un argument non valide a été transmis en entrée."</string>
+  <string name="All" type="service">"Tout"</string>
+  <string name="SelectAll" type="service">"(Tout sélectionner)"</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"Il n'y a pas de données à afficher."</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001: Impossible de charger le tableau de bord depuis sa création dans une version supérieure de Dashboard Designer (Version:"</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001: Impossible de charger le widget depuis qu'il a été créé dans une version supérieure de Dashboard Designer (Version:"</string>
+  <string name="NoWidgetConfigured" type="viewer">"Aucun Widgets à prévisualiser"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ..."</string>
+  <string name="ExportToExcel" type="viewer">"Exceller..."</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Classeur Excel 97-2003 (* .xls)"</string>
+  <string name="ExportToExcel2013" type="viewer">"Classeur Excel (* .xlsx)"</string>
+  <string name="Maximize" type="viewer">"Maximiser"</string>
+  <string name="UpdateDashboard" type="viewer">"Mettre à jour le tableau de bord"</string>
+  <string name="ExportToImage" type="viewer">"Image..."</string>
+  <string name="MaximizeControl" type="viewer">"Maximiser..."</string>
+  <string name="TextMore" type="viewer">"Plus"</string>
+  <string name="TextLess" type="viewer">"Moins"</string>
+  <string name="SavedFilters" type="viewer">"AFFICHER LES FILTRES ENREGISTRÉS"</string> 
+  <string name="UnSavedView" type="viewer">"Vue non sauvegardée"</string>
+  <string name="Reload" type="viewer">"Recharger"</string>
+  <string name="Save" type="viewer">"sauvegarder"</string>
+  <string name="SaveAs" type="viewer">"Enregistrer sous"</string>
+  <string name="Information" type="viewer">"Information"</string>
+  <string name="Format" type="viewer">"Format"</string>
+  <string name="FileType" type="viewer">"Type de fichier"</string>
+  <string name="Resolution" type="viewer">"Résolution (dpi)"</string>
+  <string name="Export" type="viewer">"Exportation"</string>
+  <string name="Reset" type="viewer">"Réinitialiser"</string>
+  <string name="Cancel" type="viewer">"Annuler"</string>
+  <string name="Title" type="viewer">"Titre"</string>
+  <string name="ExportTitle" type="viewer">"Titre du tableau de bord / widget"</string>
+  <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+  <string name="Png" type="viewer">"PNG (* .png)"</string>
+  <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+  <string name="FileNameError" type="viewer">"Nom de fichier non valide"</string>
+  <string name="Letter" type="viewer">"Lettre"</string>
+  <string name="PageSize" type="viewer">"Taille de la page"</string>
+  <string name="Orientation" type="viewer">"Orientation"</string>
+  <string name="Portrait" type="viewer">"Portrait"</string>
+  <string name="Landscape" type="viewer">"Paysage"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"Exportation en PDF ..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"Exportation vers l'image ..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"Exportation au format CSV ..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Exportation vers Excel ..."</string>
+  <string name="Description" type="viewer">"La description"</string>
+  <string name="DefaultFileName" type="service">"Tableau de bord"</string>
+  <string name="ResolutionLow" type="viewer">"La résolution doit être supérieure ou égale à 96 DPI."</string>
+  <string name="ResolutionAlert" type="viewer">"La résolution préférée est comprise entre 96 et 300 DPI. Une résolution supérieure entraîne une exception de mémoire insuffisante si la mémoire de votre système est insuffisante."</string>
+  <string name="WidgetNotConfigured" type="viewer">"Ce widget n'a pas été configuré."</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002: Le service Dashboard n'a pas pu être contacté. Il peut y avoir un problème temporaire ou le serveur est peut-être en panne."</string>
+  <string name="AuthenticationFailure" type="viewer">"Vous avez besoin d'une autorisation pour afficher ce tableau de bord."</string>
+  <string name="SessionExpired" type="viewer">"Votre session a expiré"</string>
+  <string name="DashboardServerFail" type="viewer">"DV002: Le service Dashboard n'a pas pu être contacté. Il peut y avoir un problème temporaire ou le serveur est peut-être en panne."</string>
+  <string name="ExcelError" type="viewer">"Le fichier Excel du serveur n'est pas celui qui est utilisé pour la conception de ce tableau de bord. Veuillez contacter l'administrateur ou republier le tableau de bord."</string>
+  <string name="FixIssues" type="viewer">"Veuillez corriger les erreurs ci-dessous ..."</string>
+  <string name="InvalidCredentials" type="viewer">"Les informations d'identification invalides"</string>
+  <string name="UserName" type="viewer">"Nom d'utilisateur"</string>
+  <string name="Password" type="viewer">"Mot de passe"</string>
+  <string name="Open" type="viewer">"Ouvrir"</string>
+  <string name="Ok" type="viewer">"D'accord"</string>
+  <string name="Refresh" type="viewer">"Rafraîchir"</string>
+  <string name="Error" type="viewer">"Erreur"</string>
+  <string name="Clipboard" type="viewer">"Copier dans le presse-papier"</string>
+  <string name="AuthenticationRequired" type="viewer">"Authentification SQL requise"</string>
+  <string name="KnowMore" type="viewer">"Savoir plus..."</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"Nom d'utilisateur / mot de passe ne peut pas être vide"</string>
+  <string name="EncryptError" type="viewer">"Le service de tableau de bord a renvoyé une clé non valide. Veuillez réessayer. Si le problème persiste, contactez l'administrateur"</string>
+  <string name="ViewData" type="viewer">"Afficher les données"</string>
+  <string name="Close" type="viewer">"Fermer"</string>
+  <string name="DashboardDescription" type="viewer">"Description du tableau de bord"</string>
+  <string name="Yes" type="viewer">"Oui"</string>
+  <string name="No" type="viewer">"Non"</string>
+  <string name="Confirm" type="viewer">"Confirmation"</string>
+  <string name="ClearMasterFilter" type="viewer">"Effacer le filtre principal"</string>
+  <string name="Comment" type="viewer">"Commentaire"</string>
+  <string name="LinkingEnabled" type="viewer">"Ce widget navigue vers une URL ou vers un autre tableau de bord.t"</string>
+  <string name="DrillThrough" type="viewer">"Ce widget est configuré pour forer dans plus d'un niveau"</string>
+  <string name="Pin" type="viewer">"Épingle"</string>
+  <string name="DeleteConfirmText" type="viewer">"Êtes-vous sûr de vouloir supprimer cette vue?"</string>
+  <string name="ClearFilter" type="viewer">"Effacer le filtre"</string>
+  <string name="CultureFileDownloadError" type="viewer">"Impossible de charger la culture "</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003: Le tableau de bord n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003: Widget n'a pas pu être rendu car l'URL du service n'est pas définie."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004: Le tableau de bord n'a pas pu être rendu car le chemin du tableau de bord n'est pas défini."</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004: Le widget n'a pas pu être rendu car le chemin du tableau de bord n'est pas défini."</string>
+  <string name="ExportDashboards" type="viewer">"Tableau de bord d'exportation"</string>
+  <string name="ExportImage" type="viewer">"Exportation d'image"</string>
+  <string name="ExportPdf" type="viewer">"Export PDF"</string>
+  <string name="ExportExcel" type="viewer">"Export Excel"</string>
+  <string name="ExportCsv" type="viewer">"CSV Export"</string>
+  <string name="ExportAs" type="viewer">"Exporter sous"</string>
+  <string name="Dashboards" type="viewer">"Tableau (s) de bord"</string>
+  <string name="ChooseDashboards" type="viewer">"Choisissez des tableaux de bord"</string>
+  <string name="ChooseWidgets" type="viewer">"Choisir des widgets"</string>
+  <string name="Widget" type="viewer">"Widget (s)"</string>
+  <string name="Image" type="viewer">"Image"</string>
+  <string name="Pdf" type="viewer">"Pdf"</string>
+  <string name="Excel" type="viewer">"Exceller"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"EXPORTATION"</string>  
+  <string name="All" type="viewer">"Tout"</string>    
+  <string name="Success" type="viewer">"Succès"</string>
+  <string name="Failure" type="viewer">"Échec"</string>
+  <string name="Minutes" type="viewer">"* Minutes)"</string>  
+  <string name="Hours" type="viewer">"* Heures)"</string>  
+  <string name="Days" type="viewer">"* Journées)"</string>
+  <string name="Weeks" type="viewer">"* Semaines)"</string>  
+  <string name="Months" type="viewer">"* Mois)"</string>  
+  <string name="Years" type="viewer">"* Années)"</string>
+  <string name="MoreOptions" type="viewer">"Plus d'options"</string>
+  <string name="GetLink" type="viewer">"Obtenir le lien"</string>
+  <string name="GetLinkContent" type="viewer">"Ce lien contient les données de vue en cours avec les filtres."</string>
+  <string name="Apply" type="viewer">"Appliquer"</string>
+  <string name="DashboardParameters" type="viewer">"Paramètres"</string>
+  <string name="ResetParameters" type="viewer">"Réinitialiser les paramètres"</string>
+  <string name="ResetAll" type="viewer">"EFFACER TOUT"</string>
+  <string name="ShowDetails" type="viewer">"Afficher les détails"</string>
+  <string name="HideDetails" type="viewer">"Cacher les détails"</string>
+  <string name="DataRetrievalError" type="viewer">"Erreur de récupération de données"</string>
+  <string name="Filter" type="viewer">"Appliquer le filtre"</string>
+  <string name="DrillDown" type="viewer">"Percer"</string>
+  <string name="Linking" type="viewer">"Ouvrir le lien"</string>
+  <string name="CopyError" type="viewer">"Message d'erreur:"</string>
+  <string name="Stacktrace" type="viewer">"Trace de la pile:"</string>
+   <string name="FilterOverview" type="viewer">"Aperçu des filtres"</string>
+   <string name="ExportControl" type="viewer">"Widget d'exportation"</string>
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005: L'accès au service est refusé à l'utilisateur actuel."</string>
+  <string name="ErrorControlException" type="viewer">"Erreur de récupération de données."</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"Les données reçues au service ont été altérées. Veuillez réessayer plus tard."</string>
+  <string name="ErrorCrypto" type="viewer">"Les données reçues au service ont été altérées. Veuillez réessayer plus tard."</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006: Le fichier de tableau de bord demandé n'a pas été trouvé. Il peut être déplacé ou renommé."</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006: Le fichier de widget demandé n'a pas été trouvé. Il peut être déplacé ou renommé."</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007: Le fichier ou l'assembly demandé n'a pas été trouvé. Il peut être déplacé ou renommé."</string>
+  <string name="ErrorGeneral" type="viewer">"DV008: Le tableau de bord n'a pas pu être affiché en raison d'une erreur."</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008: Impossible d'afficher le widget en raison d'une erreur."</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009: Le fichier chargé n'est pas un fichier de tableau de bord valide"</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009: Le fichier chargé n'est pas un fichier de widget valide"</string>
+  <string name="ErrorServerError" type="viewer">"DV010: Le tableau de bord n'a pas pu être affiché car nous n'avons pas pu valider l'autorisation de l'utilisateur actuel."</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010: Le widget n'a pas pu être vu car nous n'avons pas pu valider l'autorisation de l'utilisateur actuel."</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"Le serveur SQL n'a pas pu être contacté. Assurez-vous que le serveur est accessible."</string>
+  <string name="ErrorSqlTimeout" type="viewer">"Une tentative de récupération des données du serveur a échoué en raison de l'expiration du délai."</string>
+  <string name="ErrorWcfBinding" type="viewer">"Le comportement CorsSupport peut uniquement être utilisé dans les points de terminaison WebHttpBinding."</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011: Le fichier image exporté n'a pas pu être téléchargé en raison de la taille importante du fichier."</string>
+  <string name="ErrorInMultiDbrdExport" type="viewer">"Le nom de tableau de bord donné n'a pas été trouvé."</string>
+  <string name="ErrorInMultipleWidgetExport" type="viewer">"Le nom du widget donné n'a pas été trouvé dans le tableau de bord actif."</string>
+</resources>
