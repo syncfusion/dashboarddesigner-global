@@ -1,0 +1,269 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"waarde"</string>
+  <string name="CardTargetText" type="service">"Doel"</string>
+  <string name="ExpressionAggregationText" type="service">"Agg van "</string>
+  <string name="ExpressionAverage" type="service">"Gem. "</string>
+  <string name="ExpressionCount" type="service">"Tellen van "</string>
+  <string name="ExpressionDCount" type="service">"Distinct Count of "</string>
+  <string name="ExpressionMax" type="service">"Max van "</string>
+  <string name="ExpressionMin" type="service">"Min van "</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev. van "</string>
+  <string name="ExpressionSum" type="service">"Som van "</string>
+  <string name="ExpressionVar" type="service">"Variatie van "</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+  <string name="ServerError" type="service">"De bijgewerkte gedeelde gegevensbron verschilt van de feitelijk geconfigureerde gegevensbron"</string>
+  <string name="RelativeDateItem_Today" type="service">"Vandaag"</string>
+  <string name="RelativeDateItem_Current" type="service">"Actueel"</string>
+  <string name="RelativeDateItem_Yesterday" type="service">"Gisteren"</string>
+  <string name="RelativeDateItem_Previous" type="service">"voorgaand"</string>
+  <string name="RelativeDateItem_Tomorrow" type="service">"Morgen"</string>
+  <string name="RelativeDateItem_Succeeding" type="service">"Slagen"</string>
+  <string name="RelativeDateItem_Next" type="service">"volgende"</string>
+  <string name="RelativeDateItem_Last" type="service">"Laatste"</string>
+  <string name="RelativeDateItem_Past" type="service">"Verleden"</string>
+  <string name="RelativeDateItem_Upcoming" type="service">"Aankomende"</string>
+  <string name="RelativeDateItem_Custom" type="service">"gewoonte"</string>
+  <string name="RelativeDateItem_Year_to_date" type="service">"Jaar tot op heden"</string>
+  <string name="RelativeDateItem_Quartertodate" type="service">"Kwartaal tot nu toe"</string> 
+  <string name="RelativeDateItem_Monthtodate" type="service">"Maand tot nu toe"</string>
+  <string name="RelativeDateItem_Weektodate" type="service">"Van week tot dag"</string>
+  <string name="RelativeDateItem_Days" type="service">"Dag (en)"</string>  
+  <string name="RelativeDateItem_Years" type="service">"Jaar (s)"</string>
+  <string name="RelativeDateItem_Quarters" type="service">"Kwart (s)"</string>
+  <string name="RelativeDateItem_Months" type="service">"Maanden)"</string>
+  <string name="RelativeDateItem_Week" type="service">"Week"</string>
+  <string name="RelativeDateItem_Hour" type="service">"Uur"</string> 
+  <string name="DatePickerCustomText" type="viewer">"gewoonte"</string>
+  <string name="ExpressionInvalidFloatData" type="service">"Ongeldige float-gegevens kunnen leiden tot drijvende-komma-uitzondering."</string>
+  <string name="ExpressionFieldInvalidFloatDataAlertMessage" type="service">"Ongeldige drijvende-kommawaarde leidt tot fout. De waarde moet liggen tussen -1 en +1."</string>
+  <string name="HiveThriftBaseErrors" type="service">"Onverwachte fout bij het ophalen van tabelinformatie."</string>
+  <string name="ExpressionEditorFunctionDescriptionAbsolute" type="service">"Retourneert de absolute waarde van de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionAcos" type="service">"Retourneert de inverse cosinus (ook bekend als arccosine) van de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionAnd" type="service">"Retourneert true als beide expressies evalueert naar true."</string>
+  <string name="ExpressionEditorFunctionDescriptionAscii" type="service">"Retourneert de ASCII-codewaarde van het eerste teken in een tekenreeks"</string>
+  <string name="ExpressionEditorFunctionDescriptionAsin" type="service">"Retourneert de inverse sinus (ook bekend als arcsine) van de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionAtan" type="service">"Retourneert de inverse tangens (ook bekend als arctangens) van de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionAverage" type="service">"Retourneert het gemiddelde van de waarden in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionChar" type="service">"Converteert de gegeven gehele ASCII-code in een teken"</string>
+  <string name="ExpressionEditorFunctionDescriptionConcat" type="service">"Retourneert een reekswaarde die resulteert uit de aaneenschakeling van twee of meer tekenreekswaarden."</string>
+  <string name="ExpressionEditorFunctionDescriptionContains" type="service">"Retourneert true als de opgegeven tekenreeksuitdrukking de opgegeven substringexpressie bevat."</string>
+  <string name="ExpressionEditorFunctionDescriptionCos" type="service">"Retourneert de cosinus van de hoek die is opgegeven in radialen, in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionCount" type="service">"Retourneert het aantal items in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionCurrentUser" type="service">"Retourneert de huidige gebruikersnaam. Deze functie gebruikt de gebruikersnaam van Dashboard Server wanneer de gebruiker is aangemeld, anders wordt deze null geretourneerd "</string>
+  <string name="ExpressionEditorFunctionDescriptionDateAdd" type="service">"Voegt het aantal dagen toe aan de opgegeven datum."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateDiff" type="service">"Retourneert een numerieke waarde die het verschil tussen twee opgegeven datums vertegenwoordigt."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateName" type="service">"Retourneert een tekenreeks die het opgegeven datapart van de opgegeven datumuitdrukking vertegenwoordigt."</string>
+  <string name="ExpressionEditorFunctionDescriptionDatePart" type="service">"Retourneert een geheel getalwaarde die het opgegeven datapart van de gegeven datumuitdrukking vertegenwoordigt."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateSub" type="service">"Retourneert de datum die is afgetrokken van de opgegeven datum."</string>
+  <string name="ExpressionEditorFunctionDescriptionDay" type="service">"Retourneert een numerieke waarde die het dagdeel van de opgegeven datum weergeeft."</string>
+  <string name="ExpressionEditorFunctionDescriptionDegrees" type="service">"Retourneert de hoek in graden voor degene die is opgegeven in radialen, in de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionDescending" type="service">"Retourneert een sortering op basis van de aflopende volgorde van de kolom."</string>
+  <string name="ExpressionEditorFunctionDescriptionDistinctCount" type="service">"Retourneert het verschillende aantal items in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionDivision" type="service">"Retourneert het quotiëntgedeelte van de delingbewerking toegepast over de twee expressies."</string>
+  <string name="ExpressionEditorFunctionDescriptionEndsWith" type="service">"Retourneert true als de opgegeven tekenreeksuitdrukking eindigt met de opgegeven substringexpressie."</string>
+  <string name="ExpressionEditorFunctionDescriptionExponential" type="service">"Retourneert de exponentiële waarde van de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionFirst" type="service">"Retourneert de eerste waarde in een groep."</string>
+  <string name="ExpressionEditorFunctionDescriptionFullName" type="service">"Retourneert de volledige naam van de huidige gebruiker. Deze functie gebruikt de volledige naam van de gebruiker van Dashboard Server wanneer de gebruiker is aangemeld, anders wordt deze null geretourneerd "</string>
+  <string name="ExpressionEditorFunctionDescriptionHour" type="service">"Retourneert het uur van de opgegeven datum als een geheel getal."</string>
+  <string name="ExpressionEditorFunctionDescriptionIF" type="service">"Retourneert TruePart of FalsePart, afhankelijk van de evaluatie van de expressie."</string>
+  <string name="ExpressionEditorFunctionDescriptionIsDate" type="service">"Retourneert true als een gegeven tekenreeks een geldige datum is"</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNotNull" type="service">"Als de numerieke / tekenreeks / datum_expressie NULL is, wordt een tekenreeks geretourneerd die false vertegenwoordigt, anders wordt de waarde true weergegeven"</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNull" type="service">"Als de numerieke / tekenreeks / date_expression NULL is, wordt een tekenreeks geretourneerd die true vertegenwoordigt, anders wordt false weergegeven."</string>
+  <string name="ExpressionEditorFunctionDescriptionLag" type="service">"Retourneert de waarde van een kenmerk van de volgende rij."</string>
+  <string name="ExpressionEditorFunctionDescriptionLast" type="service">"Retourneert de laatste waarde van de kolom in een groep."</string>
+  <string name="ExpressionEditorFunctionDescriptionLead" type="service">"Retourneert de waarde van een kenmerk van de vorige rij."</string>
+  <string name="ExpressionEditorFunctionDescriptionLeft" type="service">"Retourneert het opgegeven aantal tekens vanaf het begin van de gegeven tekenreeksuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionLength" type="service">"Retourneert de natuurlijke logaritme van de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionLog" type="service">"Retourneert de logaritme van de gegeven uitdrukking naar de opgegeven base."</string>
+  <string name="ExpressionEditorFunctionDescriptionLower" type="service">"Retourneert een in kleine letters geconverteerde tekenreekswaarde van een gegeven tekenreeksuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionLTrim" type="service">"Retourneert de tekenreekswaarde met eventuele voorloopspaties die zijn verwijderd uit tekenreeksexpressie."</string>
+  <string name="ExpressionEditorFunctionDescriptionMax" type="service">"Retourneert de maximumwaarde in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionMin" type="service">"Retourneert de minimumwaarde in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionMinutes" type="service">"Retourneert een numerieke waarde die het kleinste deel van de datum voorstelt dat het resultaat is van de opgegeven datumuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionMonth" type="service">"Retourneert een numerieke waarde die het maanddeel van de datum weergeeft dat het resultaat is van de opgegeven datumuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionNot" type="service">"Retourneert de omgekeerde logische waarde van de expressie die wordt geëvalueerd."</string>
+  <string name="ExpressionEditorFunctionDescriptionNow" type="service">"Retourneert de huidige datum en tijd."</string>
+  <string name="ExpressionEditorFunctionDescriptionNowDate" type="service">"Retourneert de huidige datum inclusief de tijd."</string>
+  <string name="ExpressionEditorFunctionDescriptionNull" type="service">"Als de uitdrukking numeriek / tekenreeks / datum is, wordt de eerste uitdrukking geretourneerd. Als de eerste expressie NULL is, wordt de tweede expressie geretourneerd."</string>
+  <string name="ExpressionEditorFunctionDescriptionNullIf" type="service">"Retourneert de eerste expressie als de twee expressies niet gelijk zijn.Als de expressies vergelijkbaar zijn, wordt NULL geretourneerd."</string>
+  <string name="ExpressionEditorFunctionDescriptionOr" type="service">"Retourneert true als een van de expressies evalueert naar true."</string>
+  <string name="ExpressionEditorFunctionDescriptionPI" type="service">"Retourneert de constante waarde van PI."</string>
+  <string name="ExpressionEditorFunctionDescriptionPow" type="service">"Retourneert het eerste argument dat naar de macht van het tweede argument is gebracht."</string>
+  <string name="ExpressionEditorFunctionDescriptionPower" type="service">"Retourneert de waarde van de gegeven uitdrukking (expression1) naar het opgegeven vermogen (expression2)."</string>
+  <string name="ExpressionEditorFunctionDescriptionRadians" type="service">"Retourneert de hoek in radialen voor de hoek die is opgegeven in graden, in de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionRight" type="service">"Retourneert het opgegeven aantal tekens vanaf het einde van de gegeven tekenreeksuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionRound" type="service">"Retourneert een afgeronde waarde."</string>
+  <string name="ExpressionEditorFunctionDescriptionRowNumber" type="service">"Retourneert een volgnummer vanaf 1 binnen een venstepartitie."</string>
+  <string name="ExpressionEditorFunctionDescriptionRTrim" type="service">"Retourneert de tekenreekswaarde met alle volgende spaties verwijderd uit reeksuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionSign" type="service">"Retourneert een waarde die het positieve (+1), nul (0) of negatieve (-1) teken van de gegeven numerieke uitdrukking vertegenwoordigt."</string>
+  <string name="ExpressionEditorFunctionDescriptionSin" type="service">"Retourneert de sinus van de hoek die is opgegeven in radialen, in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionSquare" type="service">"Retourneert het vierkant van de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionSquareRoot" type="service">"Retourneert de vierkantswortel van de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionStandardDeviation" type="service">"Retourneert de standaarddeviatie van waarden in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionStartsWith" type="service">"Retourneert true als de opgegeven tekenreeksuitdrukking begint met de opgegeven substringexpressie."</string>
+  <string name="ExpressionEditorFunctionDescriptionSubstring" type="service">"Retourneert een specifieke lengte van een tekenreeks die begint bij een specifieke index van de gegeven tekenreeksuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionSum" type="service">"Retourneert de som van waarden in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionSystemDateTime" type="service">"Retourneert de huidige datum en tijd van het systeem."</string>
+  <string name="ExpressionEditorFunctionDescriptionTan" type="service">"Retourneert de tangens van de gegeven numerieke uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionToday" type="service">"Retourneert de huidige datum."</string>
+  <string name="ExpressionEditorFunctionDescriptionTodayDate" type="service">"Retourneert de datum van vandaag als een tijdstempelwaarde."</string>
+  <string name="ExpressionEditorFunctionDescriptionTomorrow" type="service">"Retourneert de datum van morgen als een tijdstempelwaarde."</string>
+  <string name="ExpressionEditorFunctionDescriptionUpper" type="service">"Retourneert een geconverteerde tekenreekswaarde in hoofdletters van een gegeven tekenreeksuitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionVar" type="service">"Retourneert de variantie van waarden in de gegeven uitdrukking."</string>
+  <string name="ExpressionEditorFunctionDescriptionWeek" type="service">"Retourneert het aantal week van de opgegeven datum als een geheel getal."</string>
+  <string name="ExpressionEditorFunctionDescriptionYear" type="service">"Retourneert een numerieke waarde die het jaargedeelte van de datum als resultaat van de opgegeven datumuitdrukking vertegenwoordigt."</string>
+  <string name="ExpressionFunctionEmailDescription" type="service">"Retourneert de e-mail van de huidige gebruiker. Deze functie gebruikt de e-mail-ID van de gebruiker van Dashboard Server wanneer de gebruiker is ingelogd, anders wordt deze null geretourneerd."</string>
+  <string name="CalculatedFieldParameterMissingError" type="service">"Parameter type of aantal niet-overeenkomend voor de functie"</string>
+  <string name="QuarterText" type="service">"Kwartaal"</string>
+  <string name="Widget_Related_Exceptions" type="service">"Er is een probleem opgetreden tijdens het formatteren of aanpassen van de gegevens van deze widget. Dit probleem kan zijn opgetreden als dit type gegevens niet wordt afgehandeld op widgetniveau."</string>
+  <string name="DataSource_Related_Exceptions" type="service">"Er is een probleem opgetreden bij het ophalen van de gegevens voor deze widget. Dit probleem kan zijn opgetreden vanwege een probleem met de queryvorming of de toegankelijkheid van de gegevensbron (dat wil zeggen referenties of toegangsrechten), of omdat een ongeldig argument is doorgegeven als invoer."</string>
+  <string name="All" type="service">"Alle"</string>
+  <string name="SelectAll" type="service">"(Selecteer alles)"</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"Er zijn geen gegevens die moeten worden weergegeven."</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001: kan het dashboard niet laden omdat het is gemaakt in een hogere versie van Dashboard Designer (versie:"</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001: Kan de widget niet laden omdat deze is gemaakt in een hogere versie van Dashboard Designer (versie:"</string>
+  <string name="NoWidgetConfigured" type="viewer">"Geen widgets om te previewen"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ..."</string>
+  <string name="ExportToExcel" type="viewer">"Excel ..."</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003-werkmap (* .xls)"</string>
+  <string name="ExportToExcel2013" type="viewer">"Excel-werkmap (* .xlsx)"</string>
+  <string name="Maximize" type="viewer">"Maximaliseren"</string>
+  <string name="UpdateDashboard" type="viewer">"Dashboard updaten"</string>
+  <string name="ExportToImage" type="viewer">"Beeld..."</string>
+  <string name="MaximizeControl" type="viewer">"Maximaliseren..."</string>
+  <string name="TextMore" type="viewer">"Meer"</string>
+  <string name="TextLess" type="viewer">"Minder"</string>
+  <string name="SavedFilters" type="viewer">"WEERGEGEVEN FILTERS BEKIJKEN"</string> 
+  <string name="UnSavedView" type="viewer">"Niet-opgeslagen weergave"</string>
+  <string name="Reload" type="viewer">"vernieuwen"</string>
+  <string name="Save" type="viewer">"Opslaan"</string>
+  <string name="SaveAs" type="viewer">"Opslaan als"</string>
+  <string name="Information" type="viewer">"Informatie"</string>
+  <string name="Format" type="viewer">"Formaat"</string>
+  <string name="FileType" type="viewer">"Bestandstype"</string>
+  <string name="Resolution" type="viewer">"Resolutie (dpi)"</string>
+  <string name="Export" type="viewer">"Exporteren"</string>
+  <string name="Reset" type="viewer">"Reset"</string>
+  <string name="Cancel" type="viewer">"Annuleer"</string>
+  <string name="Title" type="viewer">"Titel"</string>
+  <string name="ExportTitle" type="viewer">"Dashboard- / Widget-titel"</string>
+  <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+  <string name="Png" type="viewer">"PNG (* .png)"</string>
+  <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+  <string name="FileNameError" type="viewer">"Ongeldige bestandsnaam"</string>
+  <string name="Letter" type="viewer">"Brief"</string>
+  <string name="PageSize" type="viewer">"Pagina grootte"</string>
+  <string name="Orientation" type="viewer">"oriëntering"</string>
+  <string name="Portrait" type="viewer">"Portret"</string>
+  <string name="Landscape" type="viewer">"Landschap"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"Exporteren naar PDF ..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"Exporteren naar afbeelding ..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"Exporteren naar CSV ..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Exporteren naar Excel ..."</string>
+  <string name="Description" type="viewer">"Beschrijving"</string>
+  <string name="DefaultFileName" type="service">"Dashboard"</string>
+  <string name="ResolutionLow" type="viewer">"De resolutie moet groter zijn dan of gelijk aan 96 DPI."</string>
+  <string name="ResolutionAlert" type="viewer">"De geprefereerde resolutie ligt tussen 96 en 300 DPI. Resolutie groter dan dat leidt tot een geheugenuitzondering als uw systeem niet genoeg geheugen heeft."</string>
+  <string name="WidgetNotConfigured" type="viewer">"Deze widget is niet geconfigureerd."</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002: de service Dashboard kon niet worden gecontacteerd. Mogelijk is er een tijdelijke storing of is de server mogelijk defect."</string>
+  <string name="AuthenticationFailure" type="viewer">"U hebt toestemming nodig om dit dashboard te bekijken."</string>
+  <string name="SessionExpired" type="viewer">"Uw sessie is verlopen"</string>
+  <string name="DashboardServerFail" type="viewer">"DV002: de service Dashboard kon niet worden gecontacteerd. Mogelijk is er een tijdelijke storing of is de server mogelijk defect."</string>
+  <string name="ExcelError" type="viewer">"Het Excel-bestand op de server is niet het bestand dat wordt gebruikt voor het ontwerpen van dit dashboard. Neemt u alstublieft contact op met de beheerder of publiceert u het dashboard opnieuw."</string>
+  <string name="FixIssues" type="viewer">"Los de onderstaande fouten op ..."</string>
+  <string name="InvalidCredentials" type="viewer">"Ongeldige legitimeringen"</string>
+  <string name="UserName" type="viewer">"Gebruikersnaam"</string>
+  <string name="Password" type="viewer">"Wachtwoord"</string>
+  <string name="Open" type="viewer">"Open"</string>
+  <string name="Ok" type="viewer">"OK"</string>
+  <string name="Refresh" type="viewer">"verversen"</string>
+  <string name="Error" type="viewer">"Fout"</string>
+  <string name="Clipboard" type="viewer">"Kopieer naar klembord"</string>
+  <string name="AuthenticationRequired" type="viewer">"SQL-verificatie vereist"</string>
+  <string name="KnowMore" type="viewer">"Meer weten..."</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"Gebruikersnaam / wachtwoord mag niet leeg zijn"</string>
+  <string name="EncryptError" type="viewer">"Dashboard-service retourneerde een ongeldige sleutel. Probeer het opnieuw. Neem contact op met de beheerder als het probleem aanhoudt"</string>
+  <string name="ViewData" type="viewer">"Gegevens bekijken"</string>
+  <string name="Close" type="viewer">"Dichtbij"</string>
+  <string name="DashboardDescription" type="viewer">"Dashboardbeschrijving"</string>
+  <string name="Yes" type="viewer">"Ja"</string>
+  <string name="No" type="viewer">"Nee"</string>
+  <string name="Confirm" type="viewer">"Bevestiging"</string>
+  <string name="ClearMasterFilter" type="viewer">"Hoofdfilter wissen"</string>
+  <string name="Comment" type="viewer">"Commentaar"</string>
+  <string name="LinkingEnabled" type="viewer">"Deze widget navigeert naar een URL of naar een ander dashboard.t"</string>
+  <string name="DrillThrough" type="viewer">"Deze widget is geconfigureerd om op meer dan één niveau te analyseren"</string>
+  <string name="Pin" type="viewer">"Pin"</string>
+  <string name="DeleteConfirmText" type="viewer">"Weet je zeker dat je deze weergave wilt verwijderen?"</string>
+  <string name="ClearFilter" type="viewer">"Filter wissen"</string>
+  <string name="CultureFileDownloadError" type="viewer">"Kan de cultuur niet laden "</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003: Dashboard kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003: Widget kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004: Dashboard kan niet worden weergegeven omdat het dashboardpad niet is ingesteld."</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004: Widget kan niet worden weergegeven, omdat het dashboardpad niet is ingesteld."</string>
+  <string name="ExportDashboards" type="viewer">"Dashboard (s) exporteren"</string>
+  <string name="ExportImage" type="viewer">"Afbeelding exporteren"</string>
+  <string name="ExportPdf" type="viewer">"PDF exporteren"</string>
+  <string name="ExportExcel" type="viewer">"Excel Export"</string>
+  <string name="ExportCsv" type="viewer">"CSV-export"</string>
+  <string name="ExportAs" type="viewer">"Exporteren als"</string>
+  <string name="Dashboards" type="viewer">"Dashboard (s)"</string>
+  <string name="ChooseDashboards" type="viewer">"Kies Dashboards"</string>
+  <string name="ChooseWidgets" type="viewer">"Kies Widgets"</string>
+  <string name="Widget" type="viewer">"Widget (s)"</string>
+  <string name="Image" type="viewer">"Beeld"</string>
+  <string name="Pdf" type="viewer">"pdf"</string>
+  <string name="Excel" type="viewer">"uitmunten"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"EXPORTEREN"</string>  
+  <string name="All" type="viewer">"Alle"</string>    
+  <string name="Success" type="viewer">"Succes"</string>
+  <string name="Failure" type="viewer">"Mislukking"</string>
+  <string name="Minutes" type="viewer">"* Minuut (en)"</string>  
+  <string name="Hours" type="viewer">"* Uur (uren)"</string>  
+  <string name="Days" type="viewer">"* Dag (en)"</string>
+  <string name="Weeks" type="viewer">"* Weken)"</string>  
+  <string name="Months" type="viewer">"* Maanden)"</string>  
+  <string name="Years" type="viewer">"* Jaar (s)"</string>
+  <string name="MoreOptions" type="viewer">"Meer opties"</string>
+  <string name="GetLink" type="viewer">"Krijg link"</string>
+  <string name="GetLinkContent" type="viewer">"Deze koppeling bevat de huidige weergavegegevens samen met de filters."</string>
+  <string name="Apply" type="viewer">"Van toepassing zijn"</string>
+  <string name="DashboardParameters" type="viewer">"parameters"</string>
+  <string name="ResetParameters" type="viewer">"Parameters resetten"</string>
+  <string name="ResetAll" type="viewer">"ALLES RESETTEN"</string>
+  <string name="ShowDetails" type="viewer">"Toon details"</string>
+  <string name="HideDetails" type="viewer">"Verberg details"</string>
+  <string name="DataRetrievalError" type="viewer">"Data Retrieval Error"</string>
+  <string name="Filter" type="viewer">"Voeg filter toe"</string>
+  <string name="DrillDown" type="viewer">"Boor naar beneden"</string>
+  <string name="Linking" type="viewer">"Open link"</string>
+  <string name="CopyError" type="viewer">"Foutmelding:"</string>
+  <string name="Stacktrace" type="viewer">"Stack-trace:"</string>
+   <string name="FilterOverview" type="viewer">"Overzicht filters"</string>
+   <string name="ExportControl" type="viewer">"Widget exporteren"</string>
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005: toegang tot de service wordt geweigerd aan de huidige gebruiker."</string>
+  <string name="ErrorControlException" type="viewer">"Data Retrieval Error."</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"Er is geknoeid met de gegevens die tijdens de service zijn ontvangen. Probeer het later opnieuw."</string>
+  <string name="ErrorCrypto" type="viewer">"Er is geknoeid met de gegevens die tijdens de service zijn ontvangen. Probeer het later opnieuw."</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006: het gevraagde dashboardbestand is niet gevonden. Het kan worden verplaatst of hernoemd."</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006: het gevraagde widgetbestand is niet gevonden. Het kan worden verplaatst of hernoemd."</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007: Het gevraagde bestand of assembly is niet gevonden. Het kan worden verplaatst of hernoemd."</string>
+  <string name="ErrorGeneral" type="viewer">"DV008: Dashboard kan niet worden bekeken vanwege een fout."</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008: Widget kan niet worden bekeken vanwege een fout."</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009: het geladen bestand is geen geldig dashboardbestand"</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009: het geladen bestand is geen geldig widgetbestand"</string>
+  <string name="ErrorServerError" type="viewer">"DV010: het dashboard kon niet worden bekeken omdat we de huidige gebruikersautorisatie niet konden valideren."</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010: de widget kon niet worden bekeken omdat we de huidige gebruikersautorisatie niet konden valideren."</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"Er kon geen contact worden gemaakt met de SQL-server. Zorg ervoor dat de server toegankelijk is."</string>
+  <string name="ErrorSqlTimeout" type="viewer">"Een poging om gegevens van de server op te halen, is mislukt vanwege de verlopen tijd."</string>
+  <string name="ErrorWcfBinding" type="viewer">"Het CorsSupport-gedrag kan alleen worden gebruikt in WebHttpBinding-eindpunten."</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011: het geëxporteerde beeldbestand kon vanwege grote bestandsgrootte niet worden gedownload."</string>
+  <string name="ErrorInMultiDbrdExport" type="viewer">"De opgegeven dashboardnaam is niet gevonden."</string>
+  <string name="ErrorInMultipleWidgetExport" type="viewer">"De gegeven widgetnaam is niet gevonden in het actieve dashboard."</string>
+</resources>
