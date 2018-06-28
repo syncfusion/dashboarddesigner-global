@@ -1,0 +1,133 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"waarde"</string>
+  <string name="CardTargetText" type="service">"Doel"</string>
+  <string name="ExpressionAggregationText" type="service">"Agg van "</string>
+  <string name="ExpressionAverage" type="service">"Gem. "</string>
+  <string name="ExpressionCount" type="service">"Tellen van "</string>
+  <string name="ExpressionDCount" type="service">"Distinct Count of "</string>
+  <string name="ExpressionMax" type="service">"Max van "</string>
+  <string name="ExpressionMin" type="service">"Min van "</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev. van "</string>
+  <string name="ExpressionSum" type="service">"Som van "</string>
+  <string name="ExpressionVar" type="service">"Variatie van "</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+  <string name="ServerError" type="service">"De bijgewerkte gedeelde gegevensbron verschilt van de feitelijk geconfigureerde gegevensbron"</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"Er zijn geen gegevens die moeten worden weergegeven."</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001: kan het dashboard niet laden omdat het is gemaakt in een hogere versie van Dashboard Designer (versie:"</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001: Kan de widget niet laden omdat deze is gemaakt in een hogere versie van Dashboard Designer (versie:"</string>
+  <string name="NoWidgetConfigured" type="viewer">"Geen widgets om te previewen"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ..."</string>
+  <string name="ExportToExcel" type="viewer">"Excel ..."</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003-werkmap (* .xls)"</string>
+  <string name="ExportToExcel2013" type="viewer">"Excel-werkmap (* .xlsx)"</string>
+  <string name="Maximize" type="viewer">"Maximaliseren"</string>
+  <string name="UpdateDashboard" type="viewer">"Dashboard updaten"</string>
+  <string name="ExportToImage" type="viewer">"Beeld..."</string>
+  <string name="MaximizeControl" type="viewer">"Maximaliseren..."</string>
+  <string name="TextMore" type="viewer">"Meer"</string>
+  <string name="TextLess" type="viewer">"Minder"</string>
+  <string name="SavedFilters" type="viewer">"WEERGEGEVEN FILTERS BEKIJKEN"</string> 
+  <string name="UnSavedView" type="viewer">"Niet-opgeslagen weergave"</string>
+  <string name="Reload" type="viewer">"vernieuwen"</string>
+  <string name="Save" type="viewer">"Opslaan"</string>
+  <string name="SaveAs" type="viewer">"Opslaan als"</string>
+  <string name="Information" type="viewer">"Informatie"</string>
+  <string name="Format" type="viewer">"Formaat"</string>
+  <string name="FileType" type="viewer">"Bestandstype"</string>
+  <string name="Resolution" type="viewer">"Resolutie (dpi)"</string>
+  <string name="Export" type="viewer">"Exporteren"</string>
+  <string name="Reset" type="viewer">"Reset"</string>
+  <string name="Cancel" type="viewer">"Annuleer"</string>
+  <string name="Title" type="viewer">"Titel"</string>
+  <string name="ExportTitle" type="viewer">"Dashboard- / Widget-titel"</string>
+  <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+  <string name="Png" type="viewer">"PNG (* .png)"</string>
+  <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+  <string name="FileNameError" type="viewer">"Ongeldige bestandsnaam"</string>
+  <string name="Letter" type="viewer">"Brief"</string>
+  <string name="PageSize" type="viewer">"Pagina grootte"</string>
+  <string name="Orientation" type="viewer">"oriëntering"</string>
+  <string name="Portrait" type="viewer">"Portret"</string>
+  <string name="Landscape" type="viewer">"Landschap"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"Exporteren naar PDF ..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"Exporteren naar afbeelding ..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"Exporteren naar CSV ..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Exporteren naar Excel ..."</string>
+  <string name="Description" type="viewer">"Beschrijving"</string>
+  <string name="DefaultFileName" type="service">"Dashboard"</string>
+  <string name="ResolutionLow" type="viewer">"De resolutie moet groter zijn dan of gelijk aan 96 DPI."</string>
+  <string name="ResolutionAlert" type="viewer">"De geprefereerde resolutie ligt tussen 96 en 300 DPI. Resolutie groter dan dat leidt tot een geheugenuitzondering als uw systeem niet genoeg geheugen heeft."</string>
+  <string name="WidgetNotConfigured" type="viewer">"Deze widget is niet geconfigureerd."</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002: de service Dashboard kon niet worden gecontacteerd. Mogelijk is er een tijdelijke storing of is de server mogelijk defect."</string>
+  <string name="AuthenticationFailure" type="viewer">"U hebt toestemming nodig om dit dashboard te bekijken."</string>
+  <string name="SessionExpired" type="viewer">"Uw sessie is verlopen"</string>
+  <string name="DashboardServerFail" type="viewer">"DV002: de service Dashboard kon niet worden gecontacteerd. Mogelijk is er een tijdelijke storing of is de server mogelijk defect."</string>
+  <string name="ExcelError" type="viewer">"Het Excel-bestand op de server is niet het bestand dat wordt gebruikt voor het ontwerpen van dit dashboard. Neemt u alstublieft contact op met de beheerder of publiceert u het dashboard opnieuw."</string>
+  <string name="FixIssues" type="viewer">"Los de onderstaande fouten op ..."</string>
+  <string name="InvalidCredentials" type="viewer">"Ongeldige legitimeringen"</string>
+  <string name="UserName" type="viewer">"Gebruikersnaam"</string>
+  <string name="Password" type="viewer">"Wachtwoord"</string>
+  <string name="Open" type="viewer">"Open"</string>
+  <string name="Ok" type="viewer">"OK"</string>
+  <string name="Refresh" type="viewer">"verversen"</string>
+  <string name="Error" type="viewer">"Fout"</string>
+  <string name="Clipboard" type="viewer">"Kopieer naar klembord"</string>
+  <string name="AuthenticationRequired" type="viewer">"Verificatie vereist"</string>
+  <string name="KnowMore" type="viewer">"Meer weten..."</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"Gebruikersnaam / wachtwoord mag niet leeg zijn"</string>
+  <string name="EncryptError" type="viewer">"Dashboard-service retourneerde een ongeldige sleutel. Probeer het opnieuw. Neem contact op met de beheerder als het probleem aanhoudt"</string>
+  <string name="ViewData" type="viewer">"Gegevens bekijken"</string>
+  <string name="Close" type="viewer">"Dichtbij"</string>
+  <string name="DashboardDescription" type="viewer">"Dashboardbeschrijving"</string>
+  <string name="Yes" type="viewer">"Ja"</string>
+  <string name="No" type="viewer">"Nee"</string>
+  <string name="Confirm" type="viewer">"Bevestiging"</string>
+  <string name="ClearMasterFilter" type="viewer">"Hoofdfilter wissen"</string>
+  <string name="Comment" type="viewer">"Commentaar"</string>
+  <string name="Pin" type="viewer">"Pin"</string>
+  <string name="DeleteConfirmText" type="viewer">"Weet je zeker dat je deze weergave wilt verwijderen?"</string>
+  <string name="ClearFilter" type="viewer">"Filter wissen"</string>
+  <string name="CultureFileDownloadError" type="viewer">"Kan de cultuur niet laden "</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003: Dashboard kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003: Widget kan niet worden weergegeven omdat de service-URL niet is ingesteld."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004: Dashboard kan niet worden weergegeven omdat het dashboardpad niet is ingesteld."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004: Widget kan niet worden weergegeven, omdat het dashboardpad niet is ingesteld."</string>
+  <string name="ExportDashboards" type="viewer">"Dashboard (s) exporteren"</string>
+  <string name="ExportImage" type="viewer">"Afbeelding exporteren"</string>
+  <string name="ExportPdf" type="viewer">"PDF exporteren"</string>
+  <string name="ExportExcel" type="viewer">"Excel Export"</string>
+  <string name="ExportExcel" type="viewer">"CSV-export"</string>
+  <string name="ExportAs" type="viewer">"Exporteren als"</string>
+  <string name="Dashboards" type="viewer">"Dashboard (s)"</string>
+  <string name="ChooseDashboards" type="viewer">"Kies Dashboards"</string>
+  <string name="ChooseWidgets" type="viewer">"Kies Widgets"</string>
+  <string name="Widget" type="viewer">"Widget (s)"</string>
+  <string name="Image" type="viewer">"Beeld"</string>
+  <string name="Pdf" type="viewer">"pdf"</string>
+  <string name="Excel" type="viewer">"uitmunten"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"EXPORTEREN"</string>  
+  <string name="All" type="viewer">"Alle"</string>    
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005: toegang tot de service wordt geweigerd aan de huidige gebruiker."</string>
+  <string name="ErrorControlException" type="viewer">"Data Retrieval Error."</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"Er is geknoeid met de gegevens die tijdens de service zijn ontvangen. Probeer het later opnieuw."</string>
+  <string name="ErrorCrypto" type="viewer">"Er is geknoeid met de gegevens die tijdens de service zijn ontvangen. Probeer het later opnieuw."</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006: het gevraagde dashboardbestand is niet gevonden. Het kan worden verplaatst of hernoemd."</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006: het gevraagde widgetbestand is niet gevonden. Het kan worden verplaatst of hernoemd."</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007: Het gevraagde bestand of assembly is niet gevonden. Het kan worden verplaatst of hernoemd."</string>
+  <string name="ErrorGeneral" type="viewer">"DV008: Dashboard kan niet worden bekeken vanwege een fout."</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008: Widget kan niet worden bekeken vanwege een fout."</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009: het geladen bestand is geen geldig dashboardbestand"</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009: het geladen bestand is geen geldig widgetbestand"</string>
+  <string name="ErrorServerError" type="viewer">"DV010: het dashboard kon niet worden bekeken omdat we de huidige gebruikersautorisatie niet konden valideren."</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010: de widget kon niet worden bekeken omdat we de huidige gebruikersautorisatie niet konden valideren."</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"Er kon geen contact worden gemaakt met de SQL-server. Zorg ervoor dat de server toegankelijk is."</string>
+  <string name="ErrorSqlTimeout" type="viewer">"Een poging om gegevens van de server op te halen, is mislukt vanwege de verlopen tijd."</string>
+  <string name="ErrorWcfBinding" type="viewer">"Het CorsSupport-gedrag kan alleen worden gebruikt in WebHttpBinding-eindpunten."</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011: het geëxporteerde beeldbestand kon vanwege grote bestandsgrootte niet worden gedownload."</string>
+</resources>
