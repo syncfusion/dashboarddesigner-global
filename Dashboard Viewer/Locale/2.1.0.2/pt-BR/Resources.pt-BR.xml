@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- service localization text -->
+    <string name="CardActualText" type="service">"valor"</string>
+    <string name="CardTargetText" type="service">"Objetivo"</string>
+    <string name="ExpressionAggregationText" type="service">"Agg de "</string>
+    <string name="ExpressionAverage" type="service">"Média "</string>
+    <string name="ExpressionCount" type="service">"Contagem de "</string>
+    <string name="ExpressionDCount" type="service">"Contagem Distinta de "</string>
+    <string name="ExpressionMax" type="service">"Máximo de "</string>
+    <string name="ExpressionMin" type="service">"Min de "</string>
+    <string name="ExpressionStandardDeviation" type="service">"Std.dev. do "</string>
+    <string name="ExpressionSum" type="service">"Soma de "</string>
+    <string name="ExpressionVar" type="service">"Variação de "</string>
+    <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+    <string name="Errorcontrolexception" type="service">"Erro de recuperação de dados"</string>    
+    <!-- viewer localization text -->
+    <string name="NoData" type="viewer">"Não há dados a serem exibidos."</string>
+    <string name="ErrorOnHigherVersion" type="viewer">"Não é possível carregar o painel desde que foi criado em uma versão superior do Dashboard Designer (versão:"</string>
+    <string name="NoWidgetConfigured" type="viewer">"Nenhum Widgets para Visualizar"</string>
+    <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+    <string name="ExportToCSV" type="viewer">"Exportar para CSV"</string>
+    <string name="ExportToPdf" type="viewer">"Exportar para PDF"</string>
+    <string name="ExportToExcel" type="viewer">"Exportar para Excel"</string>
+    <string name="ExportToExcel97To2003" type="viewer">"Pasta de trabalho do Excel 97-2003 (* .xls)"</string>
+    <string name="ExportToExcel2013" type="viewer">"Pasta de trabalho do Excel (* .xlsx)"</string>
+    <string name="Maximize" type="viewer">"Maximizar"</string>
+    <string name="UpdateDashboard" type="viewer">"Atualizar painel"</string>
+    <string name="ExportToImage" type="viewer">"Exportar para imagem"</string>
+    <string name="Format" type="viewer">"Formato"</string>
+    <string name="FileType" type="viewer">"Tipo de arquivo"</string>
+    <string name="Resolution" type="viewer">"Resolução (dpi)"</string>
+    <string name="Export" type="viewer">"Exportar"</string>
+    <string name="Reset" type="viewer">"Restabelecer"</string>
+    <string name="Cancel" type="viewer">"Cancelar"</string>
+    <string name="Title" type="viewer">"Título"</string>
+    <string name="ExportTitle" type="viewer">"Título do painel / widget"</string>
+    <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+    <string name="Png" type="viewer">"PNG (* .png)"</string>
+    <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+    <string name="FileNameError" type="viewer">"Nome de arquivo inválido"</string>   
+    <string name="Letter" type="viewer">"Carta"</string>
+    <string name="PageSize" type="viewer">"Tamanho da página"</string>
+    <string name="Orientation" type="viewer">"Orientação"</string>
+    <string name="Portrait" type="viewer">"Retrato"</string>
+    <string name="Landscape" type="viewer">"Panorama"</string>
+    <string name="ExportToPdfWaitingText" type="viewer">"Exportando para PDF ..."</string>
+    <string name="ExportToImageWaitingText" type="viewer">"Exportando para imagem ..."</string>
+    <string name="ExportToCSVWaitingText" type="viewer">"Exportando para CSV ..."</string>
+    <string name="ExportToExcelWaitingText" type="viewer">"Exportando para o Excel ..."</string>
+    <string name="Description" type="viewer">"Descrição"</string>
+    <string name="DefaultFileName" type="service">"painel de controle"</string>
+    <string name="ResolutionLow" type="viewer">"A resolução deve ser maior ou igual a 96 DPI."</string>
+    <string name="ResolutionAlert" type="viewer">"A resolução preferida é entre 96 e 300 DPI. Resolução maior que isso leva a uma exceção de memória insuficiente se o sistema não tiver memória suficiente."</string>
+    <string name="WidgetNotConfigured" type="viewer">"Este widget não foi configurado."</string>
+    <string name="DashboardServerTimedOut" type="viewer">"O serviço do Dashboard não pôde ser contatado. Pode haver uma falha temporária ou o servidor pode estar inativo."</string>
+    <string name="AuthenticationFailure" type="viewer">"Você precisa de autorização para visualizar este painel."</string>
+    <string name="SessionExpired" type="viewer">"Sua sessão expirou"</string>
+    <string name="DashboardServerFail" type="viewer">"O serviço do Dashboard não pôde ser contatado. Pode haver uma falha temporária ou o servidor pode estar inativo."</string>
+    <string name="ExcelError" type="viewer">"O arquivo do Excel no servidor não é aquele que é usado para criar este painel. Por favor, entre em contato com o administrador ou republique o painel."</string>
+    <string name="FixIssues" type="viewer">"Por favor corrija os erros abaixo ..."</string>
+    <string name="InvalidCredentials" type="viewer">"Credenciais inválidas"</string>
+    <string name="UserName" type="viewer">"Nome de usuário"</string>
+    <string name="Password" type="viewer">"Senha"</string>
+    <string name="Open" type="viewer">"Aberto"</string>
+    <string name="Ok" type="viewer">"Está bem"</string>
+    <string name="Refresh" type="viewer">"Atualizar"</string>
+    <string name="Error" type="viewer">"Erro"</string>
+    <string name="Clipboard" type="viewer">"Copiar para área de transferência"</string>
+    <string name="AuthenticationRequired" type="viewer">"Autentificação requerida"</string>
+    <string name="KnowMore" type="viewer">"Saber mais..."</string>
+    <string name="UserNamePasswordEmpty" type="viewer">"Nome de usuário / senha não pode estar vazio"</string>
+    <string name="EncryptError" type="viewer">"O serviço do painel retornou uma chave inválida. Por favor, tente novamente. Se o problema persistir, entre em contato com o administrador"</string>
+    <string name="ViewData" type="viewer">"Ver dados"</string>
+    <string name="Close" type="viewer">"Fechar"</string>
+    <string name="DashboardDescription" type="viewer">"Descrição do painel"</string>
+    <string name="Yes" type="viewer">"sim"</string>
+    <string name="No" type="viewer">"Não"</string>
+    <string name="Confirm" type="viewer">"Confirmação"</string>
+    <string name="ClearMasterFilter" type="viewer">"Limpar filtro mestre"</string>
+    <string name="Comment" type="viewer">"Comente"</string>
+    <string name="Pin" type="viewer">"PIN"</string>
+    <string name="DeleteConfirmText" type="viewer">"Tem certeza de que deseja excluir esta exibição?"</string>
+    <string name="ClearFilter" type="viewer">"Filtro limpo"</string>	 
+    <string name="CultureFileDownloadError" type="viewer">"Não é possível carregar a cultura "</string>
+    <string name="ServiceNotConfigured" type="viewer">"O painel não pode ser renderizado porque o URL de serviço não está definido."</string>
+    <string name="DashboardNotConfigured" type="viewer">"O painel não pôde ser renderizado porque o caminho do painel não está definido."</string>
+	<!-- viewer error messages -->
+	<string name="ErrorAccessDenied" type="viewer">"O acesso ao serviço é negado ao usuário atual."</string>
+    <string name="ErrorControlException" type="viewer">"Erro de recuperação de dados."</string>
+    <string name="ErrorControlNotConfigured" type="viewer">"Os dados recebidos no serviço foram adulterados. Por favor, tente novamente mais tarde."</string>
+    <string name="ErrorCrypto" type="viewer">"Os dados recebidos no serviço foram adulterados. Por favor, tente novamente mais tarde."</string>
+    <string name="ErrorDashboardNotFound" type="viewer">"O arquivo do painel solicitado não foi encontrado. Pode ser movido ou renomeado."</string>
+    <string name="ErrorFileNotFound" type="viewer">"O arquivo ou assembly solicitado não foi encontrado. Pode ser movido ou renomeado."</string>
+    <string name="ErrorGeneral" type="viewer">"O painel não pôde ser visualizado devido a um erro."</string>
+    <string name="ErrorInvalidFile" type="viewer">"O arquivo carregado não é um arquivo de painel válido"</string>
+    <string name="ErrorServerError" type="viewer">"O painel não pôde ser visualizado porque não foi possível validar a autorização atual do usuário."</string>
+    <string name="ErrorSqlHostNotFound" type="viewer">"O servidor SQL não pôde ser contatado. Por favor, certifique-se que o servidor está acessível."</string>
+    <string name="ErrorSqlTimeout" type="viewer">"Uma tentativa de recuperar dados do servidor falhou devido à expiração de tempo."</string>
+    <string name="ErrorWcfBinding" type="viewer">"O comportamento CorsSupport só pode ser usado em endpoints WebHttpBinding."</string>
+    <string name="ErrorOutOfMemory" type="viewer">"A imagem exportada O arquivo não pôde ser downloded devido ao tamanho grande do arquivo."</string>
+  </resources>

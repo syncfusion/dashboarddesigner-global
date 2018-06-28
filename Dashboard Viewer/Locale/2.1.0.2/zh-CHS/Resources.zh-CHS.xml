@@ -1,0 +1,101 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- service localization text -->
+    <string name="CardActualText" type="service">"值"</string>
+    <string name="CardTargetText" type="service">"目标"</string>
+    <string name="ExpressionAggregationText" type="service">"Agg"</string>
+    <string name="ExpressionAverage" type="service">"平均。"</string>
+    <string name="ExpressionCount" type="service">"伯爵"</string>
+    <string name="ExpressionDCount" type="service">"不同的计数"</string>
+    <string name="ExpressionMax" type="service">"最大值"</string>
+    <string name="ExpressionMin" type="service">"分钟"</string>
+    <string name="ExpressionStandardDeviation" type="service">"Std.dev。的"</string>
+    <string name="ExpressionSum" type="service">"总和"</string>
+    <string name="ExpressionVar" type="service">"变化"</string>
+    <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg。"</string>
+    <string name="Errorcontrolexception" type="service">"数据检索错误"</string>    
+    <!-- viewer localization text -->
+    <string name="NoData" type="viewer">"没有要显示的数据。"</string>
+    <string name="ErrorOnHigherVersion" type="viewer">"无法加载仪表板，因为它是在更高版本的仪表板设计器（版本："</string>
+    <string name="NoWidgetConfigured" type="viewer">"没有Widgets预览"</string>
+    <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+    <string name="ExportToCSV" type="viewer">"导出为CSV"</string>
+    <string name="ExportToPdf" type="viewer">"导出为PDF"</string>
+    <string name="ExportToExcel" type="viewer">"导出到Excel"</string>
+    <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003工作簿（* .xls）"</string>
+    <string name="ExportToExcel2013" type="viewer">"Excel工作簿（* .xlsx）"</string>
+    <string name="Maximize" type="viewer">"最大化"</string>
+    <string name="UpdateDashboard" type="viewer">"更新仪表板"</string>
+    <string name="ExportToImage" type="viewer">"导出到图像"</string>
+    <string name="Format" type="viewer">"格式"</string>
+    <string name="FileType" type="viewer">"文件类型"</string>
+    <string name="Resolution" type="viewer">"分辨率（dpi）"</string>
+    <string name="Export" type="viewer">"出口"</string>
+    <string name="Reset" type="viewer">"重启"</string>
+    <string name="Cancel" type="viewer">"取消"</string>
+    <string name="Title" type="viewer">"标题"</string>
+    <string name="ExportTitle" type="viewer">"仪表板/小部件标题"</string>
+    <string name="Jpeg" type="viewer">"JPEG（* .jpg）"</string>
+    <string name="Png" type="viewer">"PNG（* .png）"</string>
+    <string name="Bmp" type="viewer">"BMP（* .bmp）"</string>
+    <string name="FileNameError" type="viewer">"无效的文件名"</string>   
+    <string name="Letter" type="viewer">"信"</string>
+    <string name="PageSize" type="viewer">"页面大小"</string>
+    <string name="Orientation" type="viewer">"方向"</string>
+    <string name="Portrait" type="viewer">"肖像"</string>
+    <string name="Landscape" type="viewer">"景观"</string>
+    <string name="ExportToPdfWaitingText" type="viewer">"导出为PDF ..."</string>
+    <string name="ExportToImageWaitingText" type="viewer">"导出到图像..."</string>
+    <string name="ExportToCSVWaitingText" type="viewer">"导出为CSV ..."</string>
+    <string name="ExportToExcelWaitingText" type="viewer">"导出到Excel ..."</string>
+    <string name="Description" type="viewer">"描述"</string>
+    <string name="DefaultFileName" type="service">"仪表板"</string>
+    <string name="ResolutionLow" type="viewer">"分辨率必须大于或等于96 DPI。"</string>
+    <string name="ResolutionAlert" type="viewer">"首选分辨率在96和300 DPI之间。如果系统内存不足，则分辨率大于此值将导致内存不足异常。"</string>
+    <string name="WidgetNotConfigured" type="viewer">"此小部件尚未配置。"</string>
+    <string name="DashboardServerTimedOut" type="viewer">"仪表板服务无法联系。可能会出现暂时的故障，或者服务器可能关闭。"</string>
+    <string name="AuthenticationFailure" type="viewer">"您需要授权才能查看此仪表板。"</string>
+    <string name="SessionExpired" type="viewer">"您的会话已过期"</string>
+    <string name="DashboardServerFail" type="viewer">"仪表板服务无法联系。可能会出现暂时的故障，或者服务器可能关闭。"</string>
+    <string name="ExcelError" type="viewer">"服务器中的Excel文件不是用于设计此仪表板的文件，请联系管理员或重新发布仪表板。"</string>
+    <string name="FixIssues" type="viewer">"请修正以下错误..."</string>
+    <string name="InvalidCredentials" type="viewer">"无效证件"</string>
+    <string name="UserName" type="viewer">"用户名"</string>
+    <string name="Password" type="viewer">"密码"</string>
+    <string name="Open" type="viewer">"打开"</string>
+    <string name="Ok" type="viewer">"好"</string>
+    <string name="Refresh" type="viewer">"刷新"</string>
+    <string name="Error" type="viewer">"错误"</string>
+    <string name="Clipboard" type="viewer">"复制到剪贴板"</string>
+    <string name="AuthenticationRequired" type="viewer">"需要验证"</string>
+    <string name="KnowMore" type="viewer">"了解更多..."</string>
+    <string name="UserNamePasswordEmpty" type="viewer">"用户名/密码不能为空"</string>
+    <string name="EncryptError" type="viewer">"仪表板服务返回了无效的密钥。请再试一次。如果问题仍然存在，请联系管理员"</string>
+    <string name="ViewData" type="viewer">"查看数据"</string>
+    <string name="Close" type="viewer">"关"</string>
+    <string name="DashboardDescription" type="viewer">"仪表板说明"</string>
+    <string name="Yes" type="viewer">"是"</string>
+    <string name="No" type="viewer">"没有"</string>
+    <string name="Confirm" type="viewer">"确认"</string>
+    <string name="ClearMasterFilter" type="viewer">"清除主过滤器"</string>
+    <string name="Comment" type="viewer">"评论"</string>
+    <string name="Pin" type="viewer">"销"</string>
+    <string name="DeleteConfirmText" type="viewer">"您确定要删除此视图吗？"</string>
+    <string name="ClearFilter" type="viewer">"清除过滤器"</string>	 
+    <string name="CultureFileDownloadError" type="viewer">"无法加载文化"</string>
+    <string name="ServiceNotConfigured" type="viewer">"由于未设置服务网址，无法呈现信息中心。"</string>
+    <string name="DashboardNotConfigured" type="viewer">"由于未设置仪表板路径，仪表板无法呈现。"</string>
+	<!-- viewer error messages -->
+	<string name="ErrorAccessDenied" type="viewer">"当前用户拒绝访问该服务。"</string>
+    <string name="ErrorControlException" type="viewer">"数据检索错误。"</string>
+    <string name="ErrorControlNotConfigured" type="viewer">"该服务收到的数据被篡改。请稍后再试。"</string>
+    <string name="ErrorCrypto" type="viewer">"该服务收到的数据被篡改。请稍后再试。"</string>
+    <string name="ErrorDashboardNotFound" type="viewer">"未找到请求的仪表板文件。它可能被移动或重命名。"</string>
+    <string name="ErrorFileNotFound" type="viewer">"未找到请求的文件或程序集。它可能被移动或重命名。"</string>
+    <string name="ErrorGeneral" type="viewer">"仪表盘由于错误而无法查看。"</string>
+    <string name="ErrorInvalidFile" type="viewer">"加载的文件不是有效的仪表板文件"</string>
+    <string name="ErrorServerError" type="viewer">"由于我们无法验证当前的用户授权，因此无法查看仪表板。"</string>
+    <string name="ErrorSqlHostNotFound" type="viewer">"SQL服务器无法联系。请确保服务器可以访问。"</string>
+    <string name="ErrorSqlTimeout" type="viewer">"由于时间到期，尝试从服务器检索数据失败。"</string>
+    <string name="ErrorWcfBinding" type="viewer">"CorsSupport行为只能在WebHttpBinding端点中使用。"</string>
+    <string name="ErrorOutOfMemory" type="viewer">"由于文件较大，导出的图像文件不能被降级。"</string>
+  </resources>
