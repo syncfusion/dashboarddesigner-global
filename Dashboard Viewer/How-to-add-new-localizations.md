@@ -20,7 +20,7 @@ To make Syncfusion Dashboard Viewer use a different culture perform the followin
 
    **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\\<Dashboard Version\>\IISExpress_DashboardService\Localization\Resources.en-US.xml
 
-   **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard\Samples\Common\Service\Localization\Resources.en-US.xml
+   **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard Platform SDK\Service\Localization\Resources.en-US.xml
 
    **Dashboard Server**: C:\Syncfusion\Dashboard Server\DashboardServer.Web\DashboardService\Localization\Resources.en-US.xml
 
