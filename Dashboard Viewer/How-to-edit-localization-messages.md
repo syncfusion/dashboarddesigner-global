@@ -16,7 +16,7 @@ You can directly edit the localization message in that `Resourses.en-US.xml` fil
 
     **Dashboard Server**: C:\Syncfusion\Dashboard Server\DashboardServer.Web\API\Localization
 
-1.	Find the XML attribute for which you want to edit the localization message and replace the localization message inside the `XML element` field (E.g. “valor”, “Objective”) as below.
+1.	Find the XML attribute for which you want to edit the localization message and replace the localization message inside the `XML element` field (E.g. value, Goal) as below.
 
     ![](Images/MK3.png)
 
