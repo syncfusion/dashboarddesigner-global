@@ -22,6 +22,8 @@ You can directly edit the localization message in that `Resourses.en-US.xml` fil
 
 Localization will be updated on next page refresh.
 
+## Method 2: Using Google Translator Kit
+
 1. After converting the localized messages, Open the file and modify the words and sentences which you want to change in the window.
 
     ![](Images/GTK5.png)
