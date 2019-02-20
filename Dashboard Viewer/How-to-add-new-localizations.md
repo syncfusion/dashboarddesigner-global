@@ -2,7 +2,31 @@
 
 Create your own culture texts for the Syncfusion Dashboard Viewer and add it in the application anytime.
 
-To make Syncfusion Dashboard Viewer use a different culture perform the following steps:
+To make Syncfusion Dashboard Server use a different culture perform any one method from the below.
+
+## Method 1: Adding new localizations manually 
+
+Make the copy of the default resource file (Resources.en-US.xml) in the Dashboard Viewer application folder. The attribute `name` holds the actual message. The `XML element` holds the localized value of that message. If you want to show the localized value in your application, you can add the localization message in the corresponding `XML element` field.
+
+To add the localization message, please follow the steps below
+
+1.	Go to the localization folder in the below location and open the duplicate `Resources.en-US.xml`.
+
+    **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\                                                      <Dashboard Version>\IISExpress_DashboardService\Localization
+
+    **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard Platform SDK\Service\Localization
+
+    **Dashboard Server**: C:\Syncfusion\Dashboard Server\DashboardServer.Web\API\Localization
+
+2.	You can add your localization message inside the `XMl tag element` within the double quote. (E.g. “valor”, “Objective”)
+
+    ![](Images/MK1.png)
+ 
+3.	Rename edited XML filename (E.g. Resources.pt-BR.xml). And keep that resource file in the above-mentioned setup installation location.
+
+    ![](Images/MK2.png)
+
+## Method 2: Using Google Translator Kit
 
 1. Open [Google Translator Kit](https://translate.google.com/toolkit). Click on Upload button.
 
