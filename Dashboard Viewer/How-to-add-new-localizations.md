@@ -12,7 +12,7 @@ To add the localization message, please follow the steps below
 
 1.	Go to the localization folder in the below location and open the duplicate `Resources.en-US.xml`.
 
-    **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\                                                      <Dashboard Version>\IISExpress_DashboardService\Localization
+    **Dashboard Designer Preview**:  %ProgramData%\Syncfusion\DashboardDesigner\\<Dashboard Version\> \IISExpress_DashboardService\Localization
 
     **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard Platform SDK\Service\Localization
 
@@ -42,7 +42,7 @@ To add the localization message, please follow the steps below
 
    The default resource file is available in the following locations
 
-   **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\<DashboardVersion>\IISExpress_DashboardService\Localization\Resources.en-US.xml
+   **Dashboard Designer Preview**:  %ProgramData%\Syncfusion\DashboardDesigner\\<Dashboard Version\> \IISExpress_DashboardService\Localization\Resources.en-US.xml
 
    **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard\Samples\Common\Service\Localization\Resources.en-US.xml
 
