@@ -10,7 +10,7 @@ You can directly edit the localization message in that `Resourses.en-US.xml` fil
 
 1.	Go to the localization folder in the below location and open the resource file `Resources.en-US.xml`.
 
-    **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\                                                  <Dashboard Version>\IISExpress_DashboardService\Localization
+    **Dashboard Designer Preview**: %ProgramData%\Syncfusion\DashboardDesigner\\<Dashboard Version\>                                        \IISExpress_DashboardService\Localization
 
     **Dashboard Platform SDK**: %localappdata%\Syncfusion\Dashboard Platform SDK\Service\Localization
 
