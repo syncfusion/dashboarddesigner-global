@@ -18,7 +18,7 @@ To add the localization message, please follow the steps below
 
     **Dashboard Server**: C:\Syncfusion\Dashboard Server\DashboardServer.Web\API\Localization
 
-2.	You can add your localization message inside the `XMl tag element` within the double quote. (E.g. “valor”, “Objective”)
+2.	You can add your localization message inside the `XMl tag element` within the double quote. (E.g. “valor”, “Objetivo”)
 
     ![](Images/MK1.png)
  
