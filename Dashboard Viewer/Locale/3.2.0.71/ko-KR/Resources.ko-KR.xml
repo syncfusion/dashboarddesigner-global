@@ -1,0 +1,278 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- service localization text -->
+  <string name="CardActualText" type="service">"값"</string>
+  <string name="CardTargetText" type="service">"골"</string>
+  <string name="ExpressionAggregationText" type="service">"아그 "</string>
+  <string name="ExpressionAverage" type="service">"평균 "</string>
+  <string name="ExpressionCount" type="service">"백작 "</string>
+  <string name="ExpressionDCount" type="service">"뚜렷한 "</string>
+  <string name="ExpressionMax" type="service">"최대 "</string>
+  <string name="ExpressionMin" type="service">"분 "</string>
+  <string name="ExpressionStandardDeviation" type="service">"Std.dev. 의 "</string>
+  <string name="ExpressionSum" type="service">"의 합 "</string>
+  <string name="ExpressionVar" type="service">"유사 콘텐츠 "</string>
+  <string name="ExpressionWeightedAverage" type="service">"Wgt.Avg. "</string>
+  <string name="ServerError" type="service">"업데이트 된 공유 데이터 소스가 실제 구성된 데이터 소스와 다릅니다."</string>
+  <string name="RelativeDateItem_Today" type="service">"오늘"</string>
+  <string name="RelativeDateItem_Current" type="service">"흐름"</string>
+  <string name="RelativeDateItem_Yesterday" type="service">"어제"</string>
+  <string name="RelativeDateItem_Previous" type="service">"너무 이른"</string>
+  <string name="RelativeDateItem_Tomorrow" type="service">"내일"</string>
+  <string name="RelativeDateItem_Succeeding" type="service">"성공"</string>
+  <string name="RelativeDateItem_Next" type="service">"다음 것"</string>
+  <string name="RelativeDateItem_Last" type="service">"마지막"</string>
+  <string name="RelativeDateItem_Past" type="service">"과거"</string>
+  <string name="RelativeDateItem_Upcoming" type="service">"다가오는"</string>
+  <string name="RelativeDateItem_CustomRange" type="service">"관습"</string>
+  <string name="RelativeDateItem_Year_to_date" type="service">"올해 초부터 현재까지"</string>
+  <string name="RelativeDateItem_Quartertodate" type="service">"지금까지 4 분기"</string> 
+  <string name="RelativeDateItem_Monthtodate" type="service">"월간 날짜"</string>
+  <string name="RelativeDateItem_Weektodate" type="service">"지금까지의 주간"</string>
+  <string name="RelativeDateItem_Days" type="service">"일"</string>  
+  <string name="RelativeDateItem_Years" type="service">"연령)"</string>
+  <string name="RelativeDateItem_Quarters" type="service">"병사)"</string>
+  <string name="RelativeDateItem_Months" type="service">"개월"</string>
+  <string name="RelativeDateItem_Week" type="service">"주"</string>
+  <string name="RelativeDateItem_Hour" type="service">"시간"</string> 
+  <string name="DatePickerCustomText" type="viewer">"관습"</string>
+  <string name="ExpressionInvalidFloatData" type="service">"부동 소수점 데이터가 유효하지 않으면 부동 소수점 예외가 발생할 수 있습니다."</string>
+  <string name="ExpressionFieldInvalidFloatDataAlertMessage" type="service">"플로트 값이 잘못되면 오류가 발생합니다. 값은 -1과 +1 사이 여야합니다."</string>
+  <string name="HiveThriftBaseErrors" type="service">"테이블 정보를 가져 오는 중에 예기치 않은 오류가 발생했습니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAbsolute" type="service">"주어진 표현식의 절대 값을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAcos" type="service">"주어진 숫자 식의 역 코사인 (arccosine이라고도 함)을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAnd" type="service">"두 표현식이 모두 true로 평가되면 true를 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAscii" type="service">"문자열의 첫 번째 문자의 ASCII 코드 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAsin" type="service">"주어진 숫자 식의 역 사인 (아크 사인이라고도 함)을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAtan" type="service">"주어진 숫자 표현식의 역 탄젠트 (아크 탄젠트라고도 함)를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionAverage" type="service">"주어진 표현식에서 값의 평균을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionChar" type="service">"지정된 정수 ASCII 코드를 문자로 변환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionConcat" type="service">"둘 이상의 문자열 값을 연결 한 결과 문자열 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionContains" type="service">"지정된 문자열 표현식에 지정된 하위 문자열 표현식이 포함되어 있으면 true를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionCos" type="service">"주어진 표현식에서 라디안으로 지정된 각도의 코사인을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionCount" type="service">"주어진 표현식의 항목 수를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionCurrentUser" type="service">"현재 사용자 이름을 반환합니다.이 함수는 사용자가 로그인 할 때 대시 보드 서버 사용자 이름을 사용하고, 그렇지 않으면 null을 반환합니다. "</string>
+  <string name="ExpressionEditorFunctionDescriptionDateAdd" type="service">"지정된 날짜에 일 수를 추가합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateDiff" type="service">"지정된 두 날짜의 차이를 나타내는 숫자 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateName" type="service">"지정된 날짜 표현식의 지정된 datepart를 나타내는 문자열을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDatePart" type="service">"지정된 날짜 표현식의 지정된 datepart를 나타내는 정수 값을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDateSub" type="service">"지정된 날짜에서 날짜를 뺀 날짜를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDay" type="service">"지정된 날짜의 일 부분을 나타내는 숫자 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDegrees" type="service">"주어진 숫자 표현식에서 라디안으로 지정된 각도를도 단위로 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDescending" type="service">"열의 내림차순으로 정렬 식을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDistinctCount" type="service">"지정된 식에서 항목의 고유 번호를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionDivision" type="service">"두 표현식에 적용된 나눗셈 연산의 몫 부분을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionEndsWith" type="service">"주어진 문자열 표현식이 지정된 부분 문자열 표현식으로 끝나는 경우 true를 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionExponential" type="service">"지정된 식의 지수 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionFirst" type="service">"그룹의 최초의 값을 돌려줍니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionFullName" type="service">"현재 사용자의 전체 이름을 반환합니다.이 함수는 사용자가 로그인 할 때 Dashboard Server 사용자의 전체 이름을 사용하고, 그렇지 않으면 null을 반환합니다. "</string>
+  <string name="ExpressionEditorFunctionDescriptionHour" type="service">"주어진 날짜의 시간을 정수로 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionIF" type="service">"식 평가에 따라 TruePart 또는 FalsePart를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionIsDate" type="service">"지정된 문자열이 유효한 날짜 인 경우 true를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNotNull" type="service">"numeric / string / date_expression이 NULL이면 false를 나타내는 문자열을 반환하고 그렇지 않으면 true를 나타냅니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionIsNull" type="service">"numeric / string / date_expression이 NULL이면 true를 나타내는 문자열을 반환하고 그렇지 않으면 false를 나타냅니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLag" type="service">"다음 행의 속성 값을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLast" type="service">"그룹의 열의 마지막 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLead" type="service">"이전 행의 특성 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLeft" type="service">"지정된 캐릭터 라인 표현의 선두로부터 지정된 수의 문자 수를 돌려줍니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLength" type="service">"주어진 표현식의 자연 대수를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLog" type="service">"지정된 표현식의 로그를 지정된 기준으로 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLower" type="service">"주어진 문자열 표현식에서 소문자로 변환 된 문자열 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionLTrim" type="service">"문자열 표현식에서 선행 공백이 제거 된 문자열 값을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionMax" type="service">"주어진 표현식에서 최대 값을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionMin" type="service">"지정된 식의 최소값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionMinutes" type="service">"지정된 날짜 표현에서 발생한 날짜의 분 부분을 나타내는 숫자 값을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionMonth" type="service">"지정된 날짜 표현식으로 인해 생성 된 날짜의 월 부분을 나타내는 숫자 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionNot" type="service">"계산할 식의 논리 값을 반대로 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionNow" type="service">"현재 날짜와 시간을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionNowDate" type="service">"시각을 포함한 현재의 일자를 돌려줍니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionNull" type="service">"표현식이 숫자 / 문자열 / 날짜 인 경우 첫 번째 표현식을 반환합니다. 첫 번째 표현식이 NULL이면 두 번째 표현식을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionNullIf" type="service">"두 표현식이 같지 않으면 첫 번째 표현식을 반환합니다. 표현식이 비슷한 경우 NULL을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionOr" type="service">"표현식 중 하나라도 true로 평가되면 true를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionPI" type="service">"PI의 정수 치를 돌려줍니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionPow" type="service">"두 번째 인수의 제곱으로 올림 된 첫 번째 인수를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionPower" type="service">"지정된 식 (expression1)의 값을 지정된 출력 (expression2)으로 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionRadians" type="service">"주어진 숫자 표현식에서 각도로 지정된 각도의 라디안 단위의 각도를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionRight" type="service">"지정된 문자열 표현식의 끝에서 지정된 문자 수를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionRound" type="service">"반올림 된 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionRowNumber" type="service">"창 분할 영역에서 1부터 시작하는 순차 번호를 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionRTrim" type="service">"문자열 식에서 제거 된 후행 공백이있는 문자열 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSign" type="service">"주어진 숫자 식의 양수 (+1), 영 (0) 또는 음수 (-1) 부호를 나타내는 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSin" type="service">"주어진 표현식에서 라디안으로 지정된 각도의 사인을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSquare" type="service">"지정된 수치 식의 2 승을 돌려줍니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSquareRoot" type="service">"주어진 숫자 식의 제곱근을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionStandardDeviation" type="service">"지정된 식의 값의 표준 편차를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionStartsWith" type="service">"지정된 문자열 표현식이 지정된 부분 문자열 표현식으로 시작하는 경우 true를 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSubstring" type="service">"지정된 문자열 표현식에서 특정 인덱스부터 시작하는 특정 길이의 문자열을 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSum" type="service">"주어진 표현식에서 값의 합계를 구합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionSystemDateTime" type="service">"현재 시스템 날짜와 시간을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionTan" type="service">"주어진 숫자 표현식의 탄젠트를 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionToday" type="service">"현재 날짜를 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionTodayDate" type="service">"오늘 날짜를 타임 스탬프 값으로 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionTomorrow" type="service">"내일 날짜를 타임 스탬프 값으로 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionUpper" type="service">"지정된 문자열 표현식에서 대문자로 변환 된 문자열 값을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionVar" type="service">"주어진 표현식에서 값의 분산을 반환합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionWeek" type="service">"주어진 날짜의 주 수를 정수로 리턴합니다."</string>
+  <string name="ExpressionEditorFunctionDescriptionYear" type="service">"지정된 날짜 표현식으로 인해 생성 된 날짜의 연도 부분을 나타내는 숫자 값을 리턴합니다."</string>
+  <string name="ExpressionFunctionEmailDescription" type="service">"현재 사용자의 전자 메일을 반환합니다. 이 함수는 사용자가 로그인 할 때 대시 보드 서버 사용자의 전자 메일 ID를 사용하고, 그렇지 않으면 null을 반환합니다."</string>
+  <string name="CalculatedFieldParameterMissingError" type="service">"함수에 대해 일치하지 않는 매개 변수 유형 또는 개수"</string>
+  <string name="QuarterText" type="service">"쿼터"</string>
+  <string name="Widget_Related_Exceptions" type="service">"이 위젯의 데이터를 형식화 또는 사용자 정의하는 중에 문제가 발생했습니다. 이 유형의 데이터가 위젯 레벨에서 처리되지 않으면이 문제가 발생할 수 있습니다."</string>
+  <string name="DataSource_Related_Exceptions" type="service">"이 위젯의 데이터를 가져 오는 중에 문제가 발생했습니다. 이 문제는 쿼리 형성 또는 데이터 소스 액세스 가능성 (예 : 자격 증명 또는 액세스 권한) 문제로 인해 또는 잘못된 인수가 입력으로 전달 되었기 때문에 발생했을 수 있습니다."</string>
+  <string name="All" type="service">"모든"</string>
+  <string name="SelectAll" type="service">"(모두 선택)"</string>
+  <!-- viewer localization text -->
+  <string name="NoData" type="viewer">"표시 할 데이터가 없습니다."</string>
+  <string name="ErrorOnHigherVersion" type="viewer">"DV001 : 대시 보드 디자이너의 상위 버전에서 생성 된 이후 대시 보드를로드 할 수 없습니다 (버전 :"</string>
+  <string name="ErrorOnHigherVersionForWidget" type="viewer">"DV001 : 대시 보드 디자이너의 상위 버전에서 생성 된 이후 위젯을로드 할 수 없습니다 (버전 :"</string>
+  <string name="NoWidgetConfigured" type="viewer">"미리보기 할 위젯 없음"</string>
+  <string name="LoadedVersion" type="viewer">"LoadedVersion"</string>
+  <string name="ExportToCSV" type="viewer">"CSV ..."</string>
+  <string name="ExportToPdf" type="viewer">"PDF ..."</string>
+  <string name="ExportToExcel" type="viewer">"뛰어나다..."</string>
+  <string name="ExportToExcel97To2003" type="viewer">"Excel 97-2003 통합 문서 (* .xls)"</string>
+  <string name="ExportToExcel2013" type="viewer">"Excel 통합 문서 (* .xlsx)"</string>
+  <string name="Maximize" type="viewer">"극대화하다"</string>
+  <string name="UpdateDashboard" type="viewer">"대시 보드 업데이트"</string>
+  <string name="ExportToImage" type="viewer">"영상..."</string>
+  <string name="MaximizeControl" type="viewer">"최대화 ..."</string>
+  <string name="TextMore" type="viewer">"더"</string>
+  <string name="TextLess" type="viewer">"적게"</string>
+  <string name="SavedFilters" type="viewer">"저장된 필터보기"</string> 
+  <string name="UnSavedView" type="viewer">"저장되지 않은보기"</string>
+  <string name="Reload" type="viewer">"다시로드"</string>
+  <string name="Save" type="viewer">"구하다"</string>
+  <string name="SaveAs" type="viewer">"다른 이름으로 저장"</string>
+  <string name="Information" type="viewer">"정보"</string>
+  <string name="Format" type="viewer">"체재"</string>
+  <string name="FileType" type="viewer">"파일 형식"</string>
+  <string name="Resolution" type="viewer">"해상도 (dpi)"</string>
+  <string name="Export" type="viewer">"수출"</string>
+  <string name="Reset" type="viewer">"다시 놓기"</string>
+  <string name="Cancel" type="viewer">"취소"</string>
+  <string name="Title" type="viewer">"표제"</string>
+  <string name="ExportTitle" type="viewer">"대시 보드 / 위젯 제목"</string>
+  <string name="Jpeg" type="viewer">"JPEG (* .jpg)"</string>
+  <string name="Png" type="viewer">"PNG (* .png)"</string>
+  <string name="Bmp" type="viewer">"BMP (* .bmp)"</string>
+  <string name="FileNameError" type="viewer">"잘못된 파일 이름"</string>
+  <string name="Letter" type="viewer">"편지"</string>
+  <string name="PageSize" type="viewer">"페이지 크기"</string>
+  <string name="Orientation" type="viewer">"정위"</string>
+  <string name="Portrait" type="viewer">"초상화"</string>
+  <string name="Landscape" type="viewer">"경치"</string>
+  <string name="ExportToPdfWaitingText" type="viewer">"PDF로 내보내기 ..."</string>
+  <string name="ExportToImageWaitingText" type="viewer">"이미지로 내보내기 ..."</string>
+  <string name="ExportToCSVWaitingText" type="viewer">"CSV로 내보내기 ..."</string>
+  <string name="ExportToExcelWaitingText" type="viewer">"Excel로 내보내기 ..."</string>
+  <string name="Description" type="viewer">"기술"</string>
+  <string name="DefaultFileName" type="service">"계기반"</string>
+  <string name="ResolutionLow" type="viewer">"해상도는 96 DPI 이상이어야합니다."</string>
+  <string name="ResolutionAlert" type="viewer">"바람직한 해상도는 96 ~ 300 DPI입니다. 시스템의 메모리가 충분하지 않으면 그 이상의 해상도로 인해 메모리 부족 예외가 발생합니다."</string>
+  <string name="WidgetNotConfigured" type="viewer">"이 위젯이 구성되지 않았습니다."</string>
+  <string name="DashboardServerTimedOut" type="viewer">"DV002 : 대시 보드 서비스에 접속할 수 없습니다. 일시적인 결함이 있거나 서버가 다운되었을 수 있습니다."</string>
+  <string name="AuthenticationFailure" type="viewer">"이 대시 보드를 보려면 승인이 필요합니다."</string>
+  <string name="SessionExpired" type="viewer">"기간이 만료되었습니다"</string>
+  <string name="DashboardServerFail" type="viewer">"DV002 : 대시 보드 서비스에 접속할 수 없습니다. 일시적인 결함이 있거나 서버가 다운되었을 수 있습니다."</string>
+  <string name="ExcelError" type="viewer">"서버의 Excel 파일이이 대시 보드 디자인에 사용되는 파일이 아닙니다. 관리자에게 연락하거나 대시 보드를 다시 게시하십시오."</string>
+  <string name="FixIssues" type="viewer">"아래 오류를 수정하십시오 ..."</string>
+  <string name="InvalidCredentials" type="viewer">"잘못된 자격 증명"</string>
+  <string name="UserName" type="viewer">"사용자 이름"</string>
+  <string name="Password" type="viewer">"암호"</string>
+  <string name="Open" type="viewer">"열다"</string>
+  <string name="Ok" type="viewer">"승인"</string>
+  <string name="Refresh" type="viewer">"새롭게 하다"</string>
+  <string name="Error" type="viewer">"오류"</string>
+  <string name="Clipboard" type="viewer">"클립 보드에 복사"</string>
+  <string name="AuthenticationRequired" type="viewer">"SQL 인증 필요"</string>
+  <string name="KnowMore" type="viewer">"더 많이 알고 ..."</string>
+  <string name="UserNamePasswordEmpty" type="viewer">"사용자 이름 / 비밀번호는 비워 둘 수 없습니다."</string>
+  <string name="EncryptError" type="viewer">"대시 보드 서비스가 잘못된 키를 반환했습니다. 다시 시도하십시오. 문제가 지속되면 관리자에게 문의하십시오."</string>
+  <string name="ViewData" type="viewer">"데이터보기"</string>
+  <string name="Close" type="viewer">"닫기"</string>
+  <string name="DashboardDescription" type="viewer">"대시 보드 설명"</string>
+  <string name="Yes" type="viewer">"예"</string>
+  <string name="No" type="viewer">"아니"</string>
+  <string name="Confirm" type="viewer">"확인"</string>
+  <string name="ClearMasterFilter" type="viewer">"마스터 필터 지우기"</string>
+  <string name="Comment" type="viewer">"논평"</string>
+  <string name="LinkingEnabled" type="viewer">"이 위젯은 URL 또는 다른 대시 보드로 이동합니다."</string>
+  <string name="DrillThrough" type="viewer">"이 위젯은 둘 이상의 레벨로 드릴하도록 구성됩니다."</string>
+  <string name="Pin" type="viewer">"핀"</string>
+  <string name="DeleteConfirmText" type="viewer">"이보기를 삭제 하시겠습니까?"</string>
+  <string name="ClearFilter" type="viewer">"필터 지우기"</string>
+  <string name="CultureFileDownloadError" type="viewer">"문화를로드 할 수 없습니다. "</string>
+  <string name="ServiceNotConfigured" type="viewer">"DV003 : 서비스 URL이 설정되지 않아 대시 보드를 렌더링 할 수 없습니다."</string>
+  <string name="ServiceNotConfiguredForWidget" type="viewer">"DV003 : 서비스 URL이 설정되지 않았기 때문에 위젯을 렌더링 할 수 없습니다."</string>
+  <string name="DashboardNotConfigured" type="viewer">"DV004 : 대시 보드 경로가 설정되지 않아 대시 보드를 렌더링 할 수 없습니다."</string>
+  <string name="DashboardNotConfiguredForWidget" type="viewer">"DV004 : 대시 보드 경로가 설정되지 않았기 때문에 위젯을 렌더링 할 수 없습니다."</string>
+  <string name="ExportDashboards" type="viewer">"대시 보드 내보내기"</string>
+  <string name="ExportImage" type="viewer">"이미지 내보내기"</string>
+  <string name="ExportPdf" type="viewer">"PDF 내보내기"</string>
+  <string name="ExportExcel" type="viewer">"Excel 내보내기"</string>
+  <string name="ExportCsv" type="viewer">"CSV 내보내기"</string>
+  <string name="ExportAs" type="viewer">"다른 이름으로 내보내기"</string>
+  <string name="Dashboards" type="viewer">"대시 보드"</string>
+  <string name="ChooseDashboards" type="viewer">"대시 보드 선택"</string>
+  <string name="ChooseWidgets" type="viewer">"위젯 선택"</string>
+  <string name="Widget" type="viewer">"위젯"</string>
+  <string name="Image" type="viewer">"영상"</string>
+  <string name="Pdf" type="viewer">"Pdf"</string>
+  <string name="Excel" type="viewer">"뛰어나다"</string>
+  <string name="CSV" type="viewer">"CSV"</string>
+  <string name="ExportBtn" type="viewer">"수출"</string>  
+  <string name="All" type="viewer">"모든"</string>    
+  <string name="Success" type="viewer">"성공"</string>
+  <string name="Failure" type="viewer">"실패"</string>
+  <string name="Minutes" type="viewer">"* 분"</string>  
+  <string name="Hours" type="viewer">"* 시간)"</string>  
+  <string name="Days" type="viewer">"* 일"</string>
+  <string name="Weeks" type="viewer">"* 주"</string>  
+  <string name="Months" type="viewer">"* 월"</string>  
+  <string name="Years" type="viewer">"* 연도"</string>
+  <string name="MoreOptions" type="viewer">"기타 옵션"</string>
+  <string name="GetLink" type="viewer">"연결시키다"</string>
+  <string name="GetLinkContent" type="viewer">"이 링크는 필터와 함께 현재 뷰 데이터를 보유합니다."</string>
+  <string name="Apply" type="viewer">"대다"</string>
+  <string name="DashboardParameters" type="viewer">"매개 변수"</string>
+  <string name="ResetParameters" type="viewer">"매개 변수 재설정"</string>
+  <string name="ResetAll" type="viewer">"모두 초기화"</string>
+  <string name="ShowDetails" type="viewer">"세부 정보 표시"</string>
+  <string name="HideDetails" type="viewer">"세부 정보 숨기기"</string>
+  <string name="DataRetrievalError" type="viewer">"데이터 검색 오류"</string>
+  <string name="Filter" type="viewer">"필터 적용"</string>
+  <string name="DrillDown" type="viewer">"드릴 다운"</string>
+  <string name="Linking" type="viewer">"링크 열기"</string>
+  <string name="CopyError" type="viewer">"에러 메시지:"</string>
+  <string name="Stacktrace" type="viewer">"스택 추적 :"</string>
+  <string name="FilterOverview" type="viewer">"필터 개요"</string>
+  <string name="ExportControl" type="viewer">"위젯 내보내기"</string>
+  <string name="Pages" type="viewer">"페이지"</string>
+  <string name="Items" type="viewer">"항목"</string>
+  <string name="PreviousPage" type="viewer">"이전 페이지로 이동"</string>
+  <string name="NextPage" type="viewer">"다음 페이지로 이동"</string>
+  <string name="BetweenTo" type="viewer">"에"</string>
+  <string name="SummaryData" type="viewer">"요약 데이터"</string>
+  <string name="RawData" type="viewer">"원시 데이터"</string>
+  <string name="ShowAllColumns" type="viewer">"모든 열 표시"</string>
+
+  <!-- viewer error messages -->
+  <string name="ErrorAccessDenied" type="viewer">"DV005 : 서비스에 대한 액세스가 현재 사용자에게 거부되었습니다."</string>
+  <string name="ErrorControlException" type="viewer">"데이터 검색 오류."</string>
+  <string name="ErrorControlNotConfigured" type="viewer">"서비스에서 수신 된 데이터가 변조되었습니다. 나중에 다시 시도하십시오."</string>
+  <string name="ErrorCrypto" type="viewer">"서비스에서 수신 된 데이터가 변조되었습니다. 나중에 다시 시도하십시오."</string>
+  <string name="ErrorDashboardNotFound" type="viewer">"DV006 : 요청한 대시 보드 파일을 찾을 수 없습니다. 이동되거나 이름이 바뀔 수 있습니다."</string>
+  <string name="ErrorDashboardNotFoundForWidget" type="viewer">"DV006 : 요청 된 위젯 파일을 찾을 수 없습니다. 이동되거나 이름이 바뀔 수 있습니다."</string>
+  <string name="ErrorFileNotFound" type="viewer">"DV007 : 요청한 파일 또는 어셈블리를 찾을 수 없습니다. 이동되거나 이름이 바뀔 수 있습니다."</string>
+  <string name="ErrorGeneral" type="viewer">"DV008 : 오류로 인해 대시 보드를 볼 수 없습니다."</string>
+  <string name="ErrorGeneralForWidget" type="viewer">"DV008 : 오류로 인해 위젯을 볼 수 없었습니다."</string>
+  <string name="ErrorInvalidFile" type="viewer">"DV009 :로드 된 파일이 유효한 대시 보드 파일이 아닙니다."</string>
+  <string name="ErrorInvalidFileForWidget" type="viewer">"DV009 :로드 된 파일이 유효한 위젯 파일이 아닙니다."</string>
+  <string name="ErrorServerError" type="viewer">"DV010 : 현재 사용자 권한을 확인할 수 없어 대시 보드를 볼 수 없었습니다."</string>
+  <string name="ErrorServerErrorForWidget" type="viewer">"DV010 : 현재 사용자 권한을 확인할 수 없어서 위젯을 볼 수 없었습니다."</string>
+  <string name="ErrorSqlHostNotFound" type="viewer">"SQL 서버에 연결할 수 없습니다. 서버에 액세스 할 수 있는지 확인하십시오."</string>
+  <string name="ErrorSqlTimeout" type="viewer">"시간 만료로 인해 서버에서 데이터 검색을 시도하지 못했습니다."</string>
+  <string name="ErrorWcfBinding" type="viewer">"CorsSupport 비헤이비어는 WebHttpBinding 끝점에서만 사용할 수 있습니다."</string>
+  <string name="ErrorOutOfMemory" type="viewer">"DV011 : 큰 파일 크기 때문에 내 보낸 이미지 파일을 다운로드 할 수 없습니다."</string>
+  <string name="ErrorInMultiDbrdExport" type="viewer">"주어진 대시 보드 이름을 찾을 수 없습니다."</string>
+  <string name="ErrorInMultipleWidgetExport" type="viewer">"제공된 위젯 이름이 활성 대시 보드에서 발견되지 않았습니다."</string>
+</resources>
