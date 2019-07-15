@@ -8049,4 +8049,28 @@ Caso contrário, inicie o Agente de dados do painel no atalho da área de trabal
    <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>Por favor, atualize a grade de visualização para ver a coluna duplicada.</value>
   </data>
+  <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>A fonte de dados {0} será excluída. Você quer continuar?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>O painel não pôde ser aberto desde que foi criado usando o Web Dashboard Designer.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>Para abrir / editar um relatório de painel da versão da Web, é recomendável usar o Web Dashboard Designer.</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>Não é possível abrir o painel da versão da Web.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>Fit To Width</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>Meio círculo</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>Cavalo em forma</value>
+  </data>
 </root>

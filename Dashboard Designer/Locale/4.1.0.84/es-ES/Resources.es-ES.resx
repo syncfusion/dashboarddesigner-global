@@ -8017,5 +8017,29 @@ De lo contrario, inicie el Agente de datos del panel desde el acceso directo del
   </data>
   <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>Por favor, actualice la cuadrícula de vista previa para ver la columna duplicada. </value>
-</data>
+  </data>
+  <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>Se eliminará la fuente de datos {0}. Quieres continuar?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>Dashboard no se pudo abrir porque se creó con el Diseñador de Dashboard Web.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>Para abrir / editar un informe del panel de la versión web, se recomienda utilizar el Diseñador del panel web..</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>No se puede abrir el panel de la versión web.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>Ajustar al ancho</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>Medio circulo</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>En forma de caballo</value>
+  </data>
 </root>

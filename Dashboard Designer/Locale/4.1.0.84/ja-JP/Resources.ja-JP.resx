@@ -8015,7 +8015,31 @@ Ensue Jsファイルが存在します。</value>
   <data name="IncorrectSyntaxInRestAPI" xml:space="preserve">
     <value>不適切なパラメータ構文</value>
   </data>
-   <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
+  <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>複製された列を表示するには、プレビューグリッドを更新してください。</value>
-</data>
+  </data>
+  <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>データソース{0}が削除されます。 続けたいですか?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>ダッシュボードはWebダッシュボードデザイナーを使用して作成されたため開くことができませんでした。</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>Webバージョンダッシュボードレポートを開いたり編集するには、Webダッシュボードデザイナーを使用することをお勧めします。.</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>Web版ダッシュボードを開けません.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>幅に合わせる</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>ハーフサークル</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>馬の形</value>
+  </data>
 </root>

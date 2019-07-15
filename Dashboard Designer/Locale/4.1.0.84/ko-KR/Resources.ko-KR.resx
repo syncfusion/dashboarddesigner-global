@@ -8017,5 +8017,29 @@ Ensue Js 파일이 존재합니다.</value>
   </data>
   <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>복제 된 열을 보려면 미리보기 격자를 업데이트하십시오.</value>
-</data>
+  </data>
+  <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>데이터 소스 {0}이 (가) 삭제됩니다. 계속 하시겠습니까??</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>웹 대시 보드 디자이너를 사용하여 만든 이후 대시 보드를 열 수 없습니다..</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>웹 버전 대시 보드 보고서를 열거 나 편집하려면 웹 대시 보드 디자이너를 사용하는 것이 좋습니다.</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>웹 버전 대시 보드를 열 수 없습니다..</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>너비에 맞추기</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>자동</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>하프 서클</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>말 모양</value>
+  </data>
 </root>

@@ -8017,4 +8017,28 @@ Falls nicht, starten Sie den Dashboard-Datenagenten über die Desktopverknüpfun
    <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>Aktualisieren Sie das Vorschau-Raster, um die duplizierte Spalte anzuzeigen.</value>
 </data>
+<data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>Datenquelle {0} wird gelöscht. Wollen Sie fortfahren?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>Das Dashboard konnte nicht geöffnet werden, da es mit dem Web Dashboard Designer erstellt wurde.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>Es wird empfohlen, zum Öffnen / Bearbeiten eines Web-Dashboard-Berichts den Web-Dashboard-Designer zu verwenden.</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>Das Webversions-Dashboard kann nicht geöffnet werden.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>An Breite anpassen</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>Halbkreis</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>Pferd geformt</value>
+  </data>
 </root>

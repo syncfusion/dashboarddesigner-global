@@ -8017,5 +8017,28 @@ Als dat niet het geval is, start u de Dashboard Data Agent vanaf de snelkoppelin
   </data>
    <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>Werk het voorbeeldraster bij om de gedupliceerde kolom te bekijken.</value>
-</data>
+  </data><data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>Gegevensbron {0} wordt verwijderd. Wil je doorgaan?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>Dashboard kan niet worden geopend omdat het is gemaakt met de Web Dashboard Designer.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>Om een dashboardrapport voor de webversie te openen / bewerken, wordt het aanbevolen om de Web Dashboard Designer te gebruiken.</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>Kan het dashboard van de webversie niet openen.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>Aanpassen aan breedte</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>Halve cirkel</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>Horse Shaped</value>
+  </data>
 </root>

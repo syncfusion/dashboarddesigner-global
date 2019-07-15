@@ -8013,5 +8013,29 @@ Sinon, démarrez Dashboard Data Agent à partir du raccourci sur le bureau ou de
   </data>
   <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>Veuillez mettre à jour la grille d'aperçu pour afficher la colonne dupliquée.</value>
-</data>
+  </data>
+  <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>La source de données {0} sera supprimée. Voulez-vous continuer?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>Impossible d'ouvrir le tableau de bord car il a été créé à l'aide de Web Dashboard Designer.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>Pour ouvrir / modifier un rapport de tableau de bord de version Web, il est recommandé d’utiliser Web Dashboard Designer..</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>Impossible d'ouvrir le tableau de bord de la version Web.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>Ajuster à la largeur</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>Demi cercle</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>En forme de cheval</value>
+  </data>
 </root>

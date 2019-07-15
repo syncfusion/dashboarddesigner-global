@@ -8010,4 +8010,28 @@
   <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>请更新预览网格以查看重复的列。</value>
  </data>
+ <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>数据源{0}将被删除。 你想继续吗?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>无法打开仪表板，因为它是使用Web仪表板设计器创建的.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>要打开/编辑Web版本仪表板报告，建议使用Web仪表板设计器。</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>无法打开Web版仪表板。</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>适合宽度</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>半圈</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>马形</value>
+  </data>
 </root>

@@ -5395,7 +5395,7 @@
     <value>Favorite Dashboards</value>
   </data>
   <data name="SetAsFavoriteErrorMessage" xml:space="preserve">
-    <value>An error occured while trying to set the dashboard as favorite</value>
+    <value>An error occurred while trying to set the dashboard as favorite</value>
   </data>
   <data name="AlertBoxInformationNoData" xml:space="preserve">
     <value>No records to display</value>
@@ -7934,12 +7934,12 @@ If not, start the Dashboard Data Agent from the desktop shortcut or installed lo
   <data name="QueryExecuteSuccessMessage" xml:space="preserve">
     <value>Query executed successfully.</value>
   </data>
- <data name="SettingsButtonUpdateMessage" xml:space="preserve">
+  <data name="SettingsButtonUpdateMessage" xml:space="preserve">
     <value>Please update the preview grid to view the created expression.</value>
- </data>
- <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
+  </data>
+  <data name="SettingsButtonUpdateMessageforDuplicateColumn" xml:space="preserve">
     <value>Please update the preview grid to view the duplicated column. </value>
-</data>
+  </data>
   <data name="DataLabelFontSize" xml:space="preserve">
     <value>Value Label Font Size</value>
   </data>
@@ -8017,5 +8017,29 @@ If not, start the Dashboard Data Agent from the desktop shortcut or installed lo
   </data>
   <data name="IncorrectSyntaxInRestAPI" xml:space="preserve">
     <value>Incorrect parameter syntax</value>
+  </data>
+  <data name="DeleteDataSourceConfirmation" xml:space="preserve">
+    <value>Data source {0} will be deleted. Do you want to continue?</value>
+  </data>
+  <data name="WebVersionDashboard" xml:space="preserve">
+    <value>Dashboard could not be opened since it was created using the Web Dashboard Designer.</value>
+  </data>
+  <data name="UseWebVersion" xml:space="preserve">
+    <value>To open/edit a web version dashboard report, it is recommended to use the Web Dashboard Designer.</value>
+  </data>
+  <data name="WebVersionAlertTitle" xml:space="preserve">
+    <value>Unable to open Web version dashboard.</value>
+  </data>
+  <data name="PropertiesWindowHeaderTextFitToPage" xml:space="preserve">
+    <value>Fit To Width</value>
+  </data>
+  <data name="GaugePropertiesWindowAuto" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="GaugePropertiesWindowHalfCircle" xml:space="preserve">
+    <value>Half Circle</value>
+  </data>
+  <data name="GaugePropertiesWindowHorseShaped" xml:space="preserve">
+    <value>Horse Shaped</value>
   </data>
 </root>
